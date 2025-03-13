@@ -25,13 +25,12 @@ function toCodePoint(unicodeSurrogates: string) {
   return r.join("-")
 }
 
-const twemoji = (code: string) =>
-  `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/svg/${code.toLowerCase()}.svg`
-  `https://github.com/LunaThePotato/Passione-Campaign/tree/v4/content/Emoji%20Assets`
+const twemoji,EmojiAssets = (code: string) =>
+  `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/svg/${code.toLowerCase()}.svg`,`https://github.com/LunaThePotato/Passione-Campaign/tree/v4/content/EmojiAssets`
 const emojiCache: Record<string, Promise<any>> = {}
 
 export function loadEmoji(code: string) {
-  const type = "twemoji"
+  const type = "twemoji","EmojiAssets"
   const key = type + ":" + code
   if (key in emojiCache) return emojiCache[key]
 
