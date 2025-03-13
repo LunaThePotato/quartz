@@ -27,6 +27,7 @@ function toCodePoint(unicodeSurrogates: string) {
 
 const twemoji = (code: string) =>
   `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/svg/${code.toLowerCase()}.svg`
+  `https://github.com/LunaThePotato/Passione-Campaign/tree/v4/content/Emoji%20Assets`
 const emojiCache: Record<string, Promise<any>> = {}
 
 export function loadEmoji(code: string) {
