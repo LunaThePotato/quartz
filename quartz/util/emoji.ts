@@ -1,6 +1,5 @@
 const customEmojis: Record<string, string> = {
-  "pizza": "/emojis/pizza.png", // Example: Replace with your emoji names and paths
-  "my_emoji": "/emojis/my_emoji.png",
+  "pizza": "/emojis/pizza.png", // Example
 };
 
 const U200D = String.fromCharCode(8205)
@@ -35,14 +34,18 @@ const twemoji = (code: string) =>
 const emojiCache: Record<string, Promise<any>> = {}
 
 export function loadEmoji(code: string) {
-  // Check if the code matches a custom emoji
-  const customEmojiPath = customEmojis[code];
-  if (customEmojiPath) {
-    // Return your local image instead of fetching Twemoji
-    return Promise.resolve(`<img src="${customEmojiPath}" class="emoji" alt="${code}" />`);
+  const customEmoji = customEmojis[code];
+  if (customEmoji) {
+    return Promise.resolve(`
+      <img 
+        src="${customEmoji}" 
+        class="emoji custom-emoji" 
+        alt="${code}" 
+        data-custom="true"
+      />
+    `);
   }
 
-  // Fallback to Twemoji for other emojis
   const type = "twemoji";
   const key = type + ":" + code;
   if (key in emojiCache) return emojiCache[key];
