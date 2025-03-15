@@ -1,3 +1,8 @@
+const customEmojis: Record<string, string> = {
+  "pizza": "/emojis/pizza.png", // Example: Replace with your emoji names and paths
+  "my_emoji": "/emojis/my_emoji.png",
+};
+
 const U200D = String.fromCharCode(8205)
 const UFE0Fg = /\uFE0F/g
 
@@ -25,14 +30,22 @@ function toCodePoint(unicodeSurrogates: string) {
   return r.join("-")
 }
 
-const EmojiAssets = (code: string) =>
-  `https://github.com/LunaThePotato/Passione-Campaign/tree/v4/content/EmojiAssets`
+const twemoji = (code: string) =>
+  `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/svg/${code.toLowerCase()}.svg`
 const emojiCache: Record<string, Promise<any>> = {}
 
 export function loadEmoji(code: string) {
-  const type = "EmojiAssets"
-  const key = type + ":" + code
-  if (key in emojiCache) return emojiCache[key]
+  // Check if the code matches a custom emoji
+  const customEmojiPath = customEmojis[code];
+  if (customEmojiPath) {
+    // Return your local image instead of fetching Twemoji
+    return Promise.resolve(`<img src="${customEmojiPath}" class="emoji" alt="${code}" />`);
+  }
 
-  return (emojiCache[key] = fetch(EmojiAssets(code)).then((r) => r.text()))
+  // Fallback to Twemoji for other emojis
+  const type = "twemoji";
+  const key = type + ":" + code;
+  if (key in emojiCache) return emojiCache[key];
+
+  return (emojiCache[key] = fetch(twemoji(code)).then((r) => r.text()));
 }
