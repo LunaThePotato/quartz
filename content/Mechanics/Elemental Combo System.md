@@ -14,42 +14,97 @@ The following table shows all the possible Elemental Combos in the Passione Camp
  The Completion of each tier will provide additional Ramping Burst Damage towards the Target.
 
 With bonus damage in order: 
->(**Tier 1**) **2d4+**{Party's Prof. Modifier} (Elemental dmg Type)
->(**Tier 2**) **4d4+**{Party's Prof. Modifier} (Elemental Dmg Type)
->(**Tier 3**) **6d4+**{Party's Prof. Modifier} (Elemental Dmg Type)
+- (**Tier 1**) **2d4+**{Party's Prof. Modifier} (Elemental dmg Type)
+- (**Tier 2**) **4d4+**{Party's Prof. Modifier} (Elemental Dmg Type)
+- (**Tier 3**) **6d4+**{Party's Prof. Modifier} (Elemental Dmg Type)
 
 `[Each Element Tier has a duration of 2 rounds. If its not chained into the next tier by then it will reset the whole rotation back to nothing]`
 `[Damage Dice will also scale will player level, Current: d4]`
 
-`-=+=-`
-#### :FighterArts_fire_elemental: **Fire** 
-:FighterArts_fire_elemental: **Fire** - *Heat* > :FighterArts_fire_elemental: **Fire** - *Burnout* > :FighterArts_fire_elemental: ***Fire*** - *Mega Explosion!* (or) :FighterArts_light_element: ***Light*** - *Radiant Blast!*
+-=+=-
+### -={Elemental Combos}=-
+
+#### :FighterArts_fire_elemental: Fire Combos
+
+- :FighterArts_fire_elemental: **Fire** - *Heat* <span class="arrow">→</span> 
+  :FighterArts_fire_elemental: **Fire** - *Burnout* <span class="arrow">→</span> 
+  :FighterArts_fire_elemental: **Fire** - ***Mega Explosion!*** or :FighterArts_light_element: **Light** - ***Radiant Blast!***
 >text
 
-:FighterArts_fire_elemental: **Fire** - *Heat* > :FighterArts_water_elemental: **Water** - *Steam Bomb* > :FighterArts_fire_elemental: ***Fire*** - *Steam Explosion!* (or) :FighterArts_ice_elemental: ***Ice*** - *Diamond Mist!*
+- :FighterArts_fire_elemental: **Fire** - *Heat* <span class="arrow">→</span> 
+  :FighterArts_water_elemental: **Water** - *Steam Bomb!* <span class="arrow">→</span> 
+  :FighterArts_fire_elemental: **Fire** - ***Steam Explosion!*** or :FighterArts_ice_elemental: **Ice** - ***Diamond Mist!***
 >text
-#### :FighterArts_water_elemental: **Water**
-:FighterArts_water_elemental: **Water** - *Aqua* > :FighterArts_water_elemental: **Water** - *Venom Water* > :FighterArts_water_elemental: ***Water*** - *Acidic Typhoon!* (or) :FighterArts_dark_element: ***Dark*** - *Dark Tide!*
-:FighterArts_water_elemental: **Water** - *Aqua* > :FighterArts_earth_elemental: **Earth** - *Pandemic* > :FighterArts_wind_elemental: ***Wind*** - *Final Disaster!*
-#### :FighterArts_ice_elemental: **Ice**
-:FighterArts_ice_elemental: **Ice** - *Frost* > :FighterArts_ice_elemental: **Ice** - *Snow Storm* > :FighterArts_earth_elemental: ***Earth*** - *Permafrost Crash!* (or) :FighterArts_dark_element: ***Dark*** - *Gravity Blizzard!* 
-:FighterArts_ice_elemental: **Ice** - *Frost* > :FighterArts_water_elemental: **Water** - *Cold Snap* > :FighterArts_wind_elemental: ***Wind*** - *Dead of Winter!*
-#### :FighterArts_wind_elemental: **Wind**
-:FighterArts_wind_elemental: **Wind** - *Wind* > :FighterArts_wind_elemental: **Wind** - *Cyclone* > :FighterArts_earth_elemental: ***Earth*** - *Sandstorm!* (or) :FighterArts_electric_elemental: ***Electric*** - *Thunder Gale!*
-:FighterArts_wind_elemental: **Wind** - *Wind* > :FighterArts_ice_elemental: **Ice** - *Ice Wind* > :FighterArts_ice_elemental: ***Ice*** - *Frost Typhoon!*
-#### :FighterArts_earth_elemental: **Earth**
-:FighterArts_earth_elemental: **Earth** - *Stone* > :FighterArts_earth_elemental: **Earth** - *Gaia Crash* > :FighterArts_electric_elemental: ***Electric*** - *Lightning Quake!*
-:FighterArts_earth_elemental: **Earth** - *Stone* > :FighterArts_fire_elemental: **Fire** - *Volcano* > :FighterArts_wind_elemental: ***Wind*** - *Volcanic Storm!* (or) :FighterArts_earth_elemental: ***Earth*** - *Mega Eruption!*
-#### :FighterArts_electric_elemental: **Electric**
-:FighterArts_electric_elemental: **Electric** - *Volt* > :FighterArts_electric_elemental: **Electric** - *1,000,000 Volt* > :FighterArts_water_elemental: ***Water*** - *Electrolysis!*
-:FighterArts_electric_elemental: **Electric** - *Volt* > :FighterArts_fire_elemental: **Fire** - *Flame Bolt* > :FighterArts_wind_elemental: ***Wind*** - *Electrofire Storm!* (or) :FighterArts_ice_elemental: ***Ice*** - *Ultimate Aurora!*
-#### :FighterArts_light_element: **Light**
-:FighterArts_light_element: **Light** - *Photon* > :FighterArts_light_element: **Light** - *Gamma Ray* > :FighterArts_light_element: ***Light*** - *Supernova!* (or) :FighterArts_water_elemental: ***Water*** - *Ruinous Weather!*
-:FighterArts_light_element: **Light** - *Photon* > :FighterArts_electric_elemental: **Electric** - *Lightning Bolt* > :FighterArts_fire_elemental: ***Fire*** - *Second Sun!*
-#### :FighterArts_dark_element: **Dark**
-:FighterArts_dark_element: **Dark** - *Gravity* > :FighterArts_dark_element: **Dark** - *Black Abyss* > :FighterArts_dark_element: ***Dark*** - *Hyper Graviton!* (or) :FighterArts_earth_elemental: ***Earth*** - *Meteorite!*
-:FighterArts_dark_element: **Dark** - *Gravity* > :FighterArts_light_element: **Light** - *Ray of Light* > :FighterArts_electric_elemental: ***Electric*** - *Heaven's Bolt!* 
 
+#### :FighterArts_water_elemental: Water Combos
+
+- :FighterArts_water_elemental: **Water** - *Aqua* <span class="arrow">→</span> 
+  :FighterArts_water_elemental: **Water** - *Venom Water* <span class="arrow">→</span> 
+  :FighterArts_water_elemental: **Water** - ***Acidic Typhoon!*** or :FighterArts_dark_element: **Dark** - ***Dark Tide!***
+
+- :FighterArts_water_elemental: **Water** - *Aqua* <span class="arrow">→</span> 
+  :FighterArts_earth_elemental: **Earth** - *Pandemic* <span class="arrow">→</span> 
+  :FighterArts_wind_elemental: **Wind** - ***Final Disaster!***
+
+#### :FighterArts_ice_elemental: Ice Combos
+
+- :FighterArts_ice_elemental: **Ice** - *Frost* <span class="arrow">→</span> 
+  :FighterArts_ice_elemental: **Ice** - *Snow Storm* <span class="arrow">→</span> 
+  :FighterArts_earth_elemental: **Earth** - ***Permafrost Crash!*** or :FighterArts_dark_element: **Dark** - ***Gravity Blizzard!***
+
+- :FighterArts_ice_elemental: **Ice** - *Frost* <span class="arrow">→</span> 
+  :FighterArts_water_elemental: **Water** - *Cold Snap* <span class="arrow">→</span> 
+  :FighterArts_wind_elemental: **Wind** - ***Dread of Winter!*** or :FighterArts_light_element: **Light** - ***Polaris Aetherfrost!***
+
+#### :FighterArts_wind_elemental: Wind Combos
+
+- :FighterArts_wind_elemental: **Wind** - *Wind* <span class="arrow">→</span> 
+  :FighterArts_wind_elemental: **Wind** - *Cyclone* <span class="arrow">→</span> 
+  :FighterArts_earth_elemental: **Earth** - ***Sandstorm!*** or :FighterArts_electric_elemental: **Electric** - ***Thunder Gale!***
+
+- :FighterArts_wind_elemental: **Wind** - *Wind* <span class="arrow">→</span> 
+  :FighterArts_ice_elemental: **Ice** - *Krystalic Winds* <span class="arrow">→</span> 
+  :FighterArts_ice_elemental: **Ice** - ***Artic Typhoon!***
+
+#### :FighterArts_earth_elemental: Earth Combos
+
+- :FighterArts_earth_elemental: **Earth** - *Stone* <span class="arrow">→</span> 
+  :FighterArts_earth_elemental: **Earth** - *Gaia Crash* <span class="arrow">→</span> 
+  :FighterArts_electric_elemental: **Electric** - ***Electro Quake!***
+
+- :FighterArts_earth_elemental: **Earth** - *Stone* <span class="arrow">→</span> 
+  :FighterArts_fire_elemental: **Fire** - *Volcanic Spire* <span class="arrow">→</span> 
+  :FighterArts_wind_elemental: **Wind** - ***Pyroclastic Hurricane!*** or :FighterArts_fire_elemental: **Fire** - ***Vulcanaclysm!***
+
+#### :FighterArts_electric_elemental: Electric Combos
+
+- :FighterArts_electric_elemental: **Electric** - *Volt* <span class="arrow">→</span> 
+  :FighterArts_electric_elemental: **Electric** - *Galvanizing blast* <span class="arrow">→</span> 
+  :FighterArts_electric_elemental: **Electric** - ***1,000,000 Voltic Surge!*** or :FighterArts_water_elemental: **Water** - ***Electrolysis!***
+
+- :FighterArts_electric_elemental: **Electric** - *Volt* <span class="arrow">→</span> 
+  :FighterArts_fire_elemental: **Fire** - *Flame Bolt* <span class="arrow">→</span> 
+  :FighterArts_wind_elemental: **Wind** - ***Electrofire Storm!*** or :FighterArts_ice_elemental: **Ice** - ***Ultimate Aurora!***
+
+#### :FighterArts_light_element: Light Combos
+
+- :FighterArts_light_element: **Light** - *Photon* <span class="arrow">→</span> 
+  :FighterArts_light_element: **Light** - *Gama Ray* <span class="arrow">→</span> 
+  :FighterArts_light_element: **Light** - ***Supernova!*** or :FighterArts_water_elemental: **Water** - ***Ruinous Weather!***
+
+- :FighterArts_light_element: **Light** - *Photon* <span class="arrow">→</span> 
+  :FighterArts_electric_elemental: **Electric** - *Lightning Bolt* <span class="arrow">→</span> 
+  :FighterArts_fire_elemental: **Fire** - ***Megastar Apotheosis!***
+
+#### :FighterArts_dark_element: Dark Combos
+
+- :FighterArts_dark_element: **Dark** - *Gravity* <span class="arrow">→</span> 
+  :FighterArts_fire_elemental: **Fire** - *Second Sun* <span class="arrow">→</span> 
+  :FighterArts_dark_element: **Dark** - ***Omega Singularity!*** or :FighterArts_earth_elemental: **Earth** - ***Molten Comet!***
+
+- :FighterArts_dark_element: **Dark** - *Gravity* <span class="arrow">→</span> 
+  :FighterArts_light_element: **Light** - *Accretion Photon Rings* <span class="arrow">→</span> 
+  :FighterArts_electric_elemental: **Electric** - ***Hyperphotonic Beam!***
 
 ### -={**Contributions for an Elemental Combo**}=-
 *To contribute to the combo, players can either roll a **Critical Hit** on the Target with an elemental enchanted weapon or landing an Elemental ability that inflicts any form of Heavy Crowd Control (I.E. :Conditions_daze2: [[Status Conditions (Crowd Control {CC})#Conditions_daze2 **Stunned**|Stunned]], :FighterArts_break: [[Status Conditions (Crowd Control {CC})#FighterArts_break **Break**|Break]], etc. Refer to [[Status Conditions (Crowd Control {CC})#^edd43c|Hard Crowd Control]] for more details⁠.)

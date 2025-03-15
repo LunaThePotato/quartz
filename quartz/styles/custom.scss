@@ -6,7 +6,7 @@ img.custom-emoji {
     height: 1.2em;       // Default size
     width: auto;         // Preserve aspect ratio
     vertical-align: middle;
-    margin: 0 0.1em;
+    margin: 0 0.2em;
     display: inline-block;
     line-height: 1;
   }
@@ -20,32 +20,116 @@ img.custom-emoji {
   
   // Specific emoji sizes 
   img.custom-emoji[alt="FighterArts_fire_elemental"],
-  img.custom-emoji[alt="FighterArts_water_elemental"],
-  img.custom-emoji[alt="FighterArts_earth_elemental"],
-  img.custom-emoji[alt="FighterArts_electric_elemental"],
-  img.custom-emoji[alt="FighterArts_wind_elemental"],
-  img.custom-emoji[alt="FighterArts_ice_elemental"],
-  img.custom-emoji[alt="FighterArts_dark_element"],
-  img.custom-emoji[alt="FighterArts_light_element"] {
+  [alt="FighterArts_water_elemental"],
+  [alt="FighterArts_earth_elemental"],
+  [alt="FighterArts_electric_elemental"],
+  [alt="FighterArts_wind_elemental"],
+  [alt="FighterArts_ice_elemental"],
+  [alt="FighterArts_dark_element"],
+  [alt="FighterArts_light_element"],
+  [alt="FighterArts_heal"],
+  [alt="FighterArts_defense"],
+  [alt="FighterArts_break"],
+  [alt="FighterArts_topple"],
+  [alt="FighterArts_launch"],
+  [alt="FighterArts_smash"],
+  [alt="WeaponArts_art_cancel"],
+  [alt="WeaponArts_art_recharge"],
+  [alt="WeaponArts_art_species"],
+  [alt="WeaponArts_art_front"],
+  [alt="WeaponArts_art_side"],
+  [alt="WeaponArts_art_rear"],
+  [alt="WeaponArts_backbreaker"],
+  [alt="WeaponArts_concussive_smash"],
+  [alt="WeaponArts_disarming_attack"],
+  [alt="WeaponArts_flourish"],
+  [alt="WeaponArts_hamstring_shot"],
+  [alt="WeaponArts_heartstopper"],
+  [alt="WeaponArts_lacerate"],
+  [alt="WeaponArts_piercing_strike"],
+  [alt="WeaponArts_pommel_strike"],
+  [alt="WeaponArts_rush_attack"],
+  [alt="WeaponArts_tenacity"],
+  [alt="WeaponArts_topple2"],
+  [alt="WeaponArts_weakening_strike"] {
     height: 1.2em; // Consistent size for all elementals
   }
   
   // New formatting fixes (ADD BELOW)
   // ---------------------------------
   // Fix line breaks in paragraphs/lists
+  
+  .page-content {
+    max-width: 80ch; // Optimal line length for readability
+    margin: 0 auto;
+  }
+  
   p, li {
     white-space: normal !important;
+    overflow-wrap: break-word; // Force-break long strings
+    word-break: break-word; // Emergency break for unbreakable content
     line-height: 1.6;
   }
   
-  // Prevent markdown symbols from breaking
-  p > strong, p > em {
-    white-space: nowrap;
+  // Fix combo chains with arrows (">")
+  p:has(> img.custom-emoji) {
+    white-space: normal !important;
+    
+    // Style arrows
+    .arrow {
+      padding: 0 0.5em;
+    }
   }
   
-  // Bold/italic context adjustments
+  // Remove nowrap from bold/italic contexts
+  p > strong, p > em {
+    white-space: normal; // Changed from nowrap!
+  }
+  
+  // Emoji alignment in bold/italic
   strong, em {
     img.custom-emoji {
-      margin: 0 0.1em;
+      margin: 0 0.15em;
+      vertical-align: text-bottom; // Better alignment
+    }
+  }
+  
+  /* Elemental Chart Styling */
+  .elemental-chart {
+    border-left: 3px solid var(--primary);
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+  
+    li {
+      margin: 1rem 0;
+      padding: 0.5rem;
+      background: rgba(var(--primary-rgb), 0.05);
+      border-radius: 5px;
+      position: relative;
+      
+      &::before {
+        content: "•";
+        color: var(--primary);
+        position: absolute;
+        left: -1.2em;
+      }
+    }
+  }
+  
+  .arrow {
+    color: var(--secondary);
+    padding: 0 0.3em;
+    font-weight: bold;
+  }
+  
+  .combo-chain {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    
+    img.custom-emoji {
+      height: 1.4em !important;
+      margin: 0 0.2em;
     }
   }
