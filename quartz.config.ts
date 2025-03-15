@@ -1,3 +1,4 @@
+import { CustomEmojis } from "./quartz/plugins/transformers/customEmojis"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
@@ -73,6 +74,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      CustomEmojis(), 
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

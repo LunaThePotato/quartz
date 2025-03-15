@@ -1,3 +1,51 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+// Base styling for all custom emojis (MERGE DUPLICATE RULES)
+img.custom-emoji {
+    height: 1.2em;       // Default size
+    width: auto;         // Preserve aspect ratio
+    vertical-align: middle;
+    margin: 0 0.1em;
+    display: inline-block;
+    line-height: 1;
+  }
+  
+  // Larger emojis in headers
+  h1 img.custom-emoji,
+  h2 img.custom-emoji,
+  h3 img.custom-emoji {
+    height: 2em !important;
+  }
+  
+  // Specific emoji sizes 
+  img.custom-emoji[alt="FighterArts_fire_elemental"],
+  img.custom-emoji[alt="FighterArts_water_elemental"],
+  img.custom-emoji[alt="FighterArts_earth_elemental"],
+  img.custom-emoji[alt="FighterArts_electric_elemental"],
+  img.custom-emoji[alt="FighterArts_wind_elemental"],
+  img.custom-emoji[alt="FighterArts_ice_elemental"],
+  img.custom-emoji[alt="FighterArts_dark_element"],
+  img.custom-emoji[alt="FighterArts_light_element"] {
+    height: 1.2em; // Consistent size for all elementals
+  }
+  
+  // New formatting fixes (ADD BELOW)
+  // ---------------------------------
+  // Fix line breaks in paragraphs/lists
+  p, li {
+    white-space: normal !important;
+    line-height: 1.6;
+  }
+  
+  // Prevent markdown symbols from breaking
+  p > strong, p > em {
+    white-space: nowrap;
+  }
+  
+  // Bold/italic context adjustments
+  strong, em {
+    img.custom-emoji {
+      margin: 0 0.1em;
+    }
+  }

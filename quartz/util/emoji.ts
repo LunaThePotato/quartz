@@ -1,5 +1,5 @@
 const customEmojis: Record<string, string> = {
-  "pizza": "/emojis/pizza.png", // Example
+  "FighterArts_fire_elemental": "/emojis/FighterArts_fire_elemental.png",
 };
 
 const U200D = String.fromCharCode(8205)
@@ -45,7 +45,6 @@ export function loadEmoji(code: string) {
       />
     `);
   }
-
   const type = "twemoji";
   const key = type + ":" + code;
   if (key in emojiCache) return emojiCache[key];
