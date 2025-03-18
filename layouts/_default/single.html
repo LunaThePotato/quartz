@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ $currentRole := .Site.Params.currentRole | default "public" }}
+{{ $isDM := eq $currentRole "dm" }}
+{{ $isPublic := eq $currentRole "public" }}
+{{ $isPlayer := and (ne $currentRole "dm") (ne $currentRole "public") }}
+
+<!-- Check if page is visible to the current role -->
+{{ $isVisible := or $isDM (eq .Params.public true) (and $isPlayer (eq .Params.player $currentRole)) }}
+
+{{ if $isVisible }}
+  <article class="page-content">
+    {{ .Content }}
+  </article>
+{{ else }}
+  <div class="unauthorized">
+    <h1>🔒 Restricted Access</h1>
+    <p>You don’t have permission to view this page.</p>
+  </div>
+{{ end }}
+{{ end }}

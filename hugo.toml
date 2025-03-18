@@ -1,0 +1,5 @@
+# Custom Emoji Fix (from quartz/hugo.toml)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

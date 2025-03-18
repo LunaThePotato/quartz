@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ $currentRole := .Site.Params.currentRole | default "public" }}
+<div class="container">
+  <article class="page-content">
+    {{ .Content }}
+  </article>
+  <div class="page-list">
+    <!-- Filter pages based on role -->
+    {{ $pages := .Site.RegularPages }}
+    {{ if ne $currentRole "dm" }}
+      {{ $pages = where $pages "Params.public" "==" true }}
+      {{ if ne $currentRole "public" }}
+        {{ $playerPages := where $pages "Params.player" "==" $currentRole }}
+        {{ $pages = union $playerPages $pages }}
+      {{ end }}
+    {{ end }}
+    
+    {{ range $pages }}
+      <article class="page-item">
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
