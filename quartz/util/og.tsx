@@ -39,7 +39,7 @@ async function fetchTtf(fontName: string, weight: FontWeight): Promise<ArrayBuff
       `https://fonts.googleapis.com/css2?family=${fontName}:wght@${weight}`,
     )
     const css = await cssResponse.text()
-
+    
     // Extract .ttf url from css file
     const urlRegex = /url\((https:\/\/fonts.gstatic.com\/s\/.*?.ttf)\)/g
     const match = urlRegex.exec(css)

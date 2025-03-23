@@ -1,4 +1,5 @@
 @use "./base.scss";
+@use "./themes";
 
 // put your custom CSS here!
 // Base styling for all custom emojis (MERGE DUPLICATE RULES)
@@ -59,6 +60,10 @@ img.custom-emoji {
   // ---------------------------------
   // Fix line breaks in paragraphs/lists
   
+  span.text-highlight {
+    background-color: #78f7f794 !important;
+  }
+
   .page-content {
     max-width: 80ch; // Optimal line length for readability
     margin: 0 auto;
