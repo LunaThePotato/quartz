@@ -1,9 +1,9 @@
 ### ***Malignant Rage*** (*Spell Lv. 4 Transmutation*) 
 
-{**Casting Time**}: Action
-{**Range**}: 30 Feet
-{**Components**}: V, S
-{**Duration**}: Concentration (before target's death), Up to 1 Minute
+(**Casting Time**): Action
+(**Range**): 30 Feet
+(**Components**): V, S
+(**Duration**): Concentration (*before target's death*), Up to 1 Minute
 
 You can infuse yourself, or a willing creature that you can see within range, a rush of Necrotic Energy. Until the Spell ends, the target gains:
 > - A +2 to its ***Armor Class***
