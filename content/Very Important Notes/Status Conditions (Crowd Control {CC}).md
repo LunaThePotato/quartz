@@ -7,14 +7,14 @@
 
 #### :FighterArts_launch: **Knock-up**
    :FighterArts_launch: A Creature that is afflicted with Knock-up is unable to move, do Physical Attacks, Disadvantage on Ranged/Spell Attacks, or use item actives for the duration. Blinks are not affected by this condition. 
-     *Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*
+- *Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*
 `[Also Serves as a condition inflicted by LAUNCH]`
 
 #### :FighterArts_smash: **Knockdown**
    :FighterArts_smash: A creature that is Knockdown has its dash interrupted and is placed on the ground from being Airborne :FighterArts_launch:.
-      - *Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*
-      - Also Serves as a condition inflicted by :FighterArts_smash: SMASH, dealing an additional (Dex+STR)d4 to the affected Target.
-      - For deeper Clarification, If a flying creature is in reach of an ability that can inflict :FighterArts_smash: Smash- they can be affected by said condition right away. 
+>*Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*.
+>Also Serves as a condition inflicted by :FighterArts_smash: SMASH, dealing an additional (Dex+STR)d4 to the affected Target.
+>For deeper Clarification, If a flying creature is in reach of an ability that can inflict :FighterArts_smash: Smash- they can be affected by said condition right away. 
 
 #### **Spell Bind**
    A creature afflicted with Spell Bind are unable to cast any spells/abilities for the duration.
@@ -24,15 +24,15 @@
 
 #### **Stasis**
  A creature that is in stasis is unable to move, attack, cast abilities, or use item actives while also being un-targetable and invulnerable for the duration.
-     *The creature remains fully conscious to their surroundings, however cannot speak*  
+>*The creature remains fully conscious to their surroundings, however cannot speak*  
 
 #### **Suppression**
  A creature that is afflicted with Suppression is unable to move, attack, cast abilities, or use item actives for the duration.
-     *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws & Checks*
+>*The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws & Checks*
 
 #### **Grounded**
  A Creature that is affected by this cannot use any movement abilities.
-     *Any creature that is in mid dashing and affected by this will be stopped immediately on the spot, unless stated otherwise.*
+>*Any creature that is in mid dashing and affected by this will be stopped immediately on the spot, unless stated otherwise.*
 
 #### **Berserked**
 The Creature is subjected to unparallel-animalistic Rage, unable to decern from friend and foe- attacking at all cost and any means to the nearest creature to them or the subject of their rage pre-berserked. The **Berserked** creature inherits:
