@@ -10,37 +10,144 @@
 - *Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*
 `[Also Serves as a condition inflicted by LAUNCH]`
 
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="knock-up">
+    <div style="white-space: pre-line;">
+      <strong>:FighterArts_launch: Knock-up:</strong>
+      A creature afflicted with this condition are unable to cast any spells & arts for the duration.
+    </div>
+  </div>
+</details>
+
 #### :FighterArts_smash: **Knockdown**
-   :FighterArts_smash: A creature that is Knockdown has its dash interrupted and is placed on the ground from being Airborne :FighterArts_launch:.
+  A creature that is Knockdown :FighterArts_smash: has its movement interrupted and is smashed onto the ground from being Airborne :FighterArts_launch:.
 >*Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*.
 >Also Serves as a condition inflicted by :FighterArts_smash: SMASH, dealing an additional (Dex+STR)d4 to the affected Target.
 >For deeper Clarification, If a flying creature is in reach of an ability that can inflict :FighterArts_smash: Smash- they can be affected by said condition right away. 
 
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="knockdown">
+    <div style="white-space: pre-line;">
+      <strong>:FighterArts_smash: Knockdown:</strong>
+      A creature that is Knockdown :FighterArts_smash: has its movement interrupted and is smashed onto the ground from being Airborne :FighterArts_launch:.
+      - Any form of Concentration Spells that are active and connected to the afflicted creature must roll a Concentration Check to keep said Spells Active.
+      - Also Serves as a condition inflicted by :FighterArts_smash: SMASH, dealing an additional (Dex+STR)d4 to the affected Target.
+      - For deeper Clarification, If a flying creature is in reach of an ability that can inflict :FighterArts_smash: Smash- they can be affected by said condition right away. 
+    </div>
+  </div>
+</details>
+
+
 #### **Spell Bind**
-   A creature afflicted with Spell Bind are unable to cast any spells/abilities for the duration.
+ A creature afflicted with this condition are unable to cast any spells & arts for the duration.
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="spell bind">
+    <div style="white-space: pre-line;">
+      <strong>Spell Bind:</strong>
+      A creature afflicted with this condition are unable to cast any spells & arts for the duration.
+    </div>
+  </div>
+</details>
 
 #### **Aura Bind**
- Any form of passive abilities are stopped for the duration. 
+ Any form of Aura effects by items, abilities, and arts are stopped for the duration. 
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="aura bind">
+    <div style="white-space: pre-line;">
+      <strong>Aura Bind:</strong>
+      Any form of Aura effects by items, abilities, and arts are stopped for the duration.
+    </div>
+  </div>
+</details>
 
 #### **Stasis**
  A creature that is in stasis is unable to move, attack, cast abilities, or use item actives while also being un-targetable and invulnerable for the duration.
->*The creature remains fully conscious to their surroundings, however cannot speak*  
+>*The creature remains fully conscious to their surroundings but unable to speak.*
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="stasis">
+    <div style="white-space: pre-line;">
+      <strong>Stasis:</strong>
+      A Creature that is affected by this condition is unable to move, attack, cast abilities, use item actives, becomes untargetable and invulnerable for the duration.
+      - *The creature remains fully conscious to their surroundings but unable to speak.*
+    </div>
+  </div>
+</details>
 
 #### **Suppression**
- A creature that is afflicted with Suppression is unable to move, attack, cast abilities, or use item actives for the duration.
->*The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws & Checks*
+ A creature that is affected by this condition is unable to move, attack, cast abilities, or use item actives for the duration.
+>*The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="suppression">
+    <div style="white-space: pre-line;">
+      <strong>Suppression:</strong>
+      A Creature that is affected by this condition is unable to move, attack, cast abilities, or use item actives for the duration.
+      - The creature automatically fails Strength and Dexterity Saving Throws.
+    </div>
+  </div>
+</details>
 
 #### **Grounded**
- A Creature that is affected by this cannot use any movement abilities.
->*Any creature that is in mid dashing and affected by this will be stopped immediately on the spot, unless stated otherwise.*
+ A Creature that is affected by this cannot use any movement abilities/arts.
+>*Any creature that is in mid dashing upon being afflicted with this condition will immediately stop on the spot.*
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="grounded">
+    <div style="white-space: pre-line;">
+      <strong>Grounded:</strong>
+      A Creature that is affected by this cannot use any movement abilities/arts.
+      - *Any creature that is in mid dashing upon being afflicted with this condition will immediately stop on the spot.*
+    </div>
+  </div>
+</details>
 
 #### **Berserked**
-The Creature is subjected to unparallel-animalistic Rage, unable to decern from friend and foe- attacking at all cost and any means to the nearest creature to them or the subject of their rage pre-berserked. The **Berserked** creature inherits:
-> - A Reduction of 3 from their Armor Class.
-> - Disadvantage on Dexterity Saving Throws, or automatically fail a Dexterity Saving Throw if they already have disadvantage outside of {**Berserked**}.
-> - An additional Weapon Attacks and gains a Bite Attack as a Bonus Action (Roll to hit with proficiency + Dexterity Modifier, 2d6+(Dex/Str Modifier){Piercing})
-> - A Claw attack instead: Roll to Hit with Proficiency + Dexterity Modifier, 2d4+(Dex/Str Modifier) {Slashing}
-> - **Doubled their movement speed** *while they're facing an enemy*
+The Creature is subjected to unparalleled, animalistic Rage—unable to discern friend from foe—attacking at all costs. The **Berserked** creature inherits:
+> - A reduction of 3 from its Armor Class.
+> - Disadvantage on Dexterity Saving Throws (or automatic failure if already disadvantaged).
+> - An additional bonus action attack (Bite, 2d6+Dex/Str Moodifier Piercing dmg, or Claw, 2d4+Dex/Str Modifier Slashing dmg. Both using proficiency+Dex Modifiers on rolling to Hit).
+> - Doubled movement speed while facing an enemy.
+
+<!-- Popover preview for "Berserked" -->
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="berserked">
+    <div style="white-space: pre-line;">
+      <strong>Berserked:</strong>
+      In this state, the creature enters a frenzied rage where it loses all distinction between friend and foe:
+      - Its Armor Class is reduced by 3
+      - It suffers disadvantage on Dexterity Saving Throws (or automatic failure if already disadvantaged)
+      - Gains an extra bonus action attack (Bite, 2d6+Dex/Str Modifier Piercing dmg, or Claw, 2d4+Dex/Str Modifier Slashing dmg)
+      - Its movement speed is doubled while engaged with an enemy.
+    </div>
+  </div>
+</details>
 
 ### Vanilla D&D 5e Status Conditions
 
