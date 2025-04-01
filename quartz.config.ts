@@ -1,6 +1,6 @@
-import { CustomEmojis } from "./quartz/plugins/transformers/customEmojis"
-import { QuartzConfig } from "./quartz/cfg"
-import * as Plugin from "./quartz/plugins"
+import { CustomEmojis } from "./quartz/plugins/transformers/customEmojis";
+import { QuartzConfig } from "./quartz/cfg";
+import * as Plugin from "./quartz/plugins";
 
 /**
  * Quartz 4 Configuration
@@ -21,6 +21,8 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: true,
+    // Global default social image: file "og-image.png" in your static folder
+    socialImage: "og-image.png",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -92,6 +94,6 @@ const config: QuartzConfig = {
       Plugin.NotFoundPage(),
     ],
   },
-}
+};
 
-export default config
+export default config;
