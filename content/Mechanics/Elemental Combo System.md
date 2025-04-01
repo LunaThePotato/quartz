@@ -110,10 +110,13 @@ With bonus damage in order:
 *To contribute to the combo, players can either roll a **Critical Hit** on the Target with an elemental enchanted weapon or landing an Elemental ability that inflicts any form of Heavy Crowd Control (I.E. :Conditions_daze2: [[Status Conditions (Crowd Control {CC})#Conditions_daze2 **Stunned**|Stunned]], :FighterArts_break: [[Status Conditions (Crowd Control {CC})#FighterArts_break **Break**|Break]], etc. Refer to [[Status Conditions (Crowd Control {CC})#^edd43c|Hard Crowd Control]] for more details⁠.)
  For Example: If an enemy suffers ":FighterArts_fire_elemental: Heat" (**Tier 1**), anyone who has an valid element in the combo tree can contribute to the Element chain (See Chart Below) in their respective turn:*
 
-> Any {Elemental-Related Spells} That have successfully inflicted "**Heavy Crowd Control**" onto the target. (*Ex: Eldritch Blast :FighterArts_dark_element: (That has repelling Blast), Entangle :FighterArts_earth_elemental:, Hold person :FighterArts_light_element:, Grasping Vine :FighterArts_earth_elemental:...*) {**Homebrew & Vanilla Spells**}
-> Any {Weapon Arts} that Inflict Elemental dmg & "**Crowd Control**"
-> {**Critical Hits!**} from Ranged Spell Attacks, Magical Physical Attacks, Weapon Arts (Ex: Divine SMITE :FighterArts_light_element:/:FighterArts_dark_element:, Ice Knife :FighterArts_ice_elemental:, Scorching Ray :FighterArts_fire_elemental:, Shadow Blade :FighterArts_dark_element:, Eldritch Blast :FighterArts_dark_element:...)
-> {**Critical Fails!**} on Spell Saving Throws (Ex: Cloud of Daggers :FighterArts_wind_elemental:, Thunder Wave :FighterArts_wind_elemental:, Heat Metal :FighterArts_fire_elemental:, Wall of Fire :FighterArts_fire_elemental:...)
+- {**Elemental-Related Spells**} That have successfully inflicted "**Heavy Crowd Control**" onto the target.
+> (*Ex: Eldritch Blast :FighterArts_dark_element: (That has repelling Blast), Entangle :FighterArts_earth_elemental:, Hold person :FighterArts_light_element:, Grasping Vine :FighterArts_earth_elemental:...*) 
+- {**Homebrew & Vanilla Spells!**} Any {Weapon Arts} that Inflict Elemental dmg & "**Crowd Control**"
+- {**Critical Hits!**} from Ranged Spell Attacks, Magical Physical Attacks, Weapon Arts.
+> (Ex: Divine SMITE :FighterArts_light_element:/:FighterArts_dark_element:, Ice Knife :FighterArts_ice_elemental:, Scorching Ray :FighterArts_fire_elemental:, Shadow Blade :FighterArts_dark_element:, Eldritch Blast :FighterArts_dark_element:...)
+- {**Critical Fails!**} on Spell Saving Throws.
+> (Ex: Cloud of Daggers :FighterArts_wind_elemental:, Thunder Wave :FighterArts_wind_elemental:, Heat Metal :FighterArts_fire_elemental:, Wall of Fire :FighterArts_fire_elemental:...)
 
 Spells, Weapon Arts, or any other items that do inflict some form of Crowd control but seem to have no tangible connections to an element can simply serve to reset the Elemental duration back to 3 rounds.
 
