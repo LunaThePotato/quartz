@@ -1,3 +1,8 @@
+---
+title: "Status Conditions (Crowd Control {CC})"
+socialImage: "og-image.png"
+---
+
 ### Additional Homebrew Status Conditions
 -=+=-
 
@@ -5,8 +10,21 @@
    The creature afflicted with the :FighterArts_break: Break Status have their current dmg resistances negated during the duration of Break & have disadvantage against :FighterArts_topple: [[#Prone]] Afflicting Abilities.
 `[Damage Type Immunities remain unaffected]`
 
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="knock-up">
+    <div style="white-space: pre-line;">
+      <strong>:FighterArts_break: break:</strong>
+       The creature afflicted with the :FighterArts_break: Break Status have their current dmg resistances negated during the duration of Break & have disadvantage against :FighterArts_topple: Prone Afflicting Abilities.
+       [Damage Type Immunities remain unaffected]
+    </div>
+  </div>
+</details>
+
 #### :FighterArts_launch: **Knock-up**
-   :FighterArts_launch: A Creature that is afflicted with Knock-up is unable to move, do Physical Attacks, Disadvantage on Ranged/Spell Attacks, or use item actives for the duration. Blinks are not affected by this condition. 
+  A Creature that is afflicted with "Knock-up" :FighterArts_launch: is unable to move, do Physical Attacks, Disadvantage on Ranged/Spell Attacks, or use item actives for the duration. Blinks are not affected by this condition. 
 - *Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*
 `[Also Serves as a condition inflicted by LAUNCH]`
 
@@ -16,8 +34,10 @@
   </summary>
   <div class="popover-hint" data-popover-key="knock-up">
     <div style="white-space: pre-line;">
-      <strong>:FighterArts_launch: Knock-up:</strong>
-      A creature afflicted with this condition are unable to cast any spells & arts for the duration.
+      <strong>:FighterArts_launch: knock-up:</strong>
+      A Creature that is afflicted with "Knock-up" :FighterArts_launch: is unable to move, do Physical Attacks, Disadvantage on Ranged/Spell Attacks, or use item actives for the duration. Blinks are not affected by this condition.
+      - Any form of Concentration Spells that are active and connected to the afflicted creature must roll a Concentration Check to keep said Spells Active.
+      [Also Serves as a condition inflicted by LAUNCH]
     </div>
   </div>
 </details>
@@ -34,7 +54,7 @@
   </summary>
   <div class="popover-hint" data-popover-key="knockdown">
     <div style="white-space: pre-line;">
-      <strong>:FighterArts_smash: Knockdown:</strong>
+      <strong>:FighterArts_smash: knockdown:</strong>
       A creature that is Knockdown :FighterArts_smash: has its movement interrupted and is smashed onto the ground from being Airborne :FighterArts_launch:.
       - Any form of Concentration Spells that are active and connected to the afflicted creature must roll a Concentration Check to keep said Spells Active.
       - Also Serves as a condition inflicted by :FighterArts_smash: SMASH, dealing an additional (Dex+STR)d4 to the affected Target.
@@ -154,33 +174,144 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 #### :Conditions_dazed: **Dazed**
  Has **Disadvantage** on Wisdom Saving throws & Abilities that proc on :Conditions_daze2: [[#Stunned]] condition, can't take *Reactions*, and loses the Dexterity bonus to their Armor Class. Removed if an ally Helps this creature.
 
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="berserked">
+    <div style="white-space: pre-line;">
+      <strong>:Conditions_dazed: dazed:</strong>
+      Has Disadvantage on Wisdom Saving throws & Abilities that proc on :Conditions_daze2: Stunned condition, can't take Reactions, and loses the Dexterity bonus to their Armor Class. Removed if an ally Helps this creature.
+    </div>
+  </div>
+</details>
+
 #### :Conditions_off_balance: **Off Balanced**
   The affected entity has **Disadvantage** on Strength and Dexterity Ability checks, and Attack rolls against the entity have **Advantage**.
   Removed by taking damage or when Helped.
 
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="off balanced">
+    <div style="white-space: pre-line;">
+      <strong>:Conditions_off_balance: off balanced:</strong>
+      Has Disadvantage on Wisdom Saving throws & Abilities that proc on :Conditions_daze2: Stunned condition, can't take Reactions, and loses the Dexterity bonus to their Armor Class. Removed if an ally Helps this creature.
+    </div>
+  </div>
+</details>
+
 #### :Conditions_hamstrung: **Hamstrung**
  Movement Speed reduced by 50%. Can be removed by healing.
 
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="hamstrung">
+    <div style="white-space: pre-line;">
+      <strong>:CConditions_hamstrung: Hamstrung:</strong>
+      Movement Speed reduced by 50%. Can be removed by healing.
+    </div>
+  </div>
+</details>
+
 #### :Conditions_gaping_wounds: **Gaping Wounds**
  Attacks against this creature deal an additional 1d4 Piercing damage. Can be removed by healing.
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="gaping wounds">
+    <div style="white-space: pre-line;">
+      <strong>:CConditions_gaping_wounds: Gaping Wounds:</strong>
+      Attacks against this creature deal an additional 1d4 Piercing damage. Can be removed by healing.
+    </div>
+  </div>
+</details>
    
 #### :Conditions_bleeding:**Bleeding**
  Bleeding Creatures takes additional 1d6 {*Scaling with level*} Slashing dmg at the start of each turn and has **Disadvantage** on Constitution Saving throws. Can be removed by healing.
 
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="bleeding">
+    <div style="white-space: pre-line;">
+      <strong>:CConditions_bleeding: Bleeding:</strong>
+      Bleeding Creatures takes additional 1d6 {*Scaling with level*} Slashing dmg at the start of each turn and has Disadvantage on Constitution Saving throws. Can be removed by healing.
+    </div>
+  </div>
+</details>
+
 #### :Conditions_blinded: **Blinded**
-   A Blinded creature can’t see and automatically fails any ability check that requires sight.
-     *Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.*
+ A Blinded creature can’t see and automatically fails any ability check that requires sight.
+  - *Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.*
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="blinded">
+    <div style="white-space: pre-line;">
+      <strong>:CConditions_blinded: Blinded:</strong>
+      A Blinded creature can’t see and automatically fails any ability check that requires sight.
+      - Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.
+    </div>
+  </div>
+</details>
 
 #### 💗 **Charmed**
-   A Charmed creature can’t Attack the charmer or target the charmer with harmful Abilities or Magical Effects.
-     *The charmer has advantage on any ability check to interact socially with the creature.*
+  A Charmed creature can’t Attack the charmer or target the charmer with harmful Abilities or Magical Effects.
+  - *The charmer has advantage on any ability check to interact socially with the creature.*
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="blinded">
+    <div style="white-space: pre-line;">
+      <strong>💗 Charmed:</strong>
+      A Charmed creature can’t Attack the charmer or target the charmer with harmful Abilities or Magical Effects.
+      - The charmer has advantage on any ability check to interact socially with the creature.
+    </div>
+  </div>
+</details>
 
 #### **Deafened**
  A deafened creature can’t hear and automatically fails any ability check that requires hearing.
 
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="deafened">
+    <div style="white-space: pre-line;">
+      <strong>Deafened:</strong>
+      A deafened creature can’t hear and automatically fails any ability check that requires hearing.
+    </div>
+  </div>
+</details>
+
 #### **Frightened**
-   A frightened creature has disadvantage on Ability Checks and Attack rolls while the source of its fear is within Line of Sight.
-     *The creature can’t willingly move closer to the source of its fear.*
+  A frightened creature has disadvantage on Ability Checks and Attack rolls while the source of its fear is within Line of Sight.
+  - *The creature can’t willingly move closer to the source of its fear.*
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="deafened">
+    <div style="white-space: pre-line;">
+      <strong>Deafened:</strong>
+      A frightened creature has disadvantage on Ability Checks and Attack rolls while the source of its fear is within Line of Sight
+      - The creature can’t willingly move closer to the source of its fear.
+    </div>
+  </div>
+</details>
 
 #### **Grappled**
  A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
