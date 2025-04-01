@@ -22,7 +22,7 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     generateSocialImages: true,
     // Global default social image: file "og-image.png" in your static folder
-    socialImage: "og-image.png",
+    socialImage: "Solteria.png",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
