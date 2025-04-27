@@ -1,5 +1,6 @@
 import { CustomEmojis } from "./quartz/plugins/transformers/customEmojis";
 import { QuartzConfig } from "./quartz/cfg";
+import { Subtext } from "./quartz/plugins/transformers/subtext";
 import * as Plugin from "./quartz/plugins";
 
 /**
@@ -60,6 +61,7 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
+      Plugin.Subtext(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),

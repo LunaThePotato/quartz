@@ -138,3 +138,11 @@ img.custom-emoji {
       margin: 0 0.2em;
     }
   }
+  .subtext {
+    font-size: 0.8125rem;    // 13px if your base is 16px
+    color: var(--gray);      // or a specific gray value like #72767d
+    display: block;
+    margin: 0.5em 0;         // optional spacing
+  }
+  
+  
