@@ -3,8 +3,7 @@ title: "Status Conditions (Crowd Control {CC})"
 socialImage: "og-image.png"
 ---
 
-### Additional Homebrew Status Conditions
--=+=-
+### **Additional Homebrew Status Conditions**
 
 #### :FighterArts_break: **Break**
    The creature afflicted with the :FighterArts_break: Break Status have their current dmg resistances negated during the duration of Break & have disadvantage against :FighterArts_topple: [[#Prone]] Afflicting Abilities.
@@ -22,6 +21,9 @@ socialImage: "og-image.png"
     </div>
   </div>
 </details>
+
+
+---
 
 #### :FighterArts_launch: **Knock-up**
   A Creature that is afflicted with "Knock-up" :FighterArts_launch: is unable to move, do Physical Attacks, Disadvantage on Ranged/Spell Attacks, or use item actives for the duration. Blinks are not affected by this condition. 
@@ -41,6 +43,8 @@ socialImage: "og-image.png"
     </div>
   </div>
 </details>
+
+---
 
 #### :FighterArts_smash: **Knockdown**
   A creature that is Knockdown :FighterArts_smash: has its movement interrupted and is smashed onto the ground from being Airborne :FighterArts_launch:.
@@ -63,6 +67,7 @@ socialImage: "og-image.png"
   </div>
 </details>
 
+---
 
 #### **Spell Bind**
  A creature afflicted with this condition are unable to cast any spells & arts for the duration.
@@ -79,6 +84,8 @@ socialImage: "og-image.png"
   </div>
 </details>
 
+---
+
 #### **Aura Bind**
  Any form of Aura effects by items, abilities, and arts are stopped for the duration. 
 
@@ -93,6 +100,8 @@ socialImage: "og-image.png"
     </div>
   </div>
 </details>
+
+---
 
 #### **Stasis**
  A creature that is in stasis is unable to move, attack, cast abilities, or use item actives while also being un-targetable and invulnerable for the duration.
@@ -111,6 +120,8 @@ socialImage: "og-image.png"
   </div>
 </details>
 
+---
+
 #### **Suppression**
  A creature that is affected by this condition is unable to move, attack, cast abilities, or use item actives for the duration.
 >*The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
@@ -128,9 +139,11 @@ socialImage: "og-image.png"
   </div>
 </details>
 
+---
+
 #### **Grounded**
  A Creature that is affected by this cannot use any movement abilities/arts.
->*Any creature that is in mid dashing upon being afflicted with this condition will immediately stop on the spot.*
+> *Any creature that is in mid dashing upon being afflicted with this condition will immediately stop on the spot.*
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
@@ -144,6 +157,8 @@ socialImage: "og-image.png"
     </div>
   </div>
 </details>
+
+---
 
 #### **Berserked**
 The Creature is subjected to unparalleled, animalistic Rage—unable to discern friend from foe—attacking at all costs. The **Berserked** creature inherits:
@@ -169,6 +184,8 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
   </div>
 </details>
 
+---
+
 ### Vanilla D&D 5e Status Conditions
 
 #### :Conditions_dazed: **Dazed**
@@ -186,6 +203,8 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
   </div>
 </details>
 
+---
+
 #### :Conditions_off_balance: **Off Balanced**
   The affected entity has **Disadvantage** on Strength and Dexterity Ability checks, and Attack rolls against the entity have **Advantage**.
   Removed by taking damage or when Helped.
@@ -202,6 +221,8 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
   </div>
 </details>
 
+---
+
 #### :Conditions_hamstrung: **Hamstrung**
  Movement Speed reduced by 50%. Can be removed by healing.
 
@@ -217,6 +238,8 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
   </div>
 </details>
 
+---
+
 #### :Conditions_gaping_wounds: **Gaping Wounds**
  Attacks against this creature deal an additional 1d4 Piercing damage. Can be removed by healing.
 
@@ -231,8 +254,11 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
     </div>
   </div>
 </details>
-   
-#### :Conditions_bleeding:**Bleeding**
+
+---
+
+#### :Conditions_bleeding:**Bleeding** 
+
  Bleeding Creatures takes additional 1d6 {*Scaling with level*} Slashing dmg at the start of each turn and has **Disadvantage** on Constitution Saving throws. Can be removed by healing.
 
 <details>
@@ -241,11 +267,13 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
   </summary>
   <div class="popover-hint" data-popover-key="bleeding">
     <div style="white-space: pre-line;">
-      <strong>:CConditions_bleeding: Bleeding:</strong>
+      <strong>Bleeding:</strong>
       Bleeding Creatures takes additional 1d6 {*Scaling with level*} Slashing dmg at the start of each turn and has Disadvantage on Constitution Saving throws. Can be removed by healing.
     </div>
   </div>
 </details>
+
+---
 
 #### :Conditions_blinded: **Blinded**
  A Blinded creature can’t see and automatically fails any ability check that requires sight.
@@ -264,6 +292,8 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
   </div>
 </details>
 
+---
+
 #### 💗 **Charmed**
   A Charmed creature can’t Attack the charmer or target the charmer with harmful Abilities or Magical Effects.
   - *The charmer has advantage on any ability check to interact socially with the creature.*
@@ -281,6 +311,8 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
   </div>
 </details>
 
+---
+
 #### **Deafened**
  A deafened creature can’t hear and automatically fails any ability check that requires hearing.
 
@@ -295,6 +327,8 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
     </div>
   </div>
 </details>
+
+---
 
 #### **Frightened**
   A frightened creature has disadvantage on Ability Checks and Attack rolls while the source of its fear is within Line of Sight.
@@ -313,56 +347,79 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
   </div>
 </details>
 
+---
+
 #### **Grappled**
  A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
-     *The condition ends if the Grappler is [[#Incapacitated]].*
-     *The condition also ends if an Effect removes the grappled creature from the reach of the Grappler or Grappling Effect, such as when a creature is hurled away by the Thunderwave spell.*
+> - *The condition ends if the Grappler is [[#Incapacitated]].*
+> 
+> - *The condition also ends if an Effect removes the grappled creature from the reach of the Grappler or Grappling Effect, such as when a creature is hurled away by the Thunderwave spell.*
+
+---
 
 #### **Incapacitated**
  An incapacitated creature can’t take **ACTIONS** or **REACTIONS**.
-  
+
+---
+
 #### **Invisible**
    An invisible creature is impossible to see without the aid of magic or a Special sense. For the Purpose of Hiding, the creature is heavily obscured. The creature’s Location can be detected by any noise it makes or any tracks it leaves.
-     *Attack rolls against the creature have* ***Disadvantage***, *and the creature’s Attack rolls have* ***Advantage.***
+   > *Attack rolls against the creature have* ***Disadvantage***, *and the creature’s Attack rolls have* ***Advantage.***
+
+---
 
 #### **Paralyzed**
    A paralyzed creature is ***[[#Incapacitated]]*** and can’t move or speak.
-     *The creature automatically fails* ***Strength*** *and ***Dexterity*** *Saving Throws*. 
-     *Attack rolls against the creature have* ***Advantage***.
-     *Any Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature*
+> - *The creature automatically fails* ***Strength*** *and ***Dexterity*** *Saving Throws*.
+> - *Attack rolls against the creature have* ***Advantage***.
+> - *Any Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature*
+
+---
 
 #### **Petrified**
    A petrified creature is Transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.
-     *The creature is [[#Incapacitated]], can’t move or speak, and is unaware of its surroundings.*
-     *Attack rolls against the creature have* ***Advantage***.
-     *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
-     *The creature has Resistance to all damage.*
-     *The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.*
+   > - *The creature is [[#Incapacitated]], can’t move or speak, and is unaware of its surroundings.*
+   > - *Attack rolls against the creature have* ***Advantage***.
+   > - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
+   > - *The creature has Resistance to all damage.*
+   > - *The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.*
+
+---
 
 #### **Poisoned**
  A poisoned creature has disadvantage on Attack rolls and Ability Checks.
 
+---
+
 #### :FighterArts_topple: **Prone**
    A Prone creature’s only Movement option is to crawl, unless it stands up and thereby ends the condition.
-     *The creature has* ***Disadvantage*** *on Attack rolls.*
-     *An Attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the Attack roll has disadvantage.*
+   > - *The creature has* ***Disadvantage*** *on Attack rolls.*
+   > - *An Attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the Attack roll has disadvantage.*
+
+---
 
 #### **Restrained**
    A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
-     *Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.*
-     *The creature has disadvantage on* ***Dexterity*** *Saving Throws.*
+   > - *Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.*
+   > - *The creature has disadvantage on* ***Dexterity*** *Saving Throws.*
+
+---
 
 #### :Conditions_daze2: **Stunned**
    A Stunned creature is [[#Incapacitated]], can’t move, and can speak only falteringly.
-     *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
-     *Attack rolls against the creature have* ***Advantage.***
+   > - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
+   > - *Attack rolls against the creature have* ***Advantage.***
+
+---
 
 #### **Unconscious**
    An unconscious creature is [[#Incapacitated]], can’t move or speak, and is unaware of its surroundings.
-     *The creature drops whatever it’s holding and falls* .
-     *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws*.
-     *Attack rolls against the creature have* ***Advantage***.
-     *Any Attack that hits the creature is a* ***Critical Hit*** *if the attacker is within 5 feet of the creature*.
+   > - *The creature drops whatever it’s holding and falls* .
+   > - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws*.
+   > - *Attack rolls against the creature have* ***Advantage***.
+   > - *Any Attack that hits the creature is a* ***Critical Hit*** *if the attacker is within 5 feet of the creature*.
+
+---
 
 #### **Exhaustion**
    Some Special Abilities and environmental Hazards, such as starvation and the long-­term Effects of freezing or scorching temperatures, can lead to a Special condition called exhaustion. Exhaustion is measured in six levels. An Effect can give a creature one or more levels of exhaustion, as specified in the effect’s description.
@@ -381,8 +438,10 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 - A creature suffers the Effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on Ability Checks.
 - An Effect that removes exhaustion reduces its level as specified in the effect’s description, with all exhaustion Effects Ending if a creature’s exhaustion level is reduced below 1.
 - Finishing a Long Rest reduces a creature’s exhaustion level by 1, provided that the creature has also ingested some food and drink.
-  
-### Hard Crowd Control
+
+---
+
+### **Hard Crowd Control**
 
 **Crowd control** (commonly shortened to **CC**) is a blanket term used in [League of Legends](https://leagueoflegends.fandom.com/wiki/League_of_Legends "League of Legends") to describe abilities or spells that remove or diminish the control a target unit has over aspects of itself, including being able to cast spells and issue movement or attack commands. Crowd control effects are essentially specialized forms of [debuffs](https://leagueoflegends.fandom.com/wiki/Debuff "Debuff"). However, because they _directly_ hinder a unit's combat ability, crowd control effects are often considered significantly more important than normal debuffs in regular gameplay, resulting in their special classification.
 

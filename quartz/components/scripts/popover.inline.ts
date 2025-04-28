@@ -1,12 +1,12 @@
 import { computePosition, flip, inline, shift } from "@floating-ui/dom"
 import { normalizeRelativeURLs } from "../../util/path"
 import { fetchCanonical } from "./util"
+import Slugger from "github-slugger" // ← Added import
 
 const p = new DOMParser()
 
 // ===== Emoji Replacement Function =====
 function replaceEmojiShortcodes(container: HTMLElement) {
-  // Define your mapping from shortcode to image URL.
   const emojiMap: Record<string, string> = {
     ':FighterArts_smash:': '/emojis/FighterArts_smash.png',
     ':FighterArts_launch:': '/emojis/FighterArts_launch.png',
@@ -14,11 +14,8 @@ function replaceEmojiShortcodes(container: HTMLElement) {
   };
 
   let html = container.innerHTML;
-  // Loop through each shortcode in the mapping and replace it with an <img> tag.
   for (const [shortcode, imgUrl] of Object.entries(emojiMap)) {
-    // Create the replacement <img> tag as a string.
     const imgTag = `<img class="custom-emoji" alt="${shortcode}" src="${imgUrl}" />`;
-    // Replace all occurrences of the shortcode
     html = html.replaceAll(shortcode, imgTag);
   }
   container.innerHTML = html;
@@ -47,7 +44,6 @@ async function mouseEnterHandler(
   const hasAlreadyBeenFetched = () =>
     [...link.children].some((child) => child.classList.contains("popover"));
 
-  // Don't refetch if there's already a popover
   if (hasAlreadyBeenFetched()) {
     return setPosition(link.lastChild as HTMLElement);
   }
@@ -56,7 +52,7 @@ async function mouseEnterHandler(
   thisUrl.hash = "";
   thisUrl.search = "";
   const targetUrl = new URL(link.href);
-  const hash = decodeURIComponent(targetUrl.hash); // e.g. "#Berserked"
+  const rawHash = decodeURIComponent(targetUrl.hash).slice(1); // ← Changed
   targetUrl.hash = "";
   targetUrl.search = "";
 
@@ -64,7 +60,6 @@ async function mouseEnterHandler(
     console.error(err);
   });
 
-  // Bailout if another popover exists
   if (hasAlreadyBeenFetched()) {
     return;
   }
@@ -86,7 +81,6 @@ async function mouseEnterHandler(
       const img = document.createElement("img");
       img.src = targetUrl.toString();
       img.alt = targetUrl.pathname;
-
       popoverInner.appendChild(img);
       break;
     case "application":
@@ -104,38 +98,35 @@ async function mouseEnterHandler(
       const contents = await response.text();
       const html = p.parseFromString(contents, "text/html");
       normalizeRelativeURLs(html, targetUrl);
-      // Remove all IDs to prevent duplicates
       html.querySelectorAll("[id]").forEach((el) => el.removeAttribute("id"));
 
-      // Extract key from the link's hash (if present)
       let key: string | null = null;
-      if (hash !== "") {
-        key = hash.slice(1).toLowerCase(); // Remove '#' and normalize
+      if (rawHash !== "") {
+        key = rawHash.toLowerCase();
       }
 
       if (key) {
-        // Query for the element that has the matching data-popover-key attribute
         const targetElt = html.querySelector(`.popover-hint[data-popover-key="${key}"]`) as HTMLElement | null;
         if (!targetElt) return;
         popoverInner.appendChild(targetElt);
       } else {
-        // Fallback: if no key is specified, append all popover-hint elements
         const elts = [...html.getElementsByClassName("popover-hint")];
         if (elts.length === 0) return;
         elts.forEach((elt) => popoverInner.appendChild(elt));
       }
-      
-      // After inserting popover content, replace any emoji shortcodes with <img> tags
+
       replaceEmojiShortcodes(popoverInner);
   }
 
   setPosition(popoverElement);
   link.appendChild(popoverElement);
 
-  if (hash !== "") {
-    const heading = popoverInner.querySelector(hash) as HTMLElement | null;
+  // ---- Adjusted scrolling logic using Slugger ----
+  if (rawHash !== "") {
+    const slugger = new Slugger();
+    const slug = slugger.slug(rawHash);
+    const heading = popoverInner.querySelector(`#${CSS.escape(slug)}`) as HTMLElement | null;
     if (heading) {
-      // Leave ~12px of buffer when scrolling to a heading
       popoverInner.scroll({ top: heading.offsetTop - 12, behavior: "instant" });
     }
   }
