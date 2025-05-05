@@ -16,11 +16,13 @@
 
 - (:WeaponArts_flourish: **Flourish**) - As an Bonus Action, you lash out an non-lethal Feint attack dealing 2d6+2 Slashing dmg. Regardless if hit or not, the Target must make a DC:15 Dexterity Saving Throw and be inflicted with :Conditions_off_balance: [[Status Conditions (Crowd Control {CC})#**Off-Balanced**|Off Balanced]] for 2 rounds.
 
+
+!roll 2d6+2
 -# Can be used Once per Short Rest
 
-{**The Gambler's Stride**} - When you take the Attack action, you make two weapon attacks. You may forgo your second attack to unleash a Bonus Action Art. 
+{**The Gambler's Stride**} - When you take the Attack action, you make two weapon attacks. You may delay your second attack to unleash a Bonus Action Art first. 
 - If your delayed attack still lands, you regain half the spent charge and can **optionally** make another melee attack with your critical threshold lowered by 1
-- On your 3rd strike and beyond, your AC is reduced by 1 per strike (*Till the End of your Turn*) and you remain open and provoke **Opportunity Attacks** by your target.
+- On your 3rd strike and beyond, your AC is reduced by 1 per strike (*Till the End of your Turn*).
 
 -# (***Requirement***: *Finesse Property Weapon*)
 
@@ -47,10 +49,17 @@
 
 - **Cost:** 3 charges + point of **Swagger** (*Conditional*)
 - **Type:** Bonus Action
-- **Effect:** You swiftly jab your claws onto your opponent dealing an additional 1d6 Piercing damage. On-hit, the opponent must make a DC: 15 Constitution saving Throw and be inflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]].
+- **Effect:** You roll a melee weapon attack to swiftly jab your claws onto your opponent dealing an additional 1d6 Piercing damage. On-hit, the opponent must make a DC: 15 Constitution saving Throw and be inflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]].
  	>  (**Cripple**) - Immediately after applying Break, you may expend additional 2 charges to make a second claw attack at the same target's legs. On-Hit, the target must succeed a DC: 15 Constitution Save or be :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Topple]].
 
+**Attack a**)
+!roll 2d8+7+1d6
+
+**Attack b**)
+!roll 2d8+7+1d6
+
 -# *If either save succeeds, the target still takes the attack’s damage but avoids the condition.*
+
 -# *You can expend a point of Swagger to use this Art after successfully **Parrying** an Attack.*
 
 #### **Waltz of the Wicked**
@@ -62,6 +71,11 @@
   > 	- L can briefly Dash up up to an additional 10ft, passing harmlessly though creatures (*not provoking Opportunity attack*)
   > 	- And Spin, making three consecutive 5ft arc attacks. Each creature within 5ft of you must succeed on a DC:15 Dexterity Saving Throw, Per Spin Strike, or take 2d4(*Slashing*)+7+1d6(:FighterArts_dark_element: [Necrotic](https://solteria.org/Mechanics/Elemental-Combo-System#-dark-combos))) damage and suffer "On-hits" effects. On a Pass, they only take half Damage.
 
+Attack A)
+!roll 2d8+7+1d12
+
+Attack B)
+!roll 2d4+7+1d6
 
 #### **Embers of The Fool**
 
@@ -70,3 +84,20 @@
 - **Range**: 60ft
 - **Effect**: The Runic glyphs of your Claws manifest 2 clumps of Blue Flames that ***hurl*** toward a Creature. Make a ranged spell attack against the Target. On-hit, the target takes 1d10(:FighterArts_fire_elemental: [Fire](https://solteria.org/Mechanics/Elemental-Combo-System#-fire-combos))+(*Prof. Modifier*) damage per Flame.
   > (**Empowered Flame**) - If Casted as an **Action**, for the cost of 4 Charges, you manifest 1 additional Flame for every 1 point of **Swagger** and **Moxie** you have. Make a ranged Spell Attack & each focused Dart of Flame is beamed straight to a creature of your choice within 120ft of you. On-Hit, the target takes 1d6(:FighterArts_fire_elemental: [Fire](https://solteria.org/Mechanics/Elemental-Combo-System#-fire-combos))+(*Prof. Modifier*) damager per Flame hit.
+
+---
+
+### **Combo Clarity**
+
+**Start turn**
+
+- Attack Left claw (*1st Attack*)
+- Bonus Action art - Cunning strike (*2nd Attack*)
+- Cunning Strike pt2 (**Optional**) (*3rd Attack*)
+- Attack Right Claw(*4th Attack*)
+- Attack Left claw (*5th Attack*)
+
+
+-# The 5th attack can only be made **IF** the 4th/3rd attack from Right Claw **HITS**
+
+**End of Turn**
