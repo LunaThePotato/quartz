@@ -47,15 +47,17 @@
 
 #### **Cunning Strike**
 
-- **Cost:** 3 charges + point of **Swagger** (*Conditional*)
+- **Cost:** 3 charges + point of **Swagger** (*Conditional to cast as an Reaction*)
 - **Type:** Bonus Action
 - **Effect:** You roll a melee weapon attack to swiftly jab your claws onto your opponent dealing an additional 1d6 Piercing damage. On-hit, the opponent must make a DC: 15 Constitution saving Throw and be inflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]].
  	>  (**Cripple**) - Immediately after applying Break, you may expend additional 2 charges to make a second claw attack at the same target's legs. On-Hit, the target must succeed a DC: 15 Constitution Save or be :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Topple]].
 
-**Attack a**)
+**Attack A**)
+
 !roll 2d8+7+1d6
 
-**Attack b**)
+**Attack B**)
+
 !roll 2d8+7+1d6
 
 -# *If either save succeeds, the target still takes the attack’s damage but avoids the condition.*
@@ -71,10 +73,12 @@
   > 	- L can briefly Dash up up to an additional 10ft, passing harmlessly though creatures (*not provoking Opportunity attack*)
   > 	- And Spin, making three consecutive 5ft arc attacks. Each creature within 5ft of you must succeed on a DC:15 Dexterity Saving Throw, Per Spin Strike, or take 2d4(*Slashing*)+7+1d6(:FighterArts_dark_element: [Necrotic](https://solteria.org/Mechanics/Elemental-Combo-System#-dark-combos))) damage and suffer "On-hits" effects. On a Pass, they only take half Damage.
 
-Attack A)
+**Attack A**)
+
 !roll 2d8+7+1d12
 
-Attack B)
+**Attack B**)
+
 !roll 2d4+7+1d6
 
 #### **Embers of The Fool**
@@ -89,7 +93,7 @@ Attack B)
 
 ### **Combo Clarity**
 
-**Start turn**
+-={**Start turn**}=-
 
 - Attack Left claw (*1st Attack*)
 - Bonus Action art - Cunning strike (*2nd Attack*)
@@ -100,4 +104,4 @@ Attack B)
 
 -# The 5th attack can only be made **IF** the 4th/3rd attack from Right Claw **HITS**
 
-**End of Turn**
+-={**End of Turn**}=-
