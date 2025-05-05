@@ -5,7 +5,10 @@ socialImage: "og-image.png"
 
 ### **Additional Homebrew Status Conditions**
 
-#### :FighterArts_break: **Break**
+#### **Break**
+
+^b5f0ed
+
    The creature afflicted with the :FighterArts_break: Break Status have their current dmg resistances negated during the duration of Break & have disadvantage against :FighterArts_topple: [[#Prone]] Afflicting Abilities.
 `[Damage Type Immunities remain unaffected]`
 
@@ -13,9 +16,9 @@ socialImage: "og-image.png"
   <summary style="cursor: pointer; color: var(--primary)">
     Popover Text Detail
   </summary>
-  <div class="popover-hint" data-popover-key="knock-up">
+  <div class="popover-hint" data-popover-key="break">
     <div style="white-space: pre-line;">
-      <strong>:FighterArts_break: break:</strong>
+      <strong>:FighterArts_break: Break:</strong>
        The creature afflicted with the :FighterArts_break: Break Status have their current dmg resistances negated during the duration of Break & have disadvantage against :FighterArts_topple: Prone Afflicting Abilities.
        [Damage Type Immunities remain unaffected]
     </div>
@@ -25,7 +28,7 @@ socialImage: "og-image.png"
 
 ---
 
-#### :FighterArts_launch: **Knock-up**
+#### **Knock-up**
   A Creature that is afflicted with "Knock-up" :FighterArts_launch: is unable to move, do Physical Attacks, Disadvantage on Ranged/Spell Attacks, or use item actives for the duration. Blinks are not affected by this condition. 
 - *Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*
 `[Also Serves as a condition inflicted by LAUNCH]`
@@ -46,7 +49,7 @@ socialImage: "og-image.png"
 
 ---
 
-#### :FighterArts_smash: **Knockdown**
+#### **Knockdown**
   A creature that is Knockdown :FighterArts_smash: has its movement interrupted and is smashed onto the ground from being Airborne :FighterArts_launch:.
 >*Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*.
 >Also Serves as a condition inflicted by :FighterArts_smash: SMASH, dealing an additional (Dex+STR)d4 to the affected Target.
@@ -66,6 +69,24 @@ socialImage: "og-image.png"
     </div>
   </div>
 </details>
+
+---
+
+#### **Burst**
+  When an enemy affected by :Conditions_daze2: [[#**Stunned**|Stunned]], or :FighterArts_launch: [[#**Knock-up**|Launch]] is afflicted by the :Conditions_burst: Burst status, it is launched 15ft away from the Creature who afflicted it, Dealing 2d12 Force Damage if Crashes against a Wall. It Temporarily removes any present Enraged Status till the end of it's 3rd turn.
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="burst">
+    <div style="white-space: pre-line;">
+      <strong>:Conditions_burst: Burst:</strong>
+      When an enemy affected by :Conditions_daze2: Stun, or :FighterArts_launch: Launch is afflicted by the :Conditions_burst: Burst status, it is launched 15ft away from the Creature who afflicted it, Dealing 2d12 Force Damage if Crashes against a Wall. It Temporarily removes any present Enraged Status till the end of it's 3rd turn.
+    </div>
+  </div>
+</details>
+
 
 ---
 
@@ -188,7 +209,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ### Vanilla D&D 5e Status Conditions
 
-#### :Conditions_dazed: **Dazed**
+#### **Dazed**
  Has **Disadvantage** on Wisdom Saving throws & Abilities that proc on :Conditions_daze2: [[#Stunned]] condition, can't take *Reactions*, and loses the Dexterity bonus to their Armor Class. Removed if an ally Helps this creature.
 
 <details>
@@ -205,25 +226,26 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### :Conditions_off_balance: **Off Balanced**
+#### **Off-Balanced**
   The affected entity has **Disadvantage** on Strength and Dexterity Ability checks, and Attack rolls against the entity have **Advantage**.
-  Removed by taking damage or when Helped.
+  - Removed by taking damage or when Helped.
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
     Popover Text Detail
   </summary>
-  <div class="popover-hint" data-popover-key="off balanced">
+  <div class="popover-hint" data-popover-key="off-balanced">
     <div style="white-space: pre-line;">
-      <strong>:Conditions_off_balance: off balanced:</strong>
-      Has Disadvantage on Wisdom Saving throws & Abilities that proc on :Conditions_daze2: Stunned condition, can't take Reactions, and loses the Dexterity bonus to their Armor Class. Removed if an ally Helps this creature.
+      <strong>:Conditions_off_balance: Off-Balanced:</strong>
+      The affected entity has Disadvantage on Strength and Dexterity Ability checks, and Attack rolls against the entity have Advantage.
+      - Removed by taking damage or when Helped.
     </div>
   </div>
 </details>
 
 ---
 
-#### :Conditions_hamstrung: **Hamstrung**
+#### **Hamstrung**
  Movement Speed reduced by 50%. Can be removed by healing.
 
 <details>
@@ -232,7 +254,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
   </summary>
   <div class="popover-hint" data-popover-key="hamstrung">
     <div style="white-space: pre-line;">
-      <strong>:CConditions_hamstrung: Hamstrung:</strong>
+      <strong>:Conditions_hamstrung: Hamstrung:</strong>
       Movement Speed reduced by 50%. Can be removed by healing.
     </div>
   </div>
@@ -240,16 +262,16 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### :Conditions_gaping_wounds: **Gaping Wounds**
+#### **Gaping-Wounds**
  Attacks against this creature deal an additional 1d4 Piercing damage. Can be removed by healing.
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
     Popover Text Detail
   </summary>
-  <div class="popover-hint" data-popover-key="gaping wounds">
+  <div class="popover-hint" data-popover-key="gaping-wounds">
     <div style="white-space: pre-line;">
-      <strong>:CConditions_gaping_wounds: Gaping Wounds:</strong>
+      <strong>:Conditions_gaping_wounds: Gaping-Wounds:</strong>
       Attacks against this creature deal an additional 1d4 Piercing damage. Can be removed by healing.
     </div>
   </div>
@@ -257,7 +279,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### :Conditions_bleeding:**Bleeding** 
+#### **Bleeding** 
 
  Bleeding Creatures takes additional 1d6 {*Scaling with level*} Slashing dmg at the start of each turn and has **Disadvantage** on Constitution Saving throws. Can be removed by healing.
 
@@ -267,15 +289,15 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
   </summary>
   <div class="popover-hint" data-popover-key="bleeding">
     <div style="white-space: pre-line;">
-      <strong>Bleeding:</strong>
-      Bleeding Creatures takes additional 1d6 {*Scaling with level*} Slashing dmg at the start of each turn and has Disadvantage on Constitution Saving throws. Can be removed by healing.
+      <strong>:Conditions_bleeding:Bleeding:</strong>
+      Bleeding Creatures takes additional 1d6 (Scaling with level) Slashing dmg at the start of each turn and has Disadvantage on Constitution Saving throws. Can be removed by healing.
     </div>
   </div>
 </details>
 
 ---
 
-#### :Conditions_blinded: **Blinded**
+#### **Blinded**
  A Blinded creature can’t see and automatically fails any ability check that requires sight.
   - *Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.*
 
@@ -294,7 +316,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### 💗 **Charmed**
+#### **Charmed**
   A Charmed creature can’t Attack the charmer or target the charmer with harmful Abilities or Magical Effects.
   - *The charmer has advantage on any ability check to interact socially with the creature.*
 
@@ -351,73 +373,202 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 #### **Grappled**
  A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
-> - *The condition ends if the Grappler is [[#Incapacitated]].*
-> 
-> - *The condition also ends if an Effect removes the grappled creature from the reach of the Grappler or Grappling Effect, such as when a creature is hurled away by the Thunderwave spell.*
+- *The condition ends if the Grappler is [[#Incapacitated]].* 
+- *The condition also ends if an Effect removes the grappled creature from the reach of the Grappler or Grappling Effect, such as when a creature is hurled away by the Thunderwave spell.*
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="grappled">
+    <div style="white-space: pre-line;">
+      <strong>Grappled:</strong>
+      A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
+      - The condition ends if the Grappler is Incapacitated. 
+      - The condition also ends if an Effect removes the grappled creature from the reach of the Grappler or Grappling Effect, such as when a creature is hurled away by the Thunderwave spell.
+    </div>
+  </div>
+</details>
 
 ---
 
 #### **Incapacitated**
  An incapacitated creature can’t take **ACTIONS** or **REACTIONS**.
 
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="incapacitated">
+    <div style="white-space: pre-line;">
+      <strong>Incapacitated:</strong>
+      An incapacitated creature can’t take ACTIONS or REACTIONS.
+    </div>
+  </div>
+</details>
+
 ---
 
 #### **Invisible**
-   An invisible creature is impossible to see without the aid of magic or a Special sense. For the Purpose of Hiding, the creature is heavily obscured. The creature’s Location can be detected by any noise it makes or any tracks it leaves.
-   > *Attack rolls against the creature have* ***Disadvantage***, *and the creature’s Attack rolls have* ***Advantage.***
+  An invisible creature is impossible to see without the aid of magic or a Special sense. For the Purpose of Hiding, the creature is heavily obscured. The creature’s Location can be detected by any noise it makes or any tracks it leaves.
+
+- *Attack rolls against the creature have* ***Disadvantage***, *and the creature’s Attack rolls have* ***Advantage.***
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="invisible">
+    <div style="white-space: pre-line;">
+      <strong>Invisible:</strong>
+      An invisible creature is impossible to see without the aid of magic or a Special sense. For the Purpose of Hiding, the creature is heavily obscured. The creature’s Location can be detected by any noise it makes or any tracks it leaves.
+      - Attack rolls against the creature have Disadvantage, and the creature’s Attack rolls have Advantage.
+    </div>
+  </div>
+</details>
 
 ---
 
 #### **Paralyzed**
-   A paralyzed creature is ***[[#Incapacitated]]*** and can’t move or speak.
-> - *The creature automatically fails* ***Strength*** *and ***Dexterity*** *Saving Throws*.
-> - *Attack rolls against the creature have* ***Advantage***.
-> - *Any Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature*
+  A paralyzed creature is ***[[#Incapacitated]]*** and can’t move or speak.
+- *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws*.
+- *Attack rolls against the creature have* ***Advantage***.
+- *Any Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature*
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="paralyzed">
+    <div style="white-space: pre-line;">
+      <strong>Paralyzed:</strong>
+      A paralyzed creature is Incapacitated and can’t move or speak.
+      - The creature automatically fails Strength and Dexterity Saving Throws.
+      - Attack rolls against the creature have Advantage.
+      - Any Attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.
+    </div>
+  </div>
+</details>
 
 ---
 
 #### **Petrified**
-   A petrified creature is Transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.
-   > - *The creature is [[#Incapacitated]], can’t move or speak, and is unaware of its surroundings.*
-   > - *Attack rolls against the creature have* ***Advantage***.
-   > - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
-   > - *The creature has Resistance to all damage.*
-   > - *The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.*
+  A petrified creature is Transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.
+   - *The creature is [[#Incapacitated]], can’t move or speak, and is unaware of its surroundings.*
+   - *Attack rolls against the creature have* ***Advantage***.
+   - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
+   - *The creature has Resistance to all damage.*
+   - *The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.*
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="petrified">
+    <div style="white-space: pre-line;">
+      <strong>Petrified:</strong>
+      A petrified creature is Transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.
+      - The creature is Incapacitated, can’t move or speak, and is unaware of its surroundings.
+      - Attack rolls against the creature have Advantage.
+      - The creature automatically fails Strength and Dexterity Saving Throws.
+      - The creature has Resistance to all damage.
+      - The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.
+    </div>
+  </div>
+</details>
 
 ---
 
 #### **Poisoned**
  A poisoned creature has disadvantage on Attack rolls and Ability Checks.
 
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="poisoned">
+    <div style="white-space: pre-line;">
+      <strong>Poisoned:</strong>
+      A poisoned creature has disadvantage on Attack rolls and Ability Checks.
+    </div>
+  </div>
+</details>
+
 ---
 
-#### :FighterArts_topple: **Prone**
+#### **Prone**
    A Prone creature’s only Movement option is to crawl, unless it stands up and thereby ends the condition.
-   > - *The creature has* ***Disadvantage*** *on Attack rolls.*
-   > - *An Attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the Attack roll has disadvantage.*
+   - *The creature has* ***Disadvantage*** *on Attack rolls.*
+   - *An Attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the Attack roll has disadvantage.*
+ - The creature also has ***disadvantage*** against :FighterArts_launch: Launch & :Conditions_daze2: Stunned afflicting Arts.
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="prone">
+    <div style="white-space: pre-line;">
+      <strong>:FighterArts_topple: Prone:</strong>
+       A Prone creature’s only Movement option is to crawl, unless it stands up and thereby ends the condition.
+        - The creature has Disadvantage on Attack rolls.
+        - An Attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the Attack roll has disadvantage.
+        - The creature also has disadvantage agaisnt :FighterArts_launch: Launch & :Conditions_daze2: Stunned afflicting Arts.
+    </div>
+  </div>
+</details>
 
 ---
 
 #### **Restrained**
-   A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
-   > - *Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.*
-   > - *The creature has disadvantage on* ***Dexterity*** *Saving Throws.*
+  A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
+ - *Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.*
+ - *The creature has disadvantage on* ***Dexterity*** *Saving Throws.*
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="restrained">
+    <div style="white-space: pre-line;">
+      <strong>Restrained:</strong>
+      A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
+      - Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.
+      - The creature has disadvantage on Dexterity Saving Throws.
+    </div>
+  </div>
+</details>
 
 ---
 
-#### :Conditions_daze2: **Stunned**
-   A Stunned creature is [[#Incapacitated]], can’t move, and can speak only falteringly.
-   > - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
-   > - *Attack rolls against the creature have* ***Advantage.***
+#### **Stunned**
+  A Stunned creature is [[#Incapacitated]], can’t move, and can speak only falteringly.
+- *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
+- *Attack rolls against the creature have* ***Advantage.***
+- The Creature also automatically fails on :Conditions_burst: Burst afflicting Arts.
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="stunned">
+    <div style="white-space: pre-line;">
+      <strong>:Conditions_daze2: Stunned:</strong>
+       A Stunned creature is Incapacitated, can’t move, and can speak only falteringly.
+       - The creature automatically fails Strength and Dexterity Saving Throws.
+       - Attack rolls against the creature have Advantage.
+       - The Creature also automatically fails on :Conditions_burst: Burst afflicting Arts.
+    </div>
+  </div>
+</details>
 
 ---
 
 #### **Unconscious**
    An unconscious creature is [[#Incapacitated]], can’t move or speak, and is unaware of its surroundings.
-   > - *The creature drops whatever it’s holding and falls* .
-   > - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws*.
-   > - *Attack rolls against the creature have* ***Advantage***.
-   > - *Any Attack that hits the creature is a* ***Critical Hit*** *if the attacker is within 5 feet of the creature*.
+   - *The creature drops whatever it’s holding and falls* .
+   - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws*.
+   - *Attack rolls against the creature have* ***Advantage***.
+   - *Any Attack that hits the creature is a* ***Critical Hit*** *if the attacker is within 5 feet of the creature*.
 
 ---
 
@@ -447,12 +598,12 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
  In This campaign what is Considered Hard Crowd Control would be the following: ^edd43c
  
-- :FighterArts_break: [[#FighterArts_break **Break**|Break]]
-- :FighterArts_topple: [[#FighterArts_topple **Prone**|Prone]]
-- :FighterArts_launch: [[#FighterArts_launch **Knock-up**|Knock-up]]
-- :FighterArts_smash: [[#FighterArts_smash **Knockdown**|Knockdown]]
-- :Conditions_hamstrung: [[#Conditions_hamstrung **Hamstrung**|Hamstrung]]
-- :Conditions_gaping_wounds: [[#Conditions_gaping_wounds **Gaping Wounds**|Gaping Wounds]]
-- :Conditions_bleeding: [[#Conditions_bleeding **Bleeding**|Bleeding]]
+- :FighterArts_break: [[#**Break**|Break]]
+- :FighterArts_topple: [[#**Prone**|Prone]]
+- :FighterArts_launch: [[#**Knock-up**|Knock-up]]
+- :FighterArts_smash: [[#**Knockdown**|Knockdown]]
+- :Conditions_hamstrung: [[#**Hamstrung**|Hamstrung]]
+- :Conditions_gaping_wounds: [[#**Gaping-Wounds**|Gaping-Wounds]]
+- :Conditions_bleeding: [[#**Bleeding**|Bleeding]]
 - [[#**Paralyzed**|Paralyzed]]
-- :Conditions_daze2: [[#Conditions_daze2 **Stunned**|Stunned]]
+- :Conditions_daze2: [[#**Stunned**|Stunned]]

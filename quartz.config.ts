@@ -2,36 +2,49 @@ import { CustomEmojis } from "./quartz/plugins/transformers/customEmojis";
 import { QuartzConfig } from "./quartz/cfg";
 import { Subtext } from "./quartz/plugins/transformers/subtext";
 import * as Plugin from "./quartz/plugins";
+import { visit } from "unist-util-visit";
 
 /**
- * Quartz 4 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
+ * A small Remark plugin that forces every heading to use an ID
+ * derived by replacing ":"→"_" and spaces→"-", then lowercasing.
  */
+function remarkCustomSlugifier() {
+  return () => (tree: any) => {
+    visit(tree, "heading", (node: any) => {
+      // Extract the plain text from all child nodes
+      const text = node.children
+        .map((c: any) => ("value" in c ? c.value : ""))
+        .join("");
+      // Build the slug: replace colons, spaces, lowercase
+      const slug = text
+        .replace(/:/g, "_")
+        .replace(/\s+/g, "-")
+        .toLowerCase();
+      // Attach as an explicit ID for rehype to pick up
+      node.data = node.data || {};
+      node.data.hProperties = node.data.hProperties || {};
+      node.data.hProperties.id = slug;
+    });
+  };
+}
+
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Solteria Wiki",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: { provider: "plausible" },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: true,
-    // Global default social image: file "og-image.png" in your static folder
     socialImage: "Solteria.png",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
-      typography: {
-        header: "Noto Serif",
-        body: "PT Serif",
-        code: "IBM Plex Mono",
-      },
+      typography: { header: "Noto Serif", body: "PT Serif", code: "IBM Plex Mono" },
       colors: {
         lightMode: {
           light: "#faf8f8",
@@ -62,23 +75,27 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.Subtext(),
-      Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
-      }),
+      Plugin.CreatedModifiedDate({ priority: ["frontmatter", "filesystem"] }),
       Plugin.SyntaxHighlighting({
-        theme: {
-          light: "github-light",
-          dark: "github-dark",
-        },
+        theme: { light: "github-light", dark: "github-dark" },
         keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
+
+      // ← Insert our custom slugifier here!
+      {
+        name: "CustomSlugifier",
+        markdownPlugins() {
+          return [remarkCustomSlugifier()];
+        },
+      },
+
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
-      CustomEmojis(), 
+      CustomEmojis(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
@@ -87,10 +104,7 @@ const config: QuartzConfig = {
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
-      Plugin.ContentIndex({
-        enableSiteMap: true,
-        enableRSS: true,
-      }),
+      Plugin.ContentIndex({ enableSiteMap: true, enableRSS: true }),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),

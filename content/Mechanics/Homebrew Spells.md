@@ -9,7 +9,7 @@ You can infuse yourself, or a willing creature that you can see within range, a 
 > - A +2 to its ***Armor Class***
 > - An **Additional Weapon Attack** at each of it's turns.
 > - Additional 10ft of movement speed.
-> - & Deal additional 1d4 :FighterArts_dark_element: Necrotic Damage with every Melee weapon Attack
+> - & Deal additional 1d4 :FighterArts_dark_element: [Necrotic](https://solteria.org/Mechanics/Elemental-Combo-System#-dark-combos)) Damage with every Melee weapon Attack
 
 ---
 
@@ -21,7 +21,7 @@ While In this Post-Mortem state, The **"Slayer"** is then Marked with the slayed
  {+}
 > The [[Status Conditions (Crowd Control {CC})#Berserked|Berserked]] Creature also inherits:
 > - Any healing from outside sources other than your own healing from attacks is cut by 1/4th of the original total to the lowest denominator no less than 1 Hp.
-> - Deals Additional 1d6{ :FighterArts_dark_element: Necrotic} Damage with every Melee Weapon Attack
+> - Deals Additional 1d6{ :FighterArts_dark_element: [Necrotic](https://solteria.org/Mechanics/Elemental-Combo-System#-dark-combos))} Damage with every Melee Weapon Attack
 > - Heals 2d4+1 Hp for each successful attack.
 
 {+}

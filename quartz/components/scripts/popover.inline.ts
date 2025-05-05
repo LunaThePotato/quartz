@@ -10,6 +10,19 @@ function replaceEmojiShortcodes(container: HTMLElement) {
   const emojiMap: Record<string, string> = {
     ':FighterArts_smash:': '/emojis/FighterArts_smash.png',
     ':FighterArts_launch:': '/emojis/FighterArts_launch.png',
+    ':FighterArts_topple:': '/emojis/FighterArts_topple.png',
+    ':FighterArts_break:': '/emojis/FighterArts_break.png',
+    ':Conditions_daze2:': '/emojis/Conditions_daze2.png',
+    ':Conditions_burst:': '/emojis/Conditions_burst.png',
+    ':Conditions_bleeding:': '/emojis/Conditions_bleeding.png',
+    ':Conditions_blinded:': '/emojis/Conditions_blinded.png',
+    ':Conditions_dazed:': '/emojis/Conditions_dazed.png',
+    ':Conditions_gaping_wounds:': '/emojis/Conditions_gaping_wounds.png',
+    ':Conditions_hamstrung:': '/emojis/Conditions_hamstrung.png',
+    ':Conditions_off_balance:': '/emojis/Conditions_off_balance.png',
+    ':Conditions_stun:': '/emojis/Conditions_stun.png',
+    ':Conditions_weak_grip:': '/emojis/Conditions_weak_grip.png',
+
     // Add more mappings as needed...
   };
 
