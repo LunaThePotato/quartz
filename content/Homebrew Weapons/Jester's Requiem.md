@@ -2,7 +2,8 @@
  Dmg: 2d8(*Slashing*)+(*Dex*)
 
 (*Copy & Paste for Damage!*) 
- !roll 2d8+7
+
+!roll 2d8+7
  
  {**Finesse**} - *When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.*
 
@@ -16,8 +17,10 @@
 
 - (:WeaponArts_flourish: **Flourish**) - As an Bonus Action, you lash out an non-lethal Feint attack dealing 2d6+2 Slashing dmg. Regardless if hit or not, the Target must make a DC:15 Dexterity Saving Throw and be inflicted with :Conditions_off_balance: [[Status Conditions (Crowd Control {CC})#**Off-Balanced**|Off Balanced]] for 2 rounds.
 
+**Flourish Attack DMG Roll**
 
 !roll 2d6+2
+
 -# Can be used Once per Short Rest
 
 {**The Gambler's Stride**} - When you take the Attack action, you make two weapon attacks. You may delay your second attack to unleash a Bonus Action Art first. 
