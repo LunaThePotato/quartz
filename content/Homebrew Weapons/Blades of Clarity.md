@@ -28,7 +28,7 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 
 ### **Weapon Arts**
 
-{**Passive**} - ***PROTOTYPE: Chronos*** - As Matthew taps into his growing innate :FighterArts_light_element: Chronomancy Abilities to take down his opponents with Precise executions to seize the Future! Matthew is granted {**14 Charges**} to expend into your Weapon Arts. You can regain 1d4+1 Charges for every **Takedown** (*Kills and Assist*) on an enemy. You can also replenish 2d4+1 on a **Short Rest** or full upon completing a **Long Rest**.
+{**Passive**} - ***Aspect of Time*** - As Matthew taps into his growing innate :FighterArts_light_element: Chronomancy Abilities to take down his opponents with Precise executions to seize the Future! Matthew is granted {**14 Charges**} to expend into your Weapon Arts. You can regain 1d4+1 Charges for every **Takedown** (*Kills and Assist*) on an enemy. You can also replenish 2d4+1 on a **Short Rest** or full upon completing a **Long Rest**.
 
 ### **Echo Strike**
 
