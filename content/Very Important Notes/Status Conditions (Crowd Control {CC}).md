@@ -28,7 +28,7 @@ socialImage: "og-image.png"
 
 ---
 
-#### **Knock-up**
+### **Knock-up**
   A Creature that is afflicted with "Knock-up" :FighterArts_launch: is unable to move, do Physical Attacks, Disadvantage on Ranged/Spell Attacks, or use item actives for the duration. Blinks are not affected by this condition. 
 - *Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*
 `[Also Serves as a condition inflicted by LAUNCH]`
@@ -49,7 +49,7 @@ socialImage: "og-image.png"
 
 ---
 
-#### **Knockdown**
+### **Knockdown**
   A creature that is Knockdown :FighterArts_smash: has its movement interrupted and is smashed onto the ground from being Airborne :FighterArts_launch:.
 >*Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*.
 >Also Serves as a condition inflicted by :FighterArts_smash: SMASH, dealing an additional (Dex+STR)d4 to the affected Target.
@@ -72,7 +72,7 @@ socialImage: "og-image.png"
 
 ---
 
-#### **Burst**
+### **Burst**
   When an enemy affected by :Conditions_daze2: [[#**Stunned**|Stunned]], or :FighterArts_launch: [[#**Knock-up**|Launch]] is afflicted by the :Conditions_burst: Burst status, it is launched 15ft away from the Creature who afflicted it, Dealing 2d12 Force Damage if Crashes against a Wall. It Temporarily removes any present Enraged Status till the end of it's 3rd turn.
 
 <details>
@@ -90,7 +90,7 @@ socialImage: "og-image.png"
 
 ---
 
-#### **Spell Bind**
+### **Spell Bind**
  A creature afflicted with this condition are unable to cast any spells & arts for the duration.
 
 <details>
@@ -107,7 +107,7 @@ socialImage: "og-image.png"
 
 ---
 
-#### **Aura Bind**
+### **Aura Bind**
  Any form of Aura effects by items, abilities, and arts are stopped for the duration. 
 
 <details>
@@ -124,7 +124,24 @@ socialImage: "og-image.png"
 
 ---
 
-#### **Stasis**
+### **Ghosting**
+A Creature Afflicted with Ghosted gain the ability to phase through other Creatures.
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="ghosting">
+    <div style="white-space: pre-line;">
+      <strong>Ghosting:</strong>
+      A Creature Afflicted with Ghosted gain the ability to phase through other Creatures.
+    </div>
+  </div>
+</details>
+
+---
+
+### **Stasis**
  A creature that is in stasis is unable to move, attack, cast abilities, or use item actives while also being un-targetable and invulnerable for the duration.
 >*The creature remains fully conscious to their surroundings but unable to speak.*
 
@@ -143,7 +160,7 @@ socialImage: "og-image.png"
 
 ---
 
-#### **Suppression**
+### **Suppression**
  A creature that is affected by this condition is unable to move, attack, cast abilities, or use item actives for the duration.
 >*The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
 
@@ -162,7 +179,7 @@ socialImage: "og-image.png"
 
 ---
 
-#### **Grounded**
+### **Grounded**
  A Creature that is affected by this cannot use any movement abilities/arts.
 > *Any creature that is in mid dashing upon being afflicted with this condition will immediately stop on the spot.*
 
@@ -181,7 +198,7 @@ socialImage: "og-image.png"
 
 ---
 
-#### **Berserked**
+### **Berserked**
 The Creature is subjected to unparalleled, animalistic Rage—unable to discern friend from foe—attacking at all costs. The **Berserked** creature inherits:
 > - A reduction of 3 from its Armor Class.
 > - Disadvantage on Dexterity Saving Throws (or automatic failure if already disadvantaged).
@@ -209,7 +226,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ### Vanilla D&D 5e Status Conditions
 
-#### **Dazed**
+### **Dazed**
  Has **Disadvantage** on Wisdom Saving throws & Abilities that proc on :Conditions_daze2: [[#Stunned]] condition, can't take *Reactions*, and loses the Dexterity bonus to their Armor Class. Removed if an ally Helps this creature.
 
 <details>
@@ -226,7 +243,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Off-Balanced**
+### **Off-Balanced**
   The affected entity has **Disadvantage** on Strength and Dexterity Ability checks, and Attack rolls against the entity have **Advantage**.
   - Removed by taking damage or when Helped.
 
@@ -245,7 +262,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Hamstrung**
+### **Hamstrung**
  Movement Speed reduced by 50%. Can be removed by healing.
 
 <details>
@@ -262,7 +279,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Gaping-Wounds**
+### **Gaping-Wounds**
  Attacks against this creature deal an additional 1d4 Piercing damage. Can be removed by healing.
 
 <details>
@@ -279,7 +296,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Bleeding** 
+### **Bleeding** 
 
  Bleeding Creatures takes additional 1d6 {*Scaling with level*} Slashing dmg at the start of each turn and has **Disadvantage** on Constitution Saving throws. Can be removed by healing.
 
@@ -297,7 +314,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Blinded**
+### **Blinded**
  A Blinded creature can’t see and automatically fails any ability check that requires sight.
   - *Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.*
 
@@ -316,7 +333,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Charmed**
+### **Charmed**
   A Charmed creature can’t Attack the charmer or target the charmer with harmful Abilities or Magical Effects.
   - *The charmer has advantage on any ability check to interact socially with the creature.*
 
@@ -335,7 +352,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Deafened**
+### **Deafened**
  A deafened creature can’t hear and automatically fails any ability check that requires hearing.
 
 <details>
@@ -352,7 +369,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Frightened**
+### **Frightened**
   A frightened creature has disadvantage on Ability Checks and Attack rolls while the source of its fear is within Line of Sight.
   - *The creature can’t willingly move closer to the source of its fear.*
 
@@ -371,7 +388,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Grappled**
+### **Grappled**
  A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
 - *The condition ends if the Grappler is [[#Incapacitated]].* 
 - *The condition also ends if an Effect removes the grappled creature from the reach of the Grappler or Grappling Effect, such as when a creature is hurled away by the Thunderwave spell.*
@@ -392,7 +409,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Incapacitated**
+### **Incapacitated**
  An incapacitated creature can’t take **ACTIONS** or **REACTIONS**.
 
 <details>
@@ -409,7 +426,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Invisible**
+### **Invisible**
   An invisible creature is impossible to see without the aid of magic or a Special sense. For the Purpose of Hiding, the creature is heavily obscured. The creature’s Location can be detected by any noise it makes or any tracks it leaves.
 
 - *Attack rolls against the creature have* ***Disadvantage***, *and the creature’s Attack rolls have* ***Advantage.***
@@ -429,7 +446,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Paralyzed**
+### **Paralyzed**
   A paralyzed creature is ***[[#Incapacitated]]*** and can’t move or speak.
 - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws*.
 - *Attack rolls against the creature have* ***Advantage***.
@@ -452,7 +469,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Petrified**
+### **Petrified**
   A petrified creature is Transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.
    - *The creature is [[#Incapacitated]], can’t move or speak, and is unaware of its surroundings.*
    - *Attack rolls against the creature have* ***Advantage***.
@@ -479,7 +496,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Poisoned**
+### **Poisoned**
  A poisoned creature has disadvantage on Attack rolls and Ability Checks.
 
 <details>
@@ -496,7 +513,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Prone**
+### **Prone**
    A Prone creature’s only Movement option is to crawl, unless it stands up and thereby ends the condition.
    - *The creature has* ***Disadvantage*** *on Attack rolls.*
    - *An Attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the Attack roll has disadvantage.*
@@ -519,7 +536,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Restrained**
+### **Restrained**
   A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
  - *Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.*
  - *The creature has disadvantage on* ***Dexterity*** *Saving Throws.*
@@ -540,7 +557,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Stunned**
+### **Stunned**
   A Stunned creature is [[#Incapacitated]], can’t move, and can speak only falteringly.
 - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
 - *Attack rolls against the creature have* ***Advantage.***
@@ -563,27 +580,63 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-#### **Unconscious**
+### **Unconscious**
    An unconscious creature is [[#Incapacitated]], can’t move or speak, and is unaware of its surroundings.
    - *The creature drops whatever it’s holding and falls* .
    - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws*.
    - *Attack rolls against the creature have* ***Advantage***.
    - *Any Attack that hits the creature is a* ***Critical Hit*** *if the attacker is within 5 feet of the creature*.
 
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="unconscious">
+    <div style="white-space: pre-line;">
+      <strong>Unconscious:</strong>
+      An unconscious creature is Incapacitated, can’t move or speak, and is unaware of its surroundings.
+      - The creature drops whatever it’s holding and falls.
+      - The creature automatically fails Strength and Dexterity Saving Throws.
+      - Attack rolls against the creature have Advantage.
+      - Any Attack that hits the creature is a Critical Hit if the attacker is within 5 feet of the creature.
+    </div>
+  </div>
+</details>
+
 ---
 
-#### **Exhaustion**
+### **Exhaustion**
    Some Special Abilities and environmental Hazards, such as starvation and the long-­term Effects of freezing or scorching temperatures, can lead to a Special condition called exhaustion. Exhaustion is measured in six levels. An Effect can give a creature one or more levels of exhaustion, as specified in the effect’s description.
+   
+   <details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="exhaustion">
+    <div style="white-space: pre-line;">
+      <strong>Exhaustion:</strong>
+       Exhaustion is measured in six levels. An Effect can give a creature one or more levels of exhaustion, as specified in the effect’s description.
+      Exhaustion Effects:
+      - (1) Disadvantage on Ability Checks
+      - (2) Speed Halved
+      - (3) Disadvantage on Attack Rolls and Saving Throws
+      - (4) Maximum HP Halved
+      - (5) Speed Reduced to 0
+      - (6) D e a t h
+    </div>
+  </div>
+</details>
 
-#### **Exhaustion Effects**
+### **Exhaustion Effects**
 
-| {1} | *Disadvantage on Ability Checks*                 |
+| Lv. | Effect                                           |
 | :-: | ------------------------------------------------ |
-| {2} | *Speed halved*                                   |
-| {3} | *Disadvantage on Attack rolls and Saving Throws* |
-| {4} | *Hit point maximum halved*                       |
-| {5} | *Speed reduced to 0*                             |
-| {6} | ***Death*** 💀                                   |
+| (1) | *Disadvantage on Ability Checks*                 |
+| (2) | *Speed halved*                                   |
+| (3) | *Disadvantage on Attack rolls and Saving Throws* |
+| (4) | *Hit point maximum halved*                       |
+| (5) | *Speed reduced to 0*                             |
+| (6) | ***Death*** 💀                                   |
 
 - If an already exhausted creature suffers another Effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect’s description.
 - A creature suffers the Effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on Ability Checks.
