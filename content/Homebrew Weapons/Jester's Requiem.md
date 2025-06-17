@@ -25,7 +25,7 @@
 
 {**The Gambler's Stride**} - When you take the Attack action, you make two weapon attacks. You may delay your second attack to unleash a Bonus Action Art first. 
 - If your delayed attack still lands, you regain half the spent charge and can **optionally** make another melee attack with your critical threshold lowered by 1
-- On your 3rd strike and beyond, your AC is reduced by 1 per strike (*Till the End of your Turn*).
+- On your 4th strike and beyond, your AC is reduced by 1 per strike (*Till the End of your Turn*).
 
 -# (***Requirement***: *Finesse Property Weapon*)
 
@@ -39,7 +39,7 @@
 
 {**Passive**} - ***Jester's Gambit*** - As L accepts the Dwarven's gift, you feel the runic essence flow through your Claws into you- giving you new found power to slay your foes in the frontlines. L is granted {**16 Charges**} to expend into your Weapon Arts. You can regain 2d4+(*Prof. Modifier*) per **Short Rest** or full upon completing a **Long Rest**. You can also replenish 1d6+1 Charges for every **Takedown** (*Kills and Assist*) on a Enemy.
 
-#### **Mithral Vise**
+### **Mithral Vise**
 
 - **Cost:** 5 charges
 - **Type:** Reaction (when an ally within 15 ft. is hit)
@@ -48,7 +48,7 @@
 
 -# *The Loss of movement speed lasts till the end of their upcoming turn.*
 
-#### **Cunning Strike**
+### **Cunning Strike**
 
 - **Cost:** 3 charges + point of **Swagger** (*Conditional to cast as an **Reaction***)
 - **Type:** Bonus Action
@@ -67,7 +67,7 @@
 
 -# *You can expend a point of Swagger to use this Art after successfully **Parrying** an Attack.*
 
-#### **Waltz of the Wicked**
+### **Waltz of the Wicked**
 
 - **Cost**: 4 Charges
 - **Type**: Action
@@ -84,13 +84,13 @@
 
 !roll 2d4+7+1d6
 
-#### **Embers of The Fool**
+### **Embers of The Fool**
 
 - **Cost**: 2 Charges
 - **Type**: Bonus Action
-- **Range**: 60ft
-- **Effect**: The Runic glyphs of your Claws manifest 2 clumps of Blue Flames that ***hurl*** toward a Creature. Make a ranged spell attack against the Target. On-hit, the target takes 1d10(:FighterArts_fire_elemental: [Fire](https://solteria.org/Mechanics/Elemental-Combo-System#-fire-combos))+(*Prof. Modifier*) damage per Flame.
-  > (***Empowered Flame***) - If Casted as an **Action**, for the cost of 4 Charges, you manifest 1 additional Flame for every 1 point of **Swagger** and **Moxie** you have. Make a ranged Spell Attack & each focused Dart of Flame is beamed straight to a creature of your choice **within 120ft** of you. On-Hit, the target takes 1d6(:FighterArts_fire_elemental: [Fire](https://solteria.org/Mechanics/Elemental-Combo-System#-fire-combos))+(*Prof. Modifier*) damager per Flame hit.
+- **Range**: 60ft (*120ft if Casted as an Action instead*)
+- **Effect**: The Runic glyphs of your Claws manifest 3 Cinder bolts of blue flames that ***hurl*** toward a Creature. Make a ranged spell attack against the Target. On-hit, the target takes 1d10(:FighterArts_fire_elemental: [Fire](https://solteria.org/Mechanics/Elemental-Combo-System#-fire-combos))+(*Prof. Modifier*) damage per Flame.
+  > (***Empowered Flame***) - If Casted as an **Action**, for the cost of 4 Charges, you manifest 2 Cinder bolts +1 additional Bolt for every 1 point of **Swagger** and **Moxie** you have. Make a ranged Spell Attack & each focused Dart of Flame is beamed straight to a creature of your choice **within 120ft** of you. On-Hit, the target takes 1d6(:FighterArts_fire_elemental: [Fire](https://solteria.org/Mechanics/Elemental-Combo-System#-fire-combos))+(*Prof. Modifier*) damager per Flame hit.
 
 **Attack A**)
 
@@ -104,7 +104,7 @@
 
 ---
 
-### **Combo Clarity**
+### **Combo Clarity Sheet**
 
 -={**Start turn**}=-
 
