@@ -36,8 +36,8 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 
 - **Cost**: 2 Charges
 - **Type**: Bonus Action
-- **Effect**: You conjure an ethereal echo of your **Last** melee strike. Make one additional melee weapon attack against an enemy. *On-Hit*, this echo deals additional 1d8 (:FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos)) damage to the enemy. If your original attack hit, this echo attack is made with advantage. If struck on the :WeaponArts_art_side: **Side** of the Target, the Crit Ratio is also lowered by 1 & must make a DC: 12 Constitution Saving Throw and be Inflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]]. On a pass, the Target doesn't get inflicted with Break.
-  > (***Fractured Plane***) - If the target is :Conditions_daze2: [[Status Conditions (Crowd Control {CC})#**Stunned**|Stunned]], you may consume the Stunned Condition to instead apply :Conditions_burst: [[Status Conditions (Crowd Control {CC})#**Burst**|Burst]]. That echo strike's Crit ratio is also lowered by 2. 
+- **Effect**: (**A**) You conjure an ethereal echo of your **Last** melee strike. Make one additional melee weapon attack against an enemy. *On-Hit*, this echo deals additional 1d8 (:FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos)) damage to the enemy. If your original attack hit, this echo attack is made with advantage. If struck on the :WeaponArts_art_side: **Side** of the Target, the Crit Ratio is also lowered by 1 & must make a DC: 12 Constitution Saving Throw and be Inflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]]. On a pass, the Target doesn't get inflicted with Break.
+  > (***Fractured Plane***) (**B**) - If the target is :Conditions_daze2: [[Status Conditions (Crowd Control {CC})#**Stunned**|Stunned]], you may consume the Stunned Condition to instead apply :Conditions_burst: [[Status Conditions (Crowd Control {CC})#**Burst**|Burst]]. That echo strike's Crit ratio is also lowered by 2. 
 
 **Attack A & B**) (*If assumed its a base damage roll it's Echoing*)
 
@@ -51,7 +51,7 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 
 - **Cost**: 3 Charges
 - **Type**: Action
-- **Effect**: You vault into the air and execute a crossing slash on one creature within reach. On-hit, the enemy takes 2d6(Slashing)+6+2d4(:FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos)) damage and you immediately then bounce to an unoccupied space within 10ft of that target. If Struck on the :Art_Front: Front of the Target, the enemy must make an DC:12 Strength Saving Throw to be also pushed back 10ft from the strike and be :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Prone]].
+- **Effect**: You vault into the air and execute a crossing slash on one creature within reach. On-hit, the enemy takes 2d6(Slashing)+6+2d4(:FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos)) damage and you immediately then bounce to an unoccupied space within 10ft of that target. If Struck on the:Art_Front:Front of the Target, the enemy must make an DC:12 Strength Saving Throw to be also pushed back 10ft from the strike and be :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Prone]].
   > (**Daybreak**) - If the target is under the :FighterArts_launch: [[Status Conditions (Crowd Control {CC})#**Knock-up**|Launch]] condition, consume it to instead inflict :FighterArts_smash: [[Status Conditions (Crowd Control {CC})#**Knockdown**|Smash]], knocking the target prone on the ground- ending it's **Launch** status.
 
 **Attack**)
@@ -62,15 +62,15 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 
 -# *Foes in line of the creature being Flung Back must also make an DC: 12 Strength Saving Throw to be pushed aside up to 10ft in an unoccupied space and be knocked **Prone**. Only Pushed up to 5ft aside on an pass.*
 
-### **Temporal Veil**
+### **Shattered Veil**
 
 - **Cost**: 4 Charges
 - **Type**: Bonus Action
 - **Range**: Self
 - **Duration**: Concentration, up to 1 Minute
-- **Effect**: As you activate the Veil, time around you slows, granting you **+2 bonus to AC** and **advantage on Dexterity saving throws** for the duration.
-  > *While concentrating on Temporal Veil, you conjure 3 **faint temporal echoes**; whenever you are hit by a melee attack, roll a d6; on a 4–6, the attack instead strikes the echo, destroying the echo, and misses you.*
-   -  Whenever the Echo gets destroyed, Matthew also gains an extra 1d8 :FighterArts_wind_elemental:[Thunder](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_wind_elemental_-wind-combos) Damage on his next Melee Weapon Attack.
+- **Effect**: As you activate the Veil, time itself fractures around you, granting you **+2 bonus to AC** and **advantage on Dexterity saving throws** for the duration.
+  > *While concentrating on Shattered Veil, you conjure 3 **faint temporal echoes** of yourself that surround you like a Broken Mirror; whenever you are hit by a melee attack, they must roll a 1d6; rolling on a 4–6, the attack instead strikes the echo instead, destroying the echo, and misses you.*
+   -  Whenever an Echo gets destroyed, Matthew also gains an extra 1d8 :FighterArts_wind_elemental:[Thunder](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_wind_elemental_-wind-combos) Damage on his next Melee Weapon Attack.
 
 -# *You can use your action to dismiss the Echoes.*
 

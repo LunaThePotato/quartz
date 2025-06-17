@@ -48,6 +48,7 @@ const customEmojis: Record<string, string> = {
   "WeaponArts_tenacity": "/emojis/WeaponArts_tenacity.png",
   "WeaponArts_toppple2": "/emojis/WeaponArts_topple2.png",
   "WeaponArts_weakening_strike": "/emojis/WeaponArts_weakening_strike.png",
+  "Art_Front": "/emojis/Art_Front.png",
   // Add more emojis here: "shortcode": "/path/to/image.png"
 };
 
