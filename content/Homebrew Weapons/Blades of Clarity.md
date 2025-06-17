@@ -74,7 +74,8 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
    -  Whenever an Echo gets destroyed, Matthew also gains an extra 1d8 :FighterArts_wind_elemental:[Thunder](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_wind_elemental_-wind-combos) Damage on his next Melee Weapon Attack.
 
 -# *You can use your action to dismiss the Echoes.*
--# *This Art Conflicts with Mirror Image & Blur Spells and can't be casted if either one is in effect on you. (Case by Case basis)*
+
+-# *This Art Conflicts with **Mirror Image** & **Blur** Spells and can't be casted if either one is in effect on you. (Case by Case basis)*
 
 ### **Timebound Remedial**
 
