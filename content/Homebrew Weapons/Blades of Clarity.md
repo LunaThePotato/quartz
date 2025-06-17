@@ -45,7 +45,7 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 
  -# *Any additional effects applied by the original attack are replicated at 50% potency as force damage.* 
  
- -# *Any additional elemental damage type it originally had is converted to The :FighterArts_light_element: Element.*
+ -# *Any additional elemental damage type it originally had is converted to The **Light Element**.*
 
 ### **Crown Splitter**
 
@@ -54,7 +54,7 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 - **Effect**: You vault into the air and execute a crossing slash on one creature within reach. On-hit, the enemy takes 2d6(Slashing)+6+2d4(:FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos)) damage and you immediately then bounce to an unoccupied space within 10ft of that target. If Struck on the:Art_Front:Front of the Target, the enemy must make an DC:12 Strength Saving Throw to be also pushed back 10ft from the strike and be :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Prone]].
   > (**Daybreak**) - If the target is under the :FighterArts_launch: [[Status Conditions (Crowd Control {CC})#**Knock-up**|Launch]] condition, consume it to instead inflict :FighterArts_smash: [[Status Conditions (Crowd Control {CC})#**Knockdown**|Smash]], knocking the target prone on the ground- ending it's **Launch** status.
 
-**Attack**)
+(*Copy & Paste for Damage!*)
 
 !roll 2d6+6+2d4
 
@@ -67,12 +67,14 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 - **Cost**: 4 Charges
 - **Type**: Bonus Action
 - **Range**: Self
+- **Target**: Self
 - **Duration**: Concentration, up to 1 Minute
 - **Effect**: As you activate the Veil, time itself fractures around you, granting you **+2 bonus to AC** and **advantage on Dexterity saving throws** for the duration.
-  > *While concentrating on Shattered Veil, you conjure 3 **faint temporal echoes** of yourself that surround you like a Broken Mirror; whenever you are hit by a melee attack, they must roll a 1d6; rolling on a 4–6, the attack instead strikes the echo instead, destroying the echo, and misses you.*
+  > *While concentrating on Shattered Veil, you conjure 3 **faint temporal echoes** of yourself that surround you like a Broken Mirror; whenever you are hit by an attack, they must roll a 1d6; rolling on a 4–6, the attack instead strikes the echo instead, destroying the echo, and misses you.*
    -  Whenever an Echo gets destroyed, Matthew also gains an extra 1d8 :FighterArts_wind_elemental:[Thunder](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_wind_elemental_-wind-combos) Damage on his next Melee Weapon Attack.
 
 -# *You can use your action to dismiss the Echoes.*
+-# *This Art Conflicts with Mirror Image & Blur Spells and can't be casted if either one is in effect on you. (Case by Case basis)*
 
 ### **Timebound Remedial**
 
