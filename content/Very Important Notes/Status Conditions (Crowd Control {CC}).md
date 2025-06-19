@@ -5,12 +5,12 @@ socialImage: "og-image.png"
 
 ### **Additional Homebrew Status Conditions**
 
-#### **Break**
+### **Break**
 
 ^b5f0ed
 
-   The creature afflicted with the :FighterArts_break: Break Status have their current dmg resistances negated during the duration of Break & have disadvantage against :FighterArts_topple: [[#Prone]] Afflicting Abilities.
-`[Damage Type Immunities remain unaffected]`
+   Until the end of it's next turn, the target's damage resistances (*But not immunities*) to weapons and force damage are negated. 
+   - The target also has disadvantage on checks & saves against being Knocked :FighterArts_topple: [[#Prone]].
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
@@ -19,19 +19,20 @@ socialImage: "og-image.png"
   <div class="popover-hint" data-popover-key="break">
     <div style="white-space: pre-line;">
       <strong>:FighterArts_break: Break:</strong>
-       The creature afflicted with the :FighterArts_break: Break Status have their current dmg resistances negated during the duration of Break & have disadvantage against :FighterArts_topple: Prone Afflicting Abilities.
-       [Damage Type Immunities remain unaffected]
+       Until the end of it's next turn, the target's damage resistances (But not immunities) to weapons and force damage are negated. 
+       - The target also has disadvantage on checks & saves against being Knocked :FighterArts_topple: Prone.
     </div>
   </div>
 </details>
 
-
 ---
 
 ### **Knock-up**
-  A Creature that is afflicted with "Knock-up" :FighterArts_launch: is unable to move, do Physical Attacks, Disadvantage on Ranged/Spell Attacks, or use item actives for the duration. Blinks are not affected by this condition. 
-- *Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*
-`[Also Serves as a condition inflicted by LAUNCH]`
+ 
+  The target is :FighterArts_launch: hurled into the air (up to 15 ft) and suspended until the end of it's next turn. 
+  - It can’t take the Attack action, use item or weapon attacks, or move. 
+  - It can use reactions and cast spells with verbal/somatic components. 
+  - It must succeed on a Concentration save (*DC: 10 + Half of damage*) to maintain any ongoing concentration spell.
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
@@ -39,10 +40,11 @@ socialImage: "og-image.png"
   </summary>
   <div class="popover-hint" data-popover-key="knock-up">
     <div style="white-space: pre-line;">
-      <strong>:FighterArts_launch: knock-up:</strong>
-      A Creature that is afflicted with "Knock-up" :FighterArts_launch: is unable to move, do Physical Attacks, Disadvantage on Ranged/Spell Attacks, or use item actives for the duration. Blinks are not affected by this condition.
-      - Any form of Concentration Spells that are active and connected to the afflicted creature must roll a Concentration Check to keep said Spells Active.
-      [Also Serves as a condition inflicted by LAUNCH]
+      <strong>:FighterArts_launch: Knock-up:</strong>
+      You’re :FighterArts_launch: hurled into the air (up to 15 ft) and suspended until the end of your next turn. 
+      - You can’t take the Attack action, use item or weapon attacks, or move. 
+      - You can use reactions and cast spells with verbal/somatic components. 
+      - You must succeed on a Concentration save (DC: 10 + Half of damage) to maintain any ongoing concentration spell.
     </div>
   </div>
 </details>
@@ -50,10 +52,9 @@ socialImage: "og-image.png"
 ---
 
 ### **Knockdown**
-  A creature that is Knockdown :FighterArts_smash: has its movement interrupted and is smashed onto the ground from being Airborne :FighterArts_launch:.
->*Any form of* ***Concentration Spells*** *that are active and connected to the afflicted creature must roll a* ***Concentration Check*** *to keep said Spells Active*.
->Also Serves as a condition inflicted by :FighterArts_smash: SMASH, dealing an additional (Dex+STR)d4 to the affected Target.
->For deeper Clarification, If a flying creature is in reach of an ability that can inflict :FighterArts_smash: Smash- they can be affected by said condition right away. 
+  
+  When a :FighterArts_launch: Launched creature is struck by a :FighterArts_smash: Knockdown Afflicted Ability, it crashes down onto the floor :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Prone]], landing in its space.
+  - They must succeed on a Concentration save (*DC: 10 + Half of damage*) to maintain any ongoing concentration spell.
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
@@ -61,11 +62,9 @@ socialImage: "og-image.png"
   </summary>
   <div class="popover-hint" data-popover-key="knockdown">
     <div style="white-space: pre-line;">
-      <strong>:FighterArts_smash: knockdown:</strong>
-      A creature that is Knockdown :FighterArts_smash: has its movement interrupted and is smashed onto the ground from being Airborne :FighterArts_launch:.
-      - Any form of Concentration Spells that are active and connected to the afflicted creature must roll a Concentration Check to keep said Spells Active.
-      - Also Serves as a condition inflicted by :FighterArts_smash: SMASH, dealing an additional (Dex+STR)d4 to the affected Target.
-      - For deeper Clarification, If a flying creature is in reach of an ability that can inflict :FighterArts_smash: Smash- they can be affected by said condition right away. 
+      <strong>:FighterArts_smash: Knockdown:</strong>
+      When a :FighterArts_launch: Launched creature is struck by a :FighterArts_smash: Knockdown Afflicted Ability, it crashes down onto the floor :FighterArts_topple: Prone, landing in its space.
+      - They must succeed on a Concentration save (DC: 10 + Half of damage) to maintain any ongoing concentration spell.
     </div>
   </div>
 </details>
@@ -73,7 +72,11 @@ socialImage: "og-image.png"
 ---
 
 ### **Burst**
-  When an enemy affected by :Conditions_daze2: [[#**Stunned**|Stunned]], or :FighterArts_launch: [[#**Knock-up**|Launch]] is afflicted by the :Conditions_burst: Burst status, it is launched 15ft away from the Creature who afflicted it, Dealing 2d12 Force Damage if Crashes against a Wall. It Temporarily removes any present Enraged Status till the end of it's 3rd turn.
+  
+  While a creature is :Conditions_daze2: **Stunned** or :FighterArts_launch: **Launched**, you can consume that condition to send it flying 15 ft. away (*no save*). 
+  - If it collides with a solid surface, it takes **2d8** force damage. 
+  - Any attacks against the creature will have a Crit Ratio reduced by 1 till the beginning of it's 2nd turn.
+  - Temporarily removes any present "Enraged" Status till the end of it's 2nd turn.
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
@@ -82,7 +85,10 @@ socialImage: "og-image.png"
   <div class="popover-hint" data-popover-key="burst">
     <div style="white-space: pre-line;">
       <strong>:Conditions_burst: Burst:</strong>
-      When an enemy affected by :Conditions_daze2: Stun, or :FighterArts_launch: Launch is afflicted by the :Conditions_burst: Burst status, it is launched 15ft away from the Creature who afflicted it, Dealing 2d12 Force Damage if Crashes against a Wall. It Temporarily removes any present Enraged Status till the end of it's 3rd turn.
+      While a creature is :Conditions_daze2: Stunned or :FighterArts_launch: Launched, you can consume that condition to send it flying 15 ft. away (no save). 
+      - If it collides with a solid surface, it takes 2d8 force damage. 
+      - Any attacks against the creature will have a Crit Ratio reduced by 1 till the beginning of it's 2nd turn.
+      - Temporarily removes any present "Enraged" Status till the end of it's 2nd turn.
     </div>
   </div>
 </details>
@@ -90,16 +96,17 @@ socialImage: "og-image.png"
 
 ---
 
-### **Spell Bind**
+### **Spell-Bind**
+ 
  A creature afflicted with this condition are unable to cast any spells & arts for the duration.
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
     Popover Text Detail
   </summary>
-  <div class="popover-hint" data-popover-key="spell bind">
+  <div class="popover-hint" data-popover-key="spell-bind">
     <div style="white-space: pre-line;">
-      <strong>Spell Bind:</strong>
+      <strong>Spell-Bind:</strong>
       A creature afflicted with this condition are unable to cast any spells & arts for the duration.
     </div>
   </div>
@@ -107,16 +114,17 @@ socialImage: "og-image.png"
 
 ---
 
-### **Aura Bind**
+### **Aura-Bind**
+
  Any form of Aura effects by items, abilities, and arts are stopped for the duration. 
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
     Popover Text Detail
   </summary>
-  <div class="popover-hint" data-popover-key="aura bind">
+  <div class="popover-hint" data-popover-key="aura-bind">
     <div style="white-space: pre-line;">
-      <strong>Aura Bind:</strong>
+      <strong>Aura-Bind:</strong>
       Any form of Aura effects by items, abilities, and arts are stopped for the duration.
     </div>
   </div>
@@ -125,6 +133,7 @@ socialImage: "og-image.png"
 ---
 
 ### **Ghosting**
+
 A Creature Afflicted with Ghosted gain the ability to phase through other Creatures.
 
 <details>
@@ -142,6 +151,7 @@ A Creature Afflicted with Ghosted gain the ability to phase through other Creatu
 ---
 
 ### **Stasis**
+
  A creature that is in stasis is unable to move, attack, cast abilities, or use item actives while also being un-targetable and invulnerable for the duration.
 >*The creature remains fully conscious to their surroundings but unable to speak.*
 
@@ -161,6 +171,7 @@ A Creature Afflicted with Ghosted gain the ability to phase through other Creatu
 ---
 
 ### **Suppression**
+ 
  A creature that is affected by this condition is unable to move, attack, cast abilities, or use item actives for the duration.
 >*The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
 
@@ -180,6 +191,7 @@ A Creature Afflicted with Ghosted gain the ability to phase through other Creatu
 ---
 
 ### **Grounded**
+ 
  A Creature that is affected by this cannot use any movement abilities/arts.
 > *Any creature that is in mid dashing upon being afflicted with this condition will immediately stop on the spot.*
 
@@ -199,6 +211,7 @@ A Creature Afflicted with Ghosted gain the ability to phase through other Creatu
 ---
 
 ### **Berserked**
+
 The Creature is subjected to unparalleled, animalistic Rage—unable to discern friend from foe—attacking at all costs. The **Berserked** creature inherits:
 > - A reduction of 3 from its Armor Class.
 > - Disadvantage on Dexterity Saving Throws (or automatic failure if already disadvantaged).
@@ -224,18 +237,19 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ---
 
-### Vanilla D&D 5e Status Conditions
+### **Vanilla D&D 5e Status Conditions**
 
 ### **Dazed**
+ 
  Has **Disadvantage** on Wisdom Saving throws & Abilities that proc on :Conditions_daze2: [[#Stunned]] condition, can't take *Reactions*, and loses the Dexterity bonus to their Armor Class. Removed if an ally Helps this creature.
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
     Popover Text Detail
   </summary>
-  <div class="popover-hint" data-popover-key="berserked">
+  <div class="popover-hint" data-popover-key="dazed">
     <div style="white-space: pre-line;">
-      <strong>:Conditions_dazed: dazed:</strong>
+      <strong>:Conditions_dazed: Dazed:</strong>
       Has Disadvantage on Wisdom Saving throws & Abilities that proc on :Conditions_daze2: Stunned condition, can't take Reactions, and loses the Dexterity bonus to their Armor Class. Removed if an ally Helps this creature.
     </div>
   </div>
@@ -244,6 +258,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Off-Balanced**
+  
   The affected entity has **Disadvantage** on Strength and Dexterity Ability checks, and Attack rolls against the entity have **Advantage**.
   - Removed by taking damage or when Helped.
 
@@ -263,6 +278,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Hamstrung**
+ 
  Movement Speed reduced by 50%. Can be removed by healing.
 
 <details>
@@ -280,6 +296,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Gaping-Wounds**
+
  Attacks against this creature deal an additional 1d4 Piercing damage. Can be removed by healing.
 
 <details>
@@ -315,6 +332,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Blinded**
+ 
  A Blinded creature can’t see and automatically fails any ability check that requires sight.
   - *Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.*
 
@@ -324,7 +342,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
   </summary>
   <div class="popover-hint" data-popover-key="blinded">
     <div style="white-space: pre-line;">
-      <strong>:CConditions_blinded: Blinded:</strong>
+      <strong>:Conditions_blinded: Blinded:</strong>
       A Blinded creature can’t see and automatically fails any ability check that requires sight.
       - Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.
     </div>
@@ -334,7 +352,8 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Charmed**
-  A Charmed creature can’t Attack the charmer or target the charmer with harmful Abilities or Magical Effects.
+  
+A Charmed creature can’t Attack the charmer or target the charmer with harmful Abilities or Magical Effects.
   - *The charmer has advantage on any ability check to interact socially with the creature.*
 
 <details>
@@ -353,6 +372,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Deafened**
+ 
  A deafened creature can’t hear and automatically fails any ability check that requires hearing.
 
 <details>
@@ -370,6 +390,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Frightened**
+  
   A frightened creature has disadvantage on Ability Checks and Attack rolls while the source of its fear is within Line of Sight.
   - *The creature can’t willingly move closer to the source of its fear.*
 
@@ -389,6 +410,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Grappled**
+ 
  A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
 - *The condition ends if the Grappler is [[#Incapacitated]].* 
 - *The condition also ends if an Effect removes the grappled creature from the reach of the Grappler or Grappling Effect, such as when a creature is hurled away by the Thunderwave spell.*
@@ -410,6 +432,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Incapacitated**
+ 
  An incapacitated creature can’t take **ACTIONS** or **REACTIONS**.
 
 <details>
@@ -427,6 +450,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Invisible**
+  
   An invisible creature is impossible to see without the aid of magic or a Special sense. For the Purpose of Hiding, the creature is heavily obscured. The creature’s Location can be detected by any noise it makes or any tracks it leaves.
 
 - *Attack rolls against the creature have* ***Disadvantage***, *and the creature’s Attack rolls have* ***Advantage.***
@@ -447,6 +471,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Paralyzed**
+  
   A paralyzed creature is ***[[#Incapacitated]]*** and can’t move or speak.
 - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws*.
 - *Attack rolls against the creature have* ***Advantage***.
@@ -470,6 +495,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Petrified**
+  
   A petrified creature is Transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.
    - *The creature is [[#Incapacitated]], can’t move or speak, and is unaware of its surroundings.*
    - *Attack rolls against the creature have* ***Advantage***.
@@ -497,6 +523,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Poisoned**
+ 
  A poisoned creature has disadvantage on Attack rolls and Ability Checks.
 
 <details>
@@ -514,7 +541,8 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Prone**
-   A Prone creature’s only Movement option is to crawl, unless it stands up and thereby ends the condition.
+   
+   A Prone creature’s only Movement option is to crawl, unless it stands up at the cost of half it's movement speed on it's turn and thereby ends the condition.
    - *The creature has* ***Disadvantage*** *on Attack rolls.*
    - *An Attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the Attack roll has disadvantage.*
  - The creature also has ***disadvantage*** against :FighterArts_launch: Launch & :Conditions_daze2: Stunned afflicting Arts.
@@ -526,7 +554,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
   <div class="popover-hint" data-popover-key="prone">
     <div style="white-space: pre-line;">
       <strong>:FighterArts_topple: Prone:</strong>
-       A Prone creature’s only Movement option is to crawl, unless it stands up and thereby ends the condition.
+       A Prone creature’s only Movement option is to crawl, unless it stands up at the cost of half it's movement speed on it's turn and thereby ends the condition.
         - The creature has Disadvantage on Attack rolls.
         - An Attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the Attack roll has disadvantage.
         - The creature also has disadvantage agaisnt :FighterArts_launch: Launch & :Conditions_daze2: Stunned afflicting Arts.
@@ -537,6 +565,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Restrained**
+  
   A restrained creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
  - *Attack rolls against the creature have advantage, and the creature’s Attack rolls have disadvantage.*
  - *The creature has disadvantage on* ***Dexterity*** *Saving Throws.*
@@ -558,6 +587,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Stunned**
+ 
   A Stunned creature is [[#Incapacitated]], can’t move, and can speak only falteringly.
 - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws.*
 - *Attack rolls against the creature have* ***Advantage.***
@@ -581,6 +611,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Unconscious**
+   
    An unconscious creature is [[#Incapacitated]], can’t move or speak, and is unaware of its surroundings.
    - *The creature drops whatever it’s holding and falls* .
    - *The creature automatically fails* ***Strength*** *and* ***Dexterity*** *Saving Throws*.
@@ -606,6 +637,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 ---
 
 ### **Exhaustion**
+  
    Some Special Abilities and environmental Hazards, such as starvation and the long-­term Effects of freezing or scorching temperatures, can lead to a Special condition called exhaustion. Exhaustion is measured in six levels. An Effect can give a creature one or more levels of exhaustion, as specified in the effect’s description.
    
    <details>

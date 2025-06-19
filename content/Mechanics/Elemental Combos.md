@@ -6,7 +6,7 @@ This Mechanic serves the party as an additional method of coordination to deal a
 
 -# `[Players can choose to either contribute to the chain or not in the moment to reach a desired combo aswell, instead they can choose to reset the timer]`
 
-### -=+{**List of Elemental Combos**}+=-
+### **Elemental Chain**
 The following table shows all the possible Elemental Combos in the Passione Campaign, with the name of the element in bold followed by the name of the resulting combo in order of: 
 
 > *First Tier Element* >**Second Tier Element** >***Third Tier Element***
@@ -14,16 +14,19 @@ The following table shows all the possible Elemental Combos in the Passione Camp
  The Completion of each tier will provide additional Ramping Burst Damage towards the Target.
 
 With bonus damage in order: 
-- (**Tier 1**) **2d4+**{Party's Prof. Modifier} (Elemental dmg Type)
-- (**Tier 2**) **4d4+**{Party's Prof. Modifier} (Elemental Dmg Type)
-- (**Tier 3**) **6d4+**{Party's Prof. Modifier} (Elemental Dmg Type)
+
+| Tier       | Damage Dice                            | Elemental Dmg Type   |
+| ---------- | -------------------------------------- | -------------------- |
+| **Tier 1** | 2d4+(*Party's Highest Prof. Modifier*) | (Elemental Dmg Type) |
+| **Tier 2** | 4d4+(*Party's Highest Prof. Modifier*) | (Elemental Dmg Type) |
+| **Tier 3** | 6d4+(*Party's Highest Prof. Modifier*) | (Elemental Dmg Type) |
 
 -# `[Each Element Tier has a duration of 2 rounds. If its not chained into the next tier by then it will reset the whole rotation back to nothing]`
 `[Damage Dice will also scale will player level, Current: d4]`
 
 ---
 
-### -={Elemental Combos}=-
+### **Elemental Combos**
 
 #### :FighterArts_fire_elemental: Fire Combos
 
@@ -143,15 +146,15 @@ Spells, Weapon Arts, or any other items that do inflict some form of Crowd contr
 
 ---
 
-#### Combo Reset Timers
+### **Combo Reset Timers**
 
 *Non-elemental CC (e.g., Blindness, Poison) resets the timer to 3 rounds but doesn’t add to the combo:*
 
-- [[Status Conditions (Crowd Control {CC})#**Spell Bind**|Spell Bind]]
-- [[Status Conditions (Crowd Control {CC})#**Aura Bind**|Aura Bind]]
-- :Conditions_dazed: [[Status Conditions (Crowd Control {CC})#Conditions_dazed **Dazed**|Dazed]]
-- :Conditions_off_balance: [[Status Conditions (Crowd Control {CC})#Conditions_off_balance **Off Balanced**|Off Balanced]]
-- :Conditions_blinded: [[Status Conditions (Crowd Control {CC})#Conditions_blinded **Blinded**|Blinded]]
+- [[Status Conditions (Crowd Control {CC})#**Spell-Bind**|Spell-Bind]]
+- [[Status Conditions (Crowd Control {CC})#**Aura-Bind**|Aura-Bind]]
+- :Conditions_dazed: [[Status Conditions (Crowd Control {CC})#**Dazed**|Dazed]]
+- :Conditions_off_balance: [[Status Conditions (Crowd Control {CC})#**Off-Balanced**|Off-Balanced]]
+- :Conditions_blinded: [[Status Conditions (Crowd Control {CC})#**Blinded**|Blinded]]
 - [[Status Conditions (Crowd Control {CC})#**Grappled**|Grappled]]
 - [[Status Conditions (Crowd Control {CC})#**Restrained**|Restrained]]
 - [[Status Conditions (Crowd Control {CC})#**Poisoned**|Poisoned]]
@@ -173,3 +176,10 @@ Spells, Weapon Arts, or any other items that do inflict some form of Crowd contr
 | :FighterArts_dark_element: {**Dark**}           | Necrotic, Poison, Acid, Force, Psychic |
 
 -# *Any Spells/Attacks that allow you to pick which type of Elemental Damage to deal can contribute to this.*
+
+---
+
+### **Linked With**
+
+- [[Union Combos]]
+- [[Fusion Combos]]

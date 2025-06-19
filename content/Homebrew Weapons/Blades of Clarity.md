@@ -21,10 +21,10 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 
 -# *Your Spellcasting Ability in this Context of the Spell would be **Intelligence**.*
 
--# ***True Strike Riposte** doesn't proc Chrono Resonance*
+-# ***True Strike Riposte** doesn't proc Chrono Resonance*.
 
 {**Chrono Resonance**} - When you take the Attack action, you make two weapon attacks. Whenever Matthew hits with a basic attack or damaging Art, he applies one **Temporal Mark** to the target (max 3 stacks). Marks last until the end of the third turn order and refresh on new hits. When a target has three Marks, they’re all consumed to deal (*Prof. Modifier*)d4+(*Int*) :FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos) Damage.
-  > (**Riftstride**) - Triggering the 3rd **Temporal Mark** immediately grants Matthew 10ft. Bonus movement speed and an extra bonus action, which can be used to **Dash, Disengage, Hide**, or make *one dagger strike* that deals an additional 1d4 :FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos) Damage till the end of his current turn.
+  > (**Riftstride**) - Triggering the 3rd **Temporal Mark** immediately grants Matthew an extra bonus action, which can be used to **Dash, Disengage, Hide**, or make *one dagger strike* that deals an additional 1d6 :FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos) Damage till the end of his current turn.
 
 ---
 
@@ -36,8 +36,8 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 
 - **Cost**: 2 Charges
 - **Type**: Bonus Action
-- **Effect**: (**A**) You conjure an ethereal echo of your **Last** melee strike. Make one additional melee weapon attack against an enemy. *On-Hit*, this echo deals additional 1d8 (:FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos)) damage to the enemy. If your original attack hit, this echo attack is made with advantage. If struck on the :WeaponArts_art_side: **Side** of the Target, the Crit Ratio is also lowered by 1 & must make a DC: 12 Constitution Saving Throw and be Inflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]]. On a pass, the Target doesn't get inflicted with Break.
-  > (***Fractured Plane***) (**B**) - If the target is :Conditions_daze2: [[Status Conditions (Crowd Control {CC})#**Stunned**|Stunned]], you may consume the Stunned Condition to instead apply :Conditions_burst: [[Status Conditions (Crowd Control {CC})#**Burst**|Burst]]. That echo strike's Crit ratio is also lowered by 2. 
+- **Effect**: (**A**) You conjure an ethereal echo of your **Last** melee strike. Make one additional melee weapon attack against an enemy. *On-Hit*, this echo deals additional 1d8 (:FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos)) damage to the enemy. If your original attack hit, this echo attack is made with advantage. If struck on the :WeaponArts_art_side: **Side** of the Target, the Crit Ratio for the echo strike is also lowered by 1 & the target must make a DC: 12 Constitution Saving Throw and be Inflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]]. On a pass, the Target doesn't get inflicted with Break.
+  > (***Fractured Plane***) (**B**) - If the target is :Conditions_daze2: [[Status Conditions (Crowd Control {CC})#**Stunned**|Stunned]] or :FighterArts_launch: [[Status Conditions (Crowd Control {CC})#**Knock-up**|Launched]], you may consume the Condition to instead apply :Conditions_burst: [[Status Conditions (Crowd Control {CC})#**Burst**|Burst]]. That echo strike's Crit ratio is also lowered by 2. 
 
 **Attack A & B**) (*If assumed its a base damage roll it's Echoing*)
 
@@ -51,7 +51,7 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 
 - **Cost**: 3 Charges
 - **Type**: Action
-- **Effect**: You vault into the air and execute a crossing slash on one creature within reach. On-hit, the enemy takes 2d6(Slashing)+6+2d4(:FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos)) damage and you immediately then bounce to an unoccupied space within 10ft of that target. If Struck on the:Art_Front:Front of the Target, the enemy must make an DC:12 Strength Saving Throw to be also pushed back 10ft from the strike and be :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Prone]].
+- **Effect**: You vault into the air and execute a crossing slash on one creature within reach. On-hit, the enemy takes 2d6(Slashing)+6+2d4(:FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos)) damage and you immediately then bounce to an unoccupied space within 10ft of that target. If Struck on the:Art_Front:Front of the Target, the enemy must make an DC:12 Strength Saving Throw to be also pushed back 10ft from the strike and be :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Prone]] until the end of it's 2nd turn.
   > (**Daybreak**) - If the target is under the :FighterArts_launch: [[Status Conditions (Crowd Control {CC})#**Knock-up**|Launch]] condition, consume it to instead inflict :FighterArts_smash: [[Status Conditions (Crowd Control {CC})#**Knockdown**|Smash]], knocking the target prone on the ground- ending it's **Launch** status.
 
 (*Copy & Paste for Damage!*)
@@ -80,9 +80,9 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 ### **Timebound Remedial**
 
 - **Cost**: 4 Charges
-- **Type**: Action
+- **Type**: Action :FighterArts_heal:
 - **Range**: 30ft
-- **Effect**: You rewind an wound of a creature of your choice within reach. They then regain 2d6+(*Int*) HP and are granted ♦️ [[Health Shields (Homebrew)#**Normal Shields**|Temporary Hit Points]] equal to half it's Missing HP.
+- **Effect**: You rewind an wound of a creature of your choice within reach. They then heal 2d6+(*Int*) HP and are granted ♦️ [[Health Shields (Homebrew)#**Normal Shields**|Temporary Hit Points]] equal to half it's Missing HP.
   
   ---
 

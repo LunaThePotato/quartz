@@ -1,0 +1,1 @@
+If a _[[Union Combos]]_ is triggered while an _[[Elemental Combos#**Elemental Chain**|Elemental Chain]]_ is active or vice versa, the result is a **Fusion Combo** which merges both bonus damage dices with the attack, increasing the duration of the Elemental Combo by 2 rounds.
