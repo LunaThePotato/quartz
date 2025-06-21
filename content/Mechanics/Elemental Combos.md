@@ -15,7 +15,7 @@ The following table shows all the possible Elemental Combos in the Passione Camp
 
 With bonus damage in order: 
 
-| Tier       | Damage Dice                            | Elemental Dmg Type   |
+| Tier       | Damage Dice                            | Elemental Dmg        |
 | ---------- | -------------------------------------- | -------------------- |
 | **Tier 1** | 2d4+(*Party's Highest Prof. Modifier*) | (Elemental Dmg Type) |
 | **Tier 2** | 4d4+(*Party's Highest Prof. Modifier*) | (Elemental Dmg Type) |
