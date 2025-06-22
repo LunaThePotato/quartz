@@ -172,7 +172,7 @@ Spells, Weapon Arts, or any other items that do inflict some form of Crowd contr
 | :FighterArts_wind_elemental: {**Wind**}         | Force, Slashing, Thunder               |
 | :FighterArts_earth_elemental: {**Earth**}       | Bludgeoning, Poison                    |
 | :FighterArts_electric_elemental: {**Electric**} | Lightning, Piercing, Fire              |
-| :FighterArts_light_element: {**Light**}         | Radiant, Fire, Psychic, Force, Psychic |
+| :FighterArts_light_element: {**Light**}         | Radiant, Fire, Psychic, Force          |
 | :FighterArts_dark_element: {**Dark**}           | Necrotic, Poison, Acid, Force, Psychic |
 
 -# *Any Spells/Attacks that allow you to pick which type of Elemental Damage to deal can contribute to this.*
