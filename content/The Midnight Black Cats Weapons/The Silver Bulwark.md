@@ -53,5 +53,5 @@ Dmg: 1d10(*Slashing*)+1d6(:FighterArts_dark_element: *Force*)
 - **Cost**: 4 Charges
 - **Type**: Bonus Action
 - **Range**: 15ft Range -> 30ft Range against foes marked with **Crescent Light**
-- **Effect**: Blueberry Dashes to a foe's location, Make an Melee Weapon attack. On-hit, the foe takes 1d10(*Slashing*)+1d8(:FighterArts_dark_element: Force)+(*Cha*) and must make a DC:16 Constitution Saving Throw and be afflicted with :FighterArts_break: Break. Range is doubled against foes afflicted with **Crescent Light**. 
+- **Effect**: Blueberry Dashes to a foe's location, Make an Melee Weapon attack. On-hit, the foe takes 1d10(*Slashing*)+1d8(:FighterArts_dark_element: Force)+(*Cha*) and must make a DC:16 Constitution Saving Throw and be afflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]]. Range is doubled against foes afflicted with **Crescent Light**. 
   > (***Lunar Cavalier (B)***) - If you charge a target with **Crescent Light**, you may have up to two willing allies within 10 ft. join your charge, each moving to the same destination and making one melee attack against that target as part of this Bonus Action.
