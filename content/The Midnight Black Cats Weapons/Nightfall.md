@@ -27,20 +27,22 @@ Dmg: 1d10(Bludgeoning)+(Str/Dex)
 
 -# Base weapon Attack Roll. Can be used Once per **Short Rest** per Brass Knuckle.
 
-{**Gladiator's Stride**} - When you take the Attack action, you make two weapon attacks, Alternating attacks starting from her Left Punch to her Right Punch. She may delay her second attack to unleash a Bonus Action Art first. 
-- If her Delayed attack still lands, Cherry will be able to cast another Weapon art at the cost of an extra Charge.
+{**Gladiator's Stride**} - When you take the Attack action, you make two weapon attacks, Alternating attacks starting from her Left Punch to her Right Punch. She may :WeaponArts_art_cancel: **delay** her second attack to unleash a Bonus Action Art first. 
+- If her :WeaponArts_art_cancel: **Delayed** attack still lands, Cherry will be able to cast another Weapon art at the cost of an extra Charge.
 
 ---
 
 ### **Weapon Arts**
 
-{**Passive**} - ***Kinetic Storm*** - While in Combat, Cherry begins to charges up the Electrical energy building inside of her with every movement and action she takes to unleash powerful burst of damage against her foes.
+{**Passive**} - **Technical Marvel** - While in Combat, Cherry begins to charges up the Electrical energy building inside of her with every movement and action she takes to unleash powerful burst of damage against her foes.
 Cherry starts combat with {**10 Static Charges**}, gaining 1 charge for every 5ft of movement, 2 Charges for each successful Melee strike she makes against up to a maximum of {**45 Static Charges**}. 
 Throughout the Static Buildup there's a set of bonuses Cherry will gain upon achieving the stated goal cherry will gain: 
 
-> {**15 Stacks**} - Cherry gains an additional Melee Weapon Attack as an Bonus Action.
-> {**25 Stacks**} - Cherry gains an additional Melee Weapon Attack as an Action & a +1 bonus to Attack rolls.
-> {**35 Stacks**} - Cherry's Melee Attacks Critical Threshold is lowered by 2 and **Nightfall** deals an additional 1d6+(*Cha*) :FighterArts_electric_elemental: [lightning](http://localhost:8080/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos) Damage. When you hit, up to two adjacent foes each take your Charisma modifier in :FighterArts_electric_elemental: [lightning](http://localhost:8080/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos) damage.
+- {**15 Stacks**} - Cherry gains an additional Melee Weapon Attack as an Bonus Action.
+  
+- {**25 Stacks**} - Cherry gains an additional Melee Weapon Attack as an Action & a +1 bonus to Attack rolls.
+
+- {**35 Stacks**} - Cherry's Melee Attacks Critical Threshold is lowered by 2 and **Nightfall** deals an additional 1d6+(*Cha*) :FighterArts_electric_elemental: [lightning](http://localhost:8080/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos) Damage. When you hit, up to two adjacent foes each take your Charisma modifier in :FighterArts_electric_elemental: [lightning](http://localhost:8080/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos) damage.
 
 At the end of Cherry's turn in which she made no attacks, she loses **3 charges**. If Cherry falls unconscious, she loses half her current charges. After combat ends, your charges reset to **10**.
 
