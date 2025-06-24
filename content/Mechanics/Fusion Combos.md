@@ -1,6 +1,6 @@
 If a _[[Union Combos]]_ is triggered while an _[[Elemental Combos#**Elemental Chain**|Elemental Chain]]_ is active or vice versa, the result is a **Fusion Combo** which merges both bonus damage dices with the attack, increasing the duration of the Elemental Combo by 2 rounds.
 
-### **Fusion  Combos Example***
+### **Fusion  Combos Example**
 
 If Matthew applies an :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]] Inflicting Art onto an Enemy with a Tier 1 ":FighterArts_fire_elemental: **Fire** - *Heat*" (Referenced in [[Elemental Combos#**Elemental Combos**|Elemental Combos]]) already applied;
 - Apply On-Hit bonus damage from [[Union Combos|Union Combos]] with the appropriate Debuff Stage Chart (I.E. :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]], :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Topple]], :FighterArts_launch: [[Status Conditions (Crowd Control {CC})#**Knock-up**|Launch]], :FighterArts_smash: [[Status Conditions (Crowd Control {CC})#**Knockdown**|Smash]], & :Conditions_burst: [[Status Conditions (Crowd Control {CC})#**Burst**|Burst]]).
