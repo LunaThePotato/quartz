@@ -161,21 +161,41 @@ Spells, Weapon Arts, or any other items that do inflict some form of Crowd contr
 
 ---
 
-### -={**Elemental Translation Chart**}=-
+### **Elemental_Translation_Chart**
 *D&D has other types of Damage that I wish to attempt to intertwine with the Elemental Chain to give more options for players to jump into. These are situational on the context of how these damage types are delivered.*
 
-| Element                                         | Associated Damage Types                |
-| ----------------------------------------------- | -------------------------------------- |
-| :FighterArts_fire_elemental: {**Fire**}         | Fire, Radiant, Acid                    |
-| :FighterArts_water_elemental: {**Water**}       | Cold, Bludgeoning, Acid, Poison        |
-| :FighterArts_ice_elemental: {**Ice**}           | Cold, Piercing                         |
-| :FighterArts_wind_elemental: {**Wind**}         | Force, Slashing, Thunder               |
-| :FighterArts_earth_elemental: {**Earth**}       | Bludgeoning, Poison                    |
-| :FighterArts_electric_elemental: {**Electric**} | Lightning, Piercing, Fire              |
-| :FighterArts_light_element: {**Light**}         | Radiant, Fire, Psychic, Force          |
-| :FighterArts_dark_element: {**Dark**}           | Necrotic, Poison, Acid, Force, Psychic |
+| Element                                       | Associated Damage Types                |
+| --------------------------------------------- | -------------------------------------- |
+| :FighterArts_fire_elemental: **Fire**         | Fire, Radiant, Acid                    |
+| :FighterArts_water_elemental: **Water**       | Cold, Bludgeoning, Acid, Poison        |
+| :FighterArts_ice_elemental: **Ice**           | Cold, Piercing                         |
+| :FighterArts_wind_elemental: **Wind**         | Force, Slashing, Thunder               |
+| :FighterArts_earth_elemental: **Earth**       | Bludgeoning, Poison                    |
+| :FighterArts_electric_elemental: **Electric** | Lightning, Piercing, Fire              |
+| :FighterArts_light_element: **Light**         | Radiant, Fire, Psychic, Force          |
+| :FighterArts_dark_element: **Dark**           | Necrotic, Poison, Acid, Force, Psychic |
 
 -# *Any Spells/Attacks that allow you to pick which type of Elemental Damage to deal can contribute to this.*
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="elemental_translation_chart">
+    <div style="white-space: pre-line;">
+      <strong>Elemental Translation Chart:</strong>
+       Element   -   Associated Damage Types
+      :FighterArts_fire_elemental: Fire       -   Fire, Radiant, Acid                   
+      :FighterArts_water_elemental: Water   -   Cold, Bludgeoning, Acid, Poison        
+      :FighterArts_ice_elemental: Ice        -   Cold, Piercing                         
+      :FighterArts_wind_elemental: Wind     -   Force, Slashing, Thunder               
+      :FighterArts_earth_elemental: Earth    -   Bludgeoning, Poison                    
+      :FighterArts_electric_elemental: Electric -   Lightning, Piercing, Fire              
+      :FighterArts_light_element: Light     -   Radiant, Fire, Psychic, Force          
+      :FighterArts_dark_element: Dark      -   Necrotic, Poison, Acid, Force, Psychic
+    </div>
+  </div>
+</details>
 
 ---
 

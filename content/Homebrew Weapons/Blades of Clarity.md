@@ -23,14 +23,18 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 
 -# ***True Strike Riposte** doesn't proc Chrono Resonance*.
 
-{**Chrono Resonance**} - When you take the Attack action, you make two weapon attacks. Whenever Matthew hits with a basic attack or damaging Art, he applies one **Temporal Mark** to the target (max 3 stacks). Marks last until the end of the third turn order and refresh on new hits. When a target has three Marks, they’re all consumed to deal (*Prof. Modifier*)d4+(*Int*) :FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos) Damage.
-  > (**Riftstride**) - Triggering the 3rd **Temporal Mark** immediately grants Matthew an extra bonus action, which can be used to **Dash, Disengage, Hide**, or make *one dagger strike* that deals an additional 1d6 :FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos) Damage till the end of his current turn.
+(**Chrono Resonance**) - When you take the Attack action, you make two weapon attacks. Whenever Matthew hits with a basic attack or damaging Art, he applies one **Temporal Mark** to the target (max 3 stacks). Marks last until the end of the third turn order and refresh on new hits. When a target has three Marks, they’re all consumed to deal (*Prof. Modifier*)d4+(*Int*) :FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos) Damage.
+  > (**Riftstride**) - Triggering the 3rd **Temporal Mark** immediately grants Matthew an extra bonus action, which can be used to **Dash, Disengage, Hide**, or make *one dagger strike* that deals an additional 1d6 :FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos) Damage till the end of his current turn. Matthew also restores 1d4+1 Charges.
+  
+  (*Copy & Paste for Damage!*)
+
+!roll 2d4+2
 
 ---
 
 ### **Weapon Arts**
 
-{**Passive**} - ***Aspect of Time*** - As Matthew taps into his growing innate :FighterArts_light_element: Chronomancy Abilities to take down his opponents with Precise executions to seize the Future! Matthew is granted {**16 Charges**} to expend into your Weapon Arts. You can regain 1d4+1 Charges for every **Takedown** (*Kills and Assist*) on an enemy. You can also replenish 2d4+1 on a **Short Rest** or full upon completing a **Long Rest**.
+{**Passive**} - ***Aspect of Time*** - As Matthew taps into his growing innate :FighterArts_light_element: Chronomancy Abilities to take down his opponents with Precise executions to seize the Future! Matthew is granted {**16 Charges**} to expend into your Weapon Arts. You can replenish 2d6+2 charges on a **Short Rest** or full upon completing a **Long Rest**.
 
 ### **Echo Strike**
 
@@ -38,6 +42,8 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 - **Type**: Bonus Action
 - **Effect**: (**A**) You conjure an ethereal echo of your **Last** melee strike. Make one additional melee weapon attack against an enemy. *On-Hit*, this echo deals additional 1d8 (:FighterArts_light_element: [Force](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos)) damage to the enemy. If your original attack hit, this echo attack is made with advantage. If struck on the :WeaponArts_art_side: **Side** of the Target, the Crit Ratio for the echo strike is also lowered by 1 & the target must make a DC: 12 Constitution Saving Throw and be Inflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]]. On a pass, the Target doesn't get inflicted with Break.
   > (***Fractured Plane***) (**B**) - If the target is :Conditions_daze2: [[Status Conditions (Crowd Control {CC})#**Stunned**|Stunned]] or :FighterArts_launch: [[Status Conditions (Crowd Control {CC})#**Knock-up**|Launched]], you may consume the Condition to instead apply :Conditions_burst: [[Status Conditions (Crowd Control {CC})#**Burst**|Burst]]. That echo strike's Crit ratio is also lowered by 2. 
+
+(*Copy & Paste for Damage!*)
 
 **Attack A & B**) (*If assumed its a base damage roll it's Echoing*)
 
@@ -82,9 +88,13 @@ Dmg: 1d6(*Piercing*)+(*Dex*)
 - **Cost**: 4 Charges
 - **Type**: Action :FighterArts_heal:
 - **Range**: 30ft
-- **Effect**: You rewind an wound of a creature of your choice within reach. They then heal 2d6+(*Int*) HP and are granted ♦️ [[Health Shields (Homebrew)#**Normal Shields**|Temporary Hit Points]] equal to half it's Missing HP.
-  
-  ---
+- **Effect**: You rewind an wound of a creature of your choice within reach. They then heal 2d6+(*Int*) HP and are granted 1d12+(Int) ♦️ [[Health Shields (Homebrew)#**Normal Shields**|Temporary Hit Points]] that last till the end of their 2nd Turn.
+
+(*Copy & Paste for Healing!*)
+
+!roll 2d6+2
+
+---
 
 ### **Combo Clarity Sheet**
 

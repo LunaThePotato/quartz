@@ -52,10 +52,14 @@ Dmg: 1d8(*Bludgeoning*)+(*Str/Dex*)
 - **Cost**: 4 Charges
 - **Type**: Action
 - **Range**: 60ft.
-- **Effect**: You forge three brittle Catalyst Gems within your warhammer’s core. You may make a **ranged spell attack** with each gem against a creature within 60 ft., using your spell attack modifier (proficiency + spellcasting ability) *On-Hit*, the target takes 1d8(:FighterArts_fire_elemental: Fire)+(*Prof. Modifier*) damage per Gem hit.
+- **Effect**: You forge three brittle Catalyst Gems within your warhammer’s core. You may make a **ranged spell attack** with each gem against a creature within 60 ft., using your spell attack modifier (proficiency + spellcasting ability) *On-Hit*, the target takes 1d8(:FighterArts_fire_elemental: Fire)+(*Int*) damage per Gem hit.
   > (**Kindlegem**) - When a gem strikes, it shatters, leaving a **10ft. radius** zone of roaring flames that persists until the end of the **third round**.
    - Allies within the radius are healed: (*Prof. Modifier*) HP at the beginning & end of their Turn.
    - Enemies within the radius are afflicted with difficult terrain & take (Int) :FighterArts_fire_elemental: Fire Damage on the beginning & end of their turn.
+
+(*Copy & Paste for Damage!*)
+
+!roll 1d8+5
 
 -# *The Kindlegem's Aura doesn't overlap it's effects with the existing Aura zones, only extend the Effect range of said aura.*
 
@@ -64,5 +68,9 @@ Dmg: 1d8(*Bludgeoning*)+(*Str/Dex*)
 - **Cost**: 3 Charges
 - **Type**: Action
 - **Range**: 15ft. Radius (Centered on Kiwi)
-- **Effect**: As Kiwi slams the hammer aspect into the ground; thorny vines erupts from the ground, forcing all creatures in the area to make a DC: 14 Strength saving throw & take 2d8+(Int) :FighterArts_earth_elemental: [Piercing](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_earth_elemental_-earth-combos) Damage and are [[Status Conditions (Crowd Control {CC})#**Restrained**|Restrained]] until the end of their 4th turn. Affected enemies can attempt to redo the saving throw at each of their turns On a success, they take half damage and aren’t restrained.
+- **Effect**: As Kiwi slams the hammer aspect into the ground; thorny vines erupts from the ground, forcing all creatures in the area to make a DC: 14 Strength saving throw & take 2d6+(Int) :FighterArts_earth_elemental: [Piercing](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_earth_elemental_-earth-combos) Damage and are [[Status Conditions (Crowd Control {CC})#**Restrained**|Restrained]] until the end of their 4th turn. Affected enemies can attempt to redo the saving throw at each of their turns On a success, they take half damage and aren’t restrained.
   > (**Druidic Synergy**) Allies standing in the area at the start of their turn gain 1d6+(Kiwi’s Proficiency) ♦️ [[Health Shields (Homebrew)#**Normal-Shields**|Temporary HP]] as the vines’ sap energizes them.
+
+(*Copy & Paste for Damage!*)
+
+!roll 2d6+5

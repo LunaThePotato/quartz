@@ -22,6 +22,14 @@ function replaceEmojiShortcodes(container: HTMLElement) {
     ':Conditions_off_balance:': '/emojis/Conditions_off_balance.png',
     ':Conditions_stun:': '/emojis/Conditions_stun.png',
     ':Conditions_weak_grip:': '/emojis/Conditions_weak_grip.png',
+    'FighterArts_fire_elemental': '/emojis/FighterArts_fire_elemental.png',
+    'FighterArts_water_elemental': '/emojis/FighterArts_water_elemental.png',
+    'FighterArts_earth_elemental': '/emojis/FighterArts_earth_elemental.png',
+    'FighterArts_ice_elemental': '/emojis/FighterArts_ice_elemental.png',
+    'FighterArts_electric_elemental': '/emojis/FighterArts_electric_elemental.png',
+    'FighterArts_wind_elemental': '/emojis/FighterArts_wind_elemental.png',
+    'FighterArts_dark_element': '/emojis/FighterArts_dark_element.png',
+    'FighterArts_light_element': '/emojis/FighterArts_light_element.png',
 
     // Add more mappings as needed...
   };

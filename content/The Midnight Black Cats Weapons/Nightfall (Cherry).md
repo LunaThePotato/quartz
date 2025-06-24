@@ -52,17 +52,31 @@ At the end of Cherry's turn in which she made no attacks, she loses **3 charges*
 - **Type**: Bonus Action
 - **Effect**: Cherry gains 10ft. of movement speed towards the nearest enemy. Make a Melee Weapon Attack (*Right Fist*), On-Hit, the Enemy Takes 1d10(*Piercing*)+(*Str/Dex*)+1d8(:FighterArts_electric_elemental: [Lightning](http://localhost:8080/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos)) Damage and must succeed on a DC: 15 Constitution Saving Throw or suffer both :Conditions_bleeding: [[Status Conditions (Crowd Control {CC})#**Bleeding**|Bleeding]] and :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]] Conditions till the end of the victim's 3rd turn. On a Pass, it only takes the Weapon Damage and is inflicted with :Conditions_gaping_wounds: [[Status Conditions (Crowd Control {CC})#**Gaping-Wounds**|Gaping Wounds]] instead.
 
+(*Copy & Paste for Healing!*)
+
+!roll 1d10+5+1d8
+
 ### **Photon Blast/Storm Surge**
 
 - **Cost**: 4 Charges
 - **Type**: Action
 - **Range**: 30ft
-- **Effect**: As Cherry fires a Bolt of Electricity, make a Ranged Spell Attack against the first creature in a line within 30ft. using your spell attack bonus. On-Hit, the Enemy takes 1d12+(*Cha*) :FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos) Damage and is Marked until the end of it's next turn.
+- **Effect**: (**A**) As Cherry fires a Bolt of Electricity, make a Ranged Spell Attack against the first creature in a line within 30ft. using your spell attack bonus. On-Hit, the Enemy takes 1d12+(*Cha*) :FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos) Damage and is Marked until the end of it's next turn.
 While the Mark is Active, Cherry can use an Reaction and expend 1 additional Charge to activate Storm Surge:
-  > (**Storm Surge**) - Cherry dashes to the marked target (*Up to her maximum movement speed, doesn't proc opportunity attacks*) and consumes the mark.
+  > (**Storm Surge**) (**B**) - Cherry dashes to the marked target (*Up to her maximum movement speed, doesn't proc opportunity attacks*) and consumes the mark.
   - On Arrival, Cherry can make one Melee Weapon Attack that deals 1d8(*Bludgeoning*)+2d6(:FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos)) Damage
 
 The Action of using **Photon Blast** & **Storm Surge** can be casted onto an willing ally without dealing any damage onto them or needing to roll to hit. The :FighterArts_electric_elemental: Lightning Damage roll from **Storm Surge** is instead converted to ♦️ [[Health Shields (Homebrew)#**Normal-Shields**|Temporary HP]] for both Cherry and the Ally she's dashing to.
+
+(*Copy & Paste for Damage!*)
+
+(Part: **A**)
+
+!roll 1d12+4
+
+(Part: **B**)
+
+!roll 1d8+2d6
 
 -# *If used later (Not immediately after **Photon Blast**), **Storm Surge** replaces **Photon Blast** and costs 2 Charges that can be used as a Action, Bonus Action, or Reaction.*
 
@@ -72,6 +86,14 @@ The Action of using **Photon Blast** & **Storm Surge** can be casted onto an wil
 - **Type**: Bonus Action
 - **Effect**: As Cherry Charges an fist, Make an Melee Weapon attack against a creature within 5ft. On-Hit, The target takes 2d8(*Bludgeoning*)+(*Str/Dex*)+4d6(:FighterArts_electric_elemental: [Lighting](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos)) Damage. Creatures in a 15ft. cone originating from that target must Succeed a DC: 16 Dexterity Saving Throw or take 4d6(:FighterArts_electric_elemental:[Lightning](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos))+2d4(:FighterArts_wind_elemental: [Thunder](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_wind_elemental_-wind-combos)) Damage. Half Damage on a Pass.
   > If **Voltic Wave** is Casted while mid Dashing, the blast cone extends to 25ft., and any creature with the :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]] Condition that fails it's save is then :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Toppled]] until the end of it's next turn.
+  
+(*Copy & Paste for Damage!*)
+
+!roll 2d8+5+4d6
+
+(Cone Damage Roll)
+
+!roll 4d6+2d4
 
 ### ***1,000 Volt Surge***
 
