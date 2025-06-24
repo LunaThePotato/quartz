@@ -73,14 +73,17 @@ Dmg: 1d8(Slashing)+(Dex)+1d6(:FighterArts_light_element:[Radiant](https://solter
 ### **Mystic Companion**
 
 - **Cost**: 3 Charges
-- **Type**: Bonus Reaction
-- **Range**: 30ft (**Luminous Mote** Range: 30ft)
-- **Target**: Self, Ally Target
+- **Type**: Bonus Reaction (usable after you or an ally within 30 ft. makes an attack)
+- **Range**: 30ft
+- **Target**: You or one Ally
 - **Duration**: Concentration, up to 1 Minute
-- **Effect**: You conjure an small Elemental **Mote** of light ([[Elemental Combos#**Elemental_Translation_Chart**|Element of your choosing]]) to attach to a target of your choosing within range. Whenever the Ally it's attached to attacks an foe, *On-Hit*, the **Luminous Mote** will make an Ranged Spell Attack against that same foe dealing 1d8(💠Elemental Associated dmg type)+(Int) damage which will mark them with **Transcendence** till the end of their next Turn.
+- **Effect**: You conjure an small Elemental **Mote** of light ([[Elemental Combos#**Elemental_Translation_Chart**|Element of your choosing]]) to attach to a ally of your choosing within range. 
+  > Whenever the mote's host hit's a creature with a weapon, spell attack, or damaging Art, *On-Hit*, the **Luminous Mote** immediately make an Ranged Spell Attack against that same foe dealing 1d8(💠Elemental Associated dmg type)+(Int) damage which will mark them with **Transcendence** till the end of their next Turn.
   - If the Luminous Mote is moved 30ft away from Peach, it'll instantly blink right back to Peach- Attached to her.
-  - Peach can use an Bonus action to move the Luminous Mote to another nearby Ally within range of her.
+  - On your bonus action, you can move the mote from its current host to another ally within 30 ft. of you.
 
-(*Copy & Paste for Damage!*)
+(*Copy & Paste for Roll to Hit & Damage!*)
+
+!roll 1d20+7
 
 !roll 1d8+4
