@@ -12,8 +12,9 @@ Dmg: 1d10(Bludgeoning)+(Str/Dex)
 
 !roll 1d10+5
 
- {**Finesse**} - *When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.*
- {**Indomitable**} - *Cannot be disarmed unwillingly.*
+{**Finesse**} - *When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.*
+
+{**Indomitable**} - *Cannot be disarmed unwillingly.*
 
 ---
 
@@ -101,7 +102,7 @@ The Action of using **Photon Blast** & **Storm Surge** can be casted onto an wil
 
 ### **Voltic Wave**
 
-- **Cost**: 6 Charges
+- **Cost**: 5 Charges
 - **Type**: Bonus Action
 - **Effect**: As Cherry Charges an fist, Make an Melee Weapon attack against a creature within 5ft. On-Hit, The target takes 2d8(*Bludgeoning*)+(*Str/Dex*)+4d6(:FighterArts_electric_elemental: [Lighting](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos)) Damage. Creatures in a 15ft. cone originating from that target must Succeed a DC: 16 Dexterity Saving Throw or take 4d6(:FighterArts_electric_elemental:[Lightning](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos))+2d4(:FighterArts_wind_elemental: [Thunder](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_wind_elemental_-wind-combos)) Damage. Half Damage on a Pass.
   > If **Voltic Wave** is Casted while mid Dashing, the blast cone extends to 25ft., and any creature with the :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]] Condition that fails it's save is then :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Toppled]] until the end of it's next turn.

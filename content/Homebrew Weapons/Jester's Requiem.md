@@ -37,7 +37,7 @@
 
 ### **Weapon Arts**
 
-{**Passive**} - ***Jester's Gambit*** - As L accepts the Dwarven's gift, you feel the runic essence flow through your Claws into you- giving you new found power to slay your foes in the frontlines. L is granted {**16 Charges**} to expend into your Weapon Arts. You can regain 2d4+(*Prof. Modifier*) per **Short Rest** or full upon completing a **Long Rest**. You can also replenish 1d6+1 Charges for every **Takedown** (*Kills and Assist*) on a Enemy.
+{**Passive**} - ***Jester's Gambit*** - As L accepts the Dwarven's gift, you feel the runic essence flow through your Claws into you- giving you new found power to slay your foes in the frontlines. L is granted {**16 Charges**} to expend into your Weapon Arts. You can regain 2d4+(*Prof. Modifier*) per **Short Rest** or full upon completing a **Long Rest**. You can also replenish 1d4+1 Charges for every **Takedown** (*Kills and Assist*) on a Enemy.
 
 ### **Mithral Vise**
 
