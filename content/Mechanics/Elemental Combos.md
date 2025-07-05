@@ -168,9 +168,9 @@ Spells, Weapon Arts, or any other items that do inflict some form of Crowd contr
 | --------------------------------------------- | -------------------------------------- |
 | :FighterArts_fire_elemental: **Fire**         | Fire, Radiant, Acid                    |
 | :FighterArts_water_elemental: **Water**       | Cold, Bludgeoning, Acid, Poison        |
-| :FighterArts_ice_elemental: **Ice**           | Cold, Piercing                         |
+| :FighterArts_ice_elemental: **Ice**           | Cold, Piercing, Slashing               |
 | :FighterArts_wind_elemental: **Wind**         | Force, Slashing, Thunder               |
-| :FighterArts_earth_elemental: **Earth**       | Bludgeoning, Poison                    |
+| :FighterArts_earth_elemental: **Earth**       | Bludgeoning, Force, Poison             |
 | :FighterArts_electric_elemental: **Electric** | Lightning, Piercing, Fire              |
 | :FighterArts_light_element: **Light**         | Radiant, Fire, Psychic, Force          |
 | :FighterArts_dark_element: **Dark**           | Necrotic, Poison, Acid, Force, Psychic |
@@ -187,9 +187,9 @@ Spells, Weapon Arts, or any other items that do inflict some form of Crowd contr
        Element   -   Associated Damage Types
       :FighterArts_fire_elemental: Fire       -   Fire, Radiant, Acid                   
       :FighterArts_water_elemental: Water   -   Cold, Bludgeoning, Acid, Poison        
-      :FighterArts_ice_elemental: Ice        -   Cold, Piercing                         
+      :FighterArts_ice_elemental: Ice        -   Cold, Piercing, Slashing                         
       :FighterArts_wind_elemental: Wind     -   Force, Slashing, Thunder               
-      :FighterArts_earth_elemental: Earth    -   Bludgeoning, Poison                    
+      :FighterArts_earth_elemental: Earth    -   Bludgeoning, Force, Poison                    
       :FighterArts_electric_elemental: Electric -   Lightning, Piercing, Fire              
       :FighterArts_light_element: Light     -   Radiant, Fire, Psychic, Force          
       :FighterArts_dark_element: Dark      -   Necrotic, Poison, Acid, Force, Psychic

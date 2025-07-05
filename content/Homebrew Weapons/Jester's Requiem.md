@@ -23,9 +23,9 @@
 
 -# *Can be used Once per Short Rest*
 
-{**The Gambler's Stride**} - When you take the Attack action, you make two weapon attacks. You may delay your second attack to unleash a Bonus Action Art first. 
-- If your delayed attack still lands, you regain half the spent charge and can **optionally** make another melee attack with your critical threshold lowered by 1
-- On your 4th strike and beyond, your AC is reduced by 1 per strike (*Till the End of your Turn*).
+{**The Gambler's Stride**} - When you take the Attack action, you make two weapon attacks. You may :WeaponArts_art_cancel: **delay** your second attack to unleash a Bonus Action Art first. 
+- If your :WeaponArts_art_cancel: **Delayed** attack still lands, you regain half the spent charge and can **optionally** make another melee attack with your critical threshold lowered by 1
+- On your 4th strike and beyond, your AC is reduced by 1 per strike (*Till the Start of Your next Turn*).
 
 -# (***Requirement***: *Finesse Property Weapon*)
 
@@ -115,6 +115,6 @@
 - Attack Left claw (*5th Attack*)
 
 
--# *The 5th attack can only be made **IF** the 4th/3rd attack from Right Claw **HITS***
+-# *The 5th attack can only be made **IF** the 4th/3rd attack from Right Claw **HITS**.*
 
 -={**End of Turn**}=-

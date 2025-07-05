@@ -17,17 +17,17 @@ Dmg: 1d10(Slashing)+1d6(:FighterArts_dark_element: [Force](https://solteria.org/
 
 -# *Doesn't provoke Opportunity Attacks.*
 
--# *Range is increased by 15ft is target is afflicted with **Tidecaller**
+-# *Range is increased by 15ft is target is afflicted with **Crescent Light**.*
 
 -# *Base weapon Attack Damage. Can be used Once per **Short Rest**.*
 
-{**Moonlit Aegis**} - Blueberry's Basic Attacks (On-Hit) and **Wind Becomes Lightning** generate a stack of Moonlit Aegis, stacking up to 3 times. The third stack consumes them all to allow Blueberry to make an Free Melee Weapon Attack, *that doesn't generate a stack of *Moonlit Aegis***, & heals him for (*Prof.*)d4+1 Hp On-Hit. Blueberry also regenerates 1d4+2 Charges.
+{**Moonlit Aegis**} - Blueberry's Basic Attacks (On-Hit) and **Weapon Arts** (On-Hit) generate a stack of **Moonlit Aegis**, stacking up to 3 times. The third stack consumes them all to allow Blueberry to make an Free Melee Weapon Attack, *that doesn't generate a stack of ***Moonlit Aegis***, & heals him for (*Prof.*)d4+1 Hp On-Hit. Blueberry also regenerates 1d4+2 Charges.
 
 ---
 
 ### **Weapon Arts**
 
-{**Passive**} - **Call of the Faithful** - With Blueberry's unbreakable Faith, he calls forth the blessings of the Moonmaiden to lead his allies to combat & cause devastation upon his foes. Blueberry has a total of {**18 Charges**} to expend into your Weapon Arts. You can replenish 2d6+2 on a **Short Rest** or full upon completing a **Long Rest**.
+{**Passive**} - **Call of the Faithful** - With Blueberry's unbreakable Faith, he calls forth the blessings of the Moon Maiden to lead his allies to combat & cause devastation upon his foes. Blueberry has a total of {**18 Charges**} to expend into your Weapon Arts. You can replenish 2d6+2 on a **Short Rest** or full upon completing a **Long Rest**.
 
 ### **Tidebreaker's Strike**
 
