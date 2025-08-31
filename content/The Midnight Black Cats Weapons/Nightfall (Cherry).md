@@ -67,7 +67,7 @@ At the end of Cherry's turn in which she made no attacks, she loses **3 charges*
 
 ### **Static Claw**
 
-- **Cost**: 3 Charges
+- **Cost**: 4 Charges
 - **Type**: Bonus Action
 - **Effect**: Cherry gains 10ft. of movement speed towards the nearest enemy. Make a Melee Weapon Attack (*Right Fist*), On-Hit, the Enemy Takes 1d10(*Piercing*)+(*Str/Dex*)+2d8(:FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_electric_elemental_-electric-combos)) Damage and must succeed on a DC: 15 Constitution Saving Throw or suffer both :Conditions_bleeding: [[Status Conditions (Crowd Control {CC})#**Bleeding**|Bleeding]] and :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]] Conditions till the end of the victim's 3rd turn. On a Pass, it only takes half Damage.
   > If **Static Claw** is Casted Mid Dashing, foes that are in line of her dash must make an DC:15 Constitution Saving Throw and take 3d8 :FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_electric_elemental_-electric-combos) Damage and be afflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]]. On pass, the targets only take half Damage.
@@ -78,7 +78,7 @@ At the end of Cherry's turn in which she made no attacks, she loses **3 charges*
 
 ### **Photon Blast/Storm Surge**
 
-- **Cost**: 4 Charges
+- **Cost**: 5 Charges
 - **Type**: Action
 - **Range**: 30ft
 - **Effect**: (**A**) As Cherry fires a Bolt of Electricity, make a Ranged Spell Attack against the first creature in a line within 30ft. using your spell attack bonus. On-Hit, the Enemy takes 1d12+(Cha) :FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_electric_elemental_-electric-combos) Damage and is Marked until the end of it's next turn.

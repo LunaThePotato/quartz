@@ -17,6 +17,7 @@ const customEmojis: Record<string, string> = {
   "FighterArts_topple": "/emojis/FighterArts_topple.png",
   "FighterArts_launch": "/emojis/FighterArts_launch.png",
   "FighterArts_smash": "/emojis/FighterArts_smash.png",
+  "FighterArts_knockback": "/emojis/FighterArts_knockback.png",
   "FighterArts_heal": "/emojis/FighterArts_heal.png",
   "FighterArts_defense": "/emojis/FighterArts_defense.png",
   "Conditions_bleeding": "/emojis/Conditions_bleeding.png",

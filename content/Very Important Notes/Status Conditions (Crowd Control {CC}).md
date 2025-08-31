@@ -32,7 +32,6 @@ socialImage: "og-image.png"
   The target is :FighterArts_launch: hurled into the air (up to 15 ft) and suspended until the end of it's next turn. 
   - It can’t take the Attack action, use item or weapon attacks, or move. 
   - It can use reactions and cast spells with verbal/somatic components. 
-  - It must succeed on a Concentration save (*DC: 10 + Half of damage*) to maintain any ongoing concentration spell.
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
@@ -44,7 +43,6 @@ socialImage: "og-image.png"
       You’re :FighterArts_launch: hurled into the air (up to 15 ft) and suspended until the end of your next turn. 
       - You can’t take the Attack action, use item or weapon attacks, or move. 
       - You can use reactions and cast spells with verbal/somatic components. 
-      - You must succeed on a Concentration save (DC: 10 + Half of damage) to maintain any ongoing concentration spell.
     </div>
   </div>
 </details>
@@ -54,7 +52,7 @@ socialImage: "og-image.png"
 ### **Knockdown**
   
   When a :FighterArts_launch: Launched creature is struck by a :FighterArts_smash: Knockdown Afflicted Ability, it crashes down onto the floor :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Prone]], landing in its space.
-  - They must succeed on a Concentration save (*DC: 10 + Half of damage*) to maintain any ongoing concentration spell.
+  - They must succeed on a Concentration save (*DC: 10 + Half of damage*) at a disadvantage to maintain any ongoing concentration spell.
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
@@ -64,7 +62,29 @@ socialImage: "og-image.png"
     <div style="white-space: pre-line;">
       <strong>:FighterArts_smash: Knockdown:</strong>
       When a :FighterArts_launch: Launched creature is struck by a :FighterArts_smash: Knockdown Afflicted Ability, it crashes down onto the floor :FighterArts_topple: Prone, landing in its space.
-      - They must succeed on a Concentration save (DC: 10 + Half of damage) to maintain any ongoing concentration spell.
+      - They must succeed on a Concentration save (DC: 10 + Half of damage) at a disadvantage to maintain any ongoing concentration spell.
+    </div>
+  </div>
+</details>
+
+---
+
+### **Knockback**
+
+When a creature is :FighterArts_knockback: **Knocked Back**, it is pushed directly away from the source at least **5 feet** into the nearest unoccupied space (*or as far as the terrain allows*). If the creature is concentrating on a spell, it has **disadvantage** on the Constitution saving throw to maintain concentration that results from the knockback (*if any*).
+>    If the forced movement would throw the creature into a hazard or cause it to fall, resolve any resulting damage or consequences normally.
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Popover Text Detail
+  </summary>
+  <div class="popover-hint" data-popover-key="knockback">
+    <div style="white-space: pre-line;">
+      <strong>:FighterArts_knockback: Knockback:</strong>
+      When a creature is :FighterArts_knockback: Knocked Back, it is pushed directly away from the source at least 5 feet into the nearest unoccupied space (or as far as the terrain allows). If the creature is concentrating on a spell, it has disadvantage on the Constitution saving throw to maintain concentration that results from the knockback (if any).
+      
+      - If the forced movement would throw the creature into a hazard or cause it to fall, resolve any resulting damage or consequences normally.
+      
     </div>
   </div>
 </details>

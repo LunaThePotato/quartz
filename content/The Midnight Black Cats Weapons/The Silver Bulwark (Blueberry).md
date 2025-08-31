@@ -1,4 +1,4 @@
-{**Silver Yari**} Melee Weapon Attack: +3 to Hit, 10ft Range, One Target.
+{**Silver Yari**} Melee Weapon Attack: +6 to Hit, 10ft Range, One Target.
 Dmg: 1d10(Slashing)+1d6(:FighterArts_dark_element: [Force](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_dark_element_-dark-combos))
 
 (*Copy & Paste for Damage!*)
@@ -33,7 +33,7 @@ Dmg: 1d10(Slashing)+1d6(:FighterArts_dark_element: [Force](https://solteria.org/
 
 - **Cost**: 3 Charges
 - **Type**: Bonus Action
-- **Effect**: As Blueberry reels in his Silver Yari, make an Melee weapon attack; On-Hit, Blueberry deals 2d8(:FighterArts_water_elemental: [Cold](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_water_elemental_-water-combos))+(Str) the target's Movement speed is reduced by 10ft until the start of Blueberry's next turn.
+- **Effect**: As Blueberry reels in his Silver Yari, make an Melee weapon attack; **On-Hit**, Blueberry deals 2d8(:FighterArts_water_elemental: [Cold](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_water_elemental_-water-combos))+(Str) the target's Movement speed is reduced by 10ft until the start of Blueberry's next turn.
   > (**Hydraulic Might**) - If the target is suffering any Hard Crowd Control condition when struck, you may consume that condition. The Target must then succeed on a DC: 16 Strength Saving Throw and be afflicted with :Conditions_burst: Burst. After consuming the condition, Blueberry's next two melee weapon attacks gain **+2 to hit** and Critical Threshold is lowered by 1.
   > 		If Blueberry is in the process of dashing before casting this Art, the effects of :Conditions_burst: Burst and Bonus Damage by this art is extended with to foes in a 10ft cone of the targeted direction.
 
@@ -45,7 +45,7 @@ Dmg: 1d10(Slashing)+1d6(:FighterArts_dark_element: [Force](https://solteria.org/
 
 - **Cost**: 4 Charges
 - **Type**: Action
-- **Range**: Self (15ft. cone -> 30ft. line)
+- **Range**: Self (15ft. arc -> 30ft. line)
 - **Effect**: Blueberry swings his Silver Yari in an 15ft arc, each creature in the arc must make an DC: 16 Dexterity Saving Throw and take 2d10(Slashing)+2d6(:FighterArts_dark_element: [Force](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_dark_element_-dark-combos))+(Cha) damage (Half on Success). Immediately after, Blueberry's Silver Yari is then enveloped in the Silver moon light as he thrusts it in a 30ft line in the targeted direction, each foe in that line must make an DC: 16 Saving Throw and take an additional 4d6 (:FighterArts_dark_element: [Force](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_dark_element_-dark-combos)).
   
   If Blueberry hits at least one target with the thrust, the last creature hit within 10 ft. of the line’s end is marked by **Crescent Light** until the end of its second turn
@@ -66,7 +66,7 @@ Dmg: 1d10(Slashing)+1d6(:FighterArts_dark_element: [Force](https://solteria.org/
 - **Cost**: 4 Charges
 - **Type**: Bonus Action
 - **Range**: 15ft Range -> 30ft Range against foes marked with **Crescent Light**
-- **Effect**: Blueberry Dashes to a foe's location, Make an Melee Weapon attack. On-hit, the foe takes 1d10(*Slashing*)+1d8(:FighterArts_dark_element: [Force](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_dark_element_-dark-combos))+(Str) and must make a DC:16 Constitution Saving Throw and be afflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]]. Range is doubled against foes afflicted with **Crescent Light**. 
+- **Effect**: Blueberry Dashes to a foe's location, Make an Melee Weapon attack. **On-Hit**, the foe takes 1d10(*Slashing*)+1d8(:FighterArts_dark_element: [Force](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_dark_element_-dark-combos))+(Str) and must make a DC:16 Constitution Saving Throw and be afflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]]. Range is doubled against foes afflicted with **Crescent Light**. The foe will not be afflicted with Break on a Pass.
   > (***Lunar Cavalier (B)***) - If you charge a target with **Crescent Light**, you may have up to two willing allies within 10 ft. join your charge, each moving to the same destination and making one melee attack against that target as part of this Bonus Action.
 
 (*Copy & Paste for Damage!*)
