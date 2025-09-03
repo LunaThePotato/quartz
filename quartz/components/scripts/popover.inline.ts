@@ -14,6 +14,8 @@ function replaceEmojiShortcodes(container: HTMLElement) {
     ':FighterArts_break:': '/emojis/FighterArts_break.png',
     ':FighterArts_knockback:': '/emojis/FighterArts_knockback.png',
     ':FighterArts_heal:': '/emojis/FighterArts_heal.png',
+    ':WeaponArts_cleave:': '/emojis/WeaponjArts_cleave.png',
+    ':WeaponArts_crippling_strike:': '/emojis/WeaponArts_crippling_strike.png',
     ':Conditions_daze2:': '/emojis/Conditions_daze2.png',
     ':Conditions_burst:': '/emojis/Conditions_burst.png',
     ':Conditions_bleeding:': '/emojis/Conditions_bleeding.png',
