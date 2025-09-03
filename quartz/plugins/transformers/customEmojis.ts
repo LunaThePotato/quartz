@@ -49,8 +49,8 @@ const customEmojis: Record<string, string> = {
   "WeaponArts_tenacity": "/emojis/WeaponArts_tenacity.png",
   "WeaponArts_toppple2": "/emojis/WeaponArts_topple2.png",
   "WeaponArts_weakening_strike": "/emojis/WeaponArts_weakening_strike.png",
-  "WeaponArts_cleave": "/emojis/WeaponArts_cleave.png",
-  "WeaponArts_crippling_strike": "/emojis/WeaponArts_crippling_strike.png",
+  "WeaponArts_Cleave": "/emojis/WeaponArts_Cleave.png",
+  "WeaponArts_Crippling_Strike": "/emojis/WeaponArts_Crippling_Strike.png",
   "Art_Front": "/emojis/Art_Front.png",
   // Add more emojis here: "shortcode": "/path/to/image.png"
 };
