@@ -1,5 +1,5 @@
 {**Great-axe**}, Melee Weapon Attack, +2 to Hit, 5ft, One Target.
-Dmg: 1d12(Slashing)+(Str)+1d4(:FighterArts_electric_elemental: Lightning)
+Dmg: 1d12(Slashing)+(Str)+1d4(:FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_electric_elemental_-electric-combos))
 
 (*Copy & Paste for Damage!*)
 
@@ -19,8 +19,8 @@ Dmg: 1d12(Slashing)+(Str)+1d4(:FighterArts_electric_elemental: Lightning)
 
 -# *Base Weapon Attack Roll. Can be used Once per **Short Rest**.*
 
-- {**Asgardian Vanguard**} - Upon Casting An Art or spell, Your next 2 Melee Weapon Attacks deal an additional:
-  ⌊(Your AC − 10) ÷ 2⌋ + ⌊(Your Spell Save DC − 10) ÷ 2⌋ Bonus :FighterArts_wind_elemental: Force Damage **On-Hit**.
+- {**Asgardian Vanguard**} - Upon Casting An Art or spell, Your next 2 Melee Weapon Attacks, On-Hit, deal an additional:
+  ⌊(Your AC − 10) ÷ 2⌋ + ⌊(Your Spell Save DC − 10) ÷ 2⌋ Bonus :FighterArts_wind_elemental: [Force](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_wind_elemental_-wind-combos) Damage **On-Hit**.
   
   **Sunder**
   - Additionally whenever you make a Melee Weapon Attack on a Creature, **On-Hit**, it gains one **Sunder** stack (max Prof Mod.). **Sunder** stacks last for 3 rounds and refresh on subsequent hits. Each stack imposes -1 to AC and -1 to all saving throws.
@@ -38,4 +38,37 @@ Dmg: 1d12(Slashing)+(Str)+1d4(:FighterArts_electric_elemental: Lightning)
 
 ### **Weapon Arts**
 
-{**Passive**} - **Asgardian Might** - From the blessings of Thor, Warrior of Asgard, empowers Alice' Battle capabilities to fight and support her allies in the frontlines. Alice has a total of {**18 Charges**} to expend into your Weapon Arts. You can regain 1d4 Charges for every **Takedown** (*Kills and Assist*) on an enemy. You can also replenish 2d4+1 on a **Short Rest** or full upon completing a **Long Rest**.
+{**Passive**} - **Asgardian Might** - From the blessings of Odin, King of Asgard, empowers Alice' Battle capabilities to fight and support her allies in the frontlines. Alice has a total of {**18 Charges**} to expend into your Weapon Arts. You can regain 1d4 Charges for every **Takedown** (*Kills and Assist*) on an enemy. You can also replenish 2d4+1 on a **Short Rest** or full upon completing a **Long Rest**.
+
+### **Seismic Smash**
+
+- **Cost**: 5 Charges
+- **Type**: Action
+- **Range**: 15ft line (5ft wide)
+- **Effect**: With the full strength of her Great-Axe, Alice slams down her axe in a 15ft line of her choosing. Each Creature in that line must make a DC:14 Constitution Saving Throw.
+  >Before damage is applied, any damage-mitigating ♦️ [[Health Shields (Homebrew)#**Normal-Shields**|Shields]] on a creature are destroyed.
+  - On a Failed save, the creature will take (Wis)d8 :FighterArts_earth_elemental: [Force](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_earth_elemental_-earth-combos)+(Prof Mod.)d4 :FighterArts_electric_elemental: [Lighting](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_electric_elemental_-electric-combos) Damage, Dazing the first foe in the line till the end of their next turn. On a pass, they'll only take half damage. 
+
+(*Copy & Paste for Damage!*)
+
+!roll 4d8+2d4
+
+### **Sky Splitter**
+
+- **Cost**: 6 Charges
+- **Type**: Action
+- **Range**: 30ft (Point)-(*15ft Burst Radius*)
+- **Effect**: Alice calls upon the Heavens with her **Holy Symbol** at hand, summoning a Bolt of Lighting at a point you can see within 30ft. Each creature in the 15ft radius must make a DC:14 **Constitution Saving throw** and take (Prof. Modifier)d4+(Wis) :FighterArts_electric_elemental: [Lighting](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_electric_elemental_-electric-combos) Damage and have their Speed Reduced by 5ft till the end of their next turn; on a success they'll only take half damage.
+  > If Alice is within the strike, she gains a [[Health Shields (Homebrew)#**Normal-Shields**|Grey Shield]] equal to the damage you rolled from this Art. The Grey Health last until the end of your next turn.
+
+(*Copy & Paste for Damage!*)
+
+!roll 2d4+4
+
+-# *If you already have Grey Health from this Art, you choose whether to keep those or take the new amount (temporary HP do not stack).*
+
+### **Temp**
+
+
+
+### **Temp**
