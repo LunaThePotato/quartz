@@ -106,11 +106,12 @@ Dmg: 1d8(Slashing)+1d4(:FighterArts_electric_elemental: [Lightning](https://solt
 
   >(***Valkyrian Drive***) {*Situational Passive*} - If you use *Thunderous Strike* **immediately** after making a melee weapon attack (*or while you have Valkyrian Drive Momentum*), **Thunderous Strike** evolves into **Rising Flash**.
 
-  (**Rising Storm**)
-  - **Cost**: 4 Charges
-  - **Type**: Action
-  - **Area of Effect**: Cylindrical - 5ft radius, centered on Alice
-  - **Effect**: A surge of Static storm surges around Alice. She Vaults herself up 15ft into the Air with an Uppercut Strike with a Surge of Lightning, Enemies within the Area of Effect must make an DC:14 Constitution Saving Throw and take (Wis Mod.)d8 :FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_electric_elemental_-electric-combos)+(Prof Mod.)d6 :FighterArts_wind_elemental: [Slashing](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_wind_elemental_-wind-combos) Damage. On a Pass, they'll take half Damage instead.
+(**Rising Storm**)
+
+- **Cost**: 4 Charges
+- **Type**: Action
+- **Area of Effect**: Cylindrical - 5ft radius, centered on Alice
+- **Effect**: A surge of Static storm surges around Alice. She Vaults herself up 15ft into the Air with an Uppercut Strike with a Surge of Lightning, Enemies within the Area of Effect must make an DC:14 Constitution Saving Throw and take (Wis Mod.)d8 :FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_electric_elemental_-electric-combos)+(Prof Mod.)d6 :FighterArts_wind_elemental: [Slashing](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_wind_elemental_-wind-combos) Damage. On a Pass, they'll take half Damage instead.
 
 (*Copy & Paste for Damage!*)
 
