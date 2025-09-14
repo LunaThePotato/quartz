@@ -41,8 +41,24 @@ Dmg: 1d8(Slashing)+1d4(:FighterArts_electric_elemental: [Lightning](https://solt
 
 -# *Can be used Once per **Short Rest**.*
 
-- {**Valkyrian Arms Race**} - Amidst the heat of combat, Alice can call forth her Arsenal of War whilst laying waste to her foes upon triggering a set of Attacks. When you take the Attack action and use a Bonus‑Action Art between your two weapon attacks, you may spend **2 extra Charges** to cast a second Art (Bonus/Action Art).
+- {**Valkyrian Arms Race**} (**Passive A**) - Amidst the heat of combat, Alice can call forth her Arsenal of War whilst laying waste to her foes upon triggering a set of Attacks. When you take the Attack action and use a Bonus‑Action Art between your two weapon attacks, you may spend **2 extra Charges** to cast a second Art (Bonus/Action Art).
   >If that Art hits, you **refund half** its cost (round down) and may swap to a different Armor Stance of your choice. Immediately after swapping, you can cast **one free** Bonus‑Action Art from your new stance for half the cost (round down).
+
+- {***Valkyrian Drive Rules - Simplified***} (**Passive B**) - Completing Follow-Through ends Momentum, unless says otherwise; skipping it preserves Momentum into your next turn; Momentum is lost if you make no melee attack this turn.
+
+<details>
+  <summary style="cursor: pointer; color: var(--primary)">
+    Valkyrian Drive Rules Concise
+  </summary>
+  <div class="popover-hint" data-popover-key="poggers">
+    <div style="white-space: pre-line;">
+      <strong>Valkyrian Drive:</strong>
+    - Completing the Follow-Through (the blunt-side strike that can Topple) ends Valkyrian Drive’s Momentum, whether the Topple succeeds or fails.
+    - If Alice declines to perform the Follow-Through on her next melee weapon attack, she retains Momentum and may carry it into her next turn.
+    - Alice also loses Momentum if she does not make a melee weapon attack during her turn.
+    </div>
+  </div>
+</details>
 
 ---
 
@@ -63,23 +79,6 @@ Dmg: 1d8(Slashing)+1d4(:FighterArts_electric_elemental: [Lightning](https://solt
 
 !roll 1d8+1d4+3d6
 
--# (***Valkyrian Drive Rules - Simplified***) *Completing Follow-Through ends Momentum; skipping it preserves Momentum into your next turn; Momentum is lost if you make no melee attack this turn.*
-
-<details>
-  <summary style="cursor: pointer; color: var(--primary)">
-    Valkyrian Drive Rules Concise
-  </summary>
-  <div class="popover-hint" data-popover-key="poggers">
-    <div style="white-space: pre-line;">
-      <strong>Valkyrian Drive:</strong>
-    - Completing the Follow-Through (the blunt-side strike that can Topple) ends Valkyrian Drive’s Momentum, whether the Topple succeeds or fails.
-    - If Alice declines to perform the Follow-Through on her next melee weapon attack, she retains Momentum and may carry it into her next turn.
-    - Alice also loses Momentum if she does not make a melee weapon attack during her turn.
-    </div>
-  </div>
-</details>
-
-  
 ### **Sky Splitter**
 
 - **Cost**: 6 Charges
@@ -105,19 +104,19 @@ Dmg: 1d8(Slashing)+1d4(:FighterArts_electric_elemental: [Lightning](https://solt
 
 !roll 1d6+3+2d8
 
-  >(***Valkyrian Drive***) {*Situational Passive*} - If you use *Thunderous Strike* **immediately** after making a melee weapon attack (*or while you have Valkyrian Drive Momentum*), **Thunderous Strike** evolves into **Rising Flash** instead of resolving as normal.
+  >(***Valkyrian Drive***) {*Situational Passive*} - If you use *Thunderous Strike* **immediately** after making a melee weapon attack (*or while you have Valkyrian Drive Momentum*), **Thunderous Strike** evolves into **Rising Flash**.
 
-  **Rising Storm**
-    - **Cost**: 4 Charges
-    - **Type**: Action
-    - **Area of Effect**: Cylindrical - 5ft radius, centered on Alice and 15ft below her
-    - **Effect**: A surge of Static storm surges around Alice. She Vaults herself up 15ft into the Air with an Uppercut Strike with a Surge of Lightning, Enemies within the Area of Effect must make an DC:14 Constitution Saving Throw and take (Wis Mod.)d8 :FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_electric_elemental_-electric-combos)+(Prof Mod.)d6 :FighterArts_ice_elemental: [Slashing](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_wind_elemental_-wind-combos) Damage. On a Pass, they'll take half Damage instead.
+  (**Rising Storm**)
+  - **Cost**: 4 Charges
+  - **Type**: Action
+  - **Area of Effect**: Cylindrical - 5ft radius, centered on Alice
+  - **Effect**: A surge of Static storm surges around Alice. She Vaults herself up 15ft into the Air with an Uppercut Strike with a Surge of Lightning, Enemies within the Area of Effect must make an DC:14 Constitution Saving Throw and take (Wis Mod.)d8 :FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_electric_elemental_-electric-combos)+(Prof Mod.)d6 :FighterArts_wind_elemental: [Slashing](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_wind_elemental_-wind-combos) Damage. On a Pass, they'll take half Damage instead.
 
 (*Copy & Paste for Damage!*)
 
 !roll 4d8+2d6
 
-(:WeaponArts_art_species: Conditional) If a target in the area is currently :FighterArts_launch: [[Status Conditions (Crowd Control {CC})#**Knock-up**|Launched]], it will take an additional 2d6(:FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_electric_elemental_-electric-combos))+2d4(:FighterArts_ice_elemental: [Slashing](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_wind_elemental_-wind-combos)) Damage & have it's Launch duration extended by 1 round.
+(:WeaponArts_art_species: Conditional) If a target in the area is currently :FighterArts_launch: [[Status Conditions (Crowd Control {CC})#**Knock-up**|Launched]], it will take an additional 2d6(:FighterArts_electric_elemental: [Lightning](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_electric_elemental_-electric-combos))+2d4(:FighterArts_wind_elemental: [Slashing](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_wind_elemental_-wind-combos)) Damage & have it's Launch duration extended by 1 round.
 
 (*Copy & Paste for Damage!*)
 
@@ -137,5 +136,5 @@ Dmg: 1d8(Slashing)+1d4(:FighterArts_electric_elemental: [Lightning](https://solt
 !roll 1d8+3+2d6
 
 - **On Collision**:
-  - If the forced movement causes the target to collide with a solid object before completing the move, the target immediately takes the same damage again and is [[Status Conditions (Crowd Control {CC})#**Dazed**|Dazed]] until the end of its next turn.
+  - If the forced movement causes the target to collide with a solid object before completing the move, the target immediately takes the same damage again and is :Conditions_dazed: [[Status Conditions (Crowd Control {CC})#**Dazed**|Dazed]] until the end of its next turn.
   - (***Valkyrian Drive***) {*Situational Passive*} - If you expend Momentum and pay the Art's normal charge cost when you use this Art, upon colliding the target into a solid surface, they'll be :Conditions_daze2: [[Status Conditions (Crowd Control {CC})#**Stunned**|Stunned]] till the end of their next turn instead and the second instance of damage also applies to the struck object as Siege Damage. 
