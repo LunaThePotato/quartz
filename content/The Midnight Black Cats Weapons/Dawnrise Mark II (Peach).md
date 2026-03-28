@@ -13,21 +13,20 @@ Dmg: 1d8(Slashing)+(Dex)+1d6(:FighterArts_light_element:[Radiant](https://solter
 
 - (:WeaponArts_lacerate: **Lacerate**) - As an Action, you slash at your target's vital points, on hit, they must roll a **DC:14 Constitution Saving throw** and be inflicted with :Conditions_bleeding: [[Status Conditions (Crowd Control {CC})#**Bleeding**|Bleeding]] till the end of Target's 2nd Turn.
 
--# Base Weapon Attack Roll. Can be used Once per **Short Rest** 
+-# *Base Weapon Attack Roll. Can be used Once per **Short Rest**.*
 
-(**Transcendence**) - Whenever Peach hits with a Attack Action, she gains one stack of **Transcendence** (Max 3 Stacks) that last until the end of her 2nd turn. Upon reaching 3 stacks, On-Hit, they're all consumed to deal an additional 1d8 :FighterArts_light_element: [Radiant](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos) Damage. Peach also restores 1d4+2 Charges.
+(**Transcendence**) - Whenever Peach hits with a Attack Action, she gains one stack of **Transcendence** (Max 3 Stacks) that last until the end of her next turn. Upon reaching 3 stacks, On-Hit, they're all consumed to deal an additional 1d8 :FighterArts_light_element: [Radiant](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos) Damage. Peach also restores 1d4+2 Charges.
 
 
 ---
 
 ### **Weapon Arts**
 
-{**Passive**} - ***The Maiden's Divine Will*** - With the Divine Gifts she inherited, Peach seizes the Battlefield to Slice though enemies of the Faith whilst aiding her Companions. **The Maiden's Divine Will** Grants Peach {**16 Charges**} to expend into her Weapon Arts. She can regain  2d6+2 Charges on a **Short Rest** or full upon completing a **Long Rest**.
-
+{**Passive**} - ***The Maiden's Divine Will*** - With the Divine Gifts she inherited, Peach seizes the Battlefield to Slice though enemies of the Faith whilst aiding her Companions. **The Maiden's Divine Will** Grants Peach {**16 AP**} to expend into her Weapon Arts. She can regain  2d6+2 AP on a **Short Rest** or full upon completing a **Long Rest**.
 
 ### **Scythe Waltz**
 
-- **Cost**: 4 Charges
+- **Cost**: 4 AP
 - **Type**: Action
 - **Range**: Self (Dash up to 10ft)
 - **Effect**: (**A**) Peach dashes up to 10ft. in a straight line. You make a Melee Weapon Attack against each Creature you move though. On-Hit, Each creature takes 1d8(Slashing)+(Dex)+1d6(:FighterArts_light_element: [Radiant](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos)) Damage.
@@ -42,13 +41,13 @@ Dmg: 1d8(Slashing)+(Dex)+1d6(:FighterArts_light_element:[Radiant](https://solter
 !roll 3d6+3d4
 
 
-- (**Roaring Skies**) - If there are any Enemies afflicted with :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Topple]], Peach can expend an additional 3 Charges to consume the Condition to instead apply :FighterArts_launch: [[Status Conditions (Crowd Control {CC})#**Knock-up**|Launch]].
+- (**Roaring Skies**) - If there are any Enemies afflicted with :FighterArts_topple: [[Status Conditions (Crowd Control {CC})#**Prone**|Topple]], Peach can expend an additional 2 Charges to consume the Condition to instead apply :FighterArts_launch: [[Status Conditions (Crowd Control {CC})#**Knock-up**|Launch]].
 
 -# (**Obstacle Phasing**) - *You may Dash through a breakable obstacle no more than 5 ft. thick (such as a ruined wall or boulder) as though it were an empty space; if no space is available beyond it, your movement ends at the obstacle’s edge.*
 
 ### **Blade's Reach**
 
-- **Cost**: 2 Charges
+- **Cost**: 2 AP
 - **Type**: Bonus Action
 - **Range**: 10ft
 - **Effect**: Peach swings her Scythe in a targeted direction of 10ft. Enemies within range must succeed a DC: 14 Constitution Saving Throw or take 1d12(*Slashing*)+(*Dex*)+2d4(:FighterArts_light_element: [Radiant](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos)) Damage & be :FighterArts_launch: [[Status Conditions (Crowd Control {CC})#**Knock-up**|Launched]] 10ft into the Air till the end of their 2nd Turn.
@@ -59,7 +58,7 @@ Dmg: 1d8(Slashing)+(Dex)+1d6(:FighterArts_light_element:[Radiant](https://solter
 
 ### **Otherworldly Mist**
 
-- **Cost**: 4 Charges
+- **Cost**: 4 AP
 - **Type**: Reaction
 - **Range**: Self
 - **Duration**: Till the End of her next Turn
@@ -72,7 +71,7 @@ Dmg: 1d8(Slashing)+(Dex)+1d6(:FighterArts_light_element:[Radiant](https://solter
 
 ### **Mystic Companion**
 
-- **Cost**: 3 Charges
+- **Cost**: 3 AP
 - **Type**: Bonus Reaction (usable after you or an ally within 30 ft. makes an attack)
 - **Range**: 30ft
 - **Target**: You or one Ally

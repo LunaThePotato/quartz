@@ -15,12 +15,12 @@ const defaultHeaderWeight = [700]
 const defaultBodyWeight = [400]
 
 export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: FontSpecification) {
-  // Get all weights for header and body fonts
   const headerWeights: FontWeight[] = (
     typeof headerFont === "string"
       ? defaultHeaderWeight
       : (headerFont.weights ?? defaultHeaderWeight)
   ) as FontWeight[]
+
   const bodyWeights: FontWeight[] = (
     typeof bodyFont === "string" ? defaultBodyWeight : (bodyFont.weights ?? defaultBodyWeight)
   ) as FontWeight[]
@@ -28,7 +28,6 @@ export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: Fo
   const headerFontName = typeof headerFont === "string" ? headerFont : headerFont.name
   const bodyFontName = typeof bodyFont === "string" ? bodyFont : bodyFont.name
 
-  // Fetch fonts for all weights and convert to satori format in one go
   const headerFontPromises = headerWeights.map(async (weight) => {
     const data = await fetchTtf(headerFontName, weight)
     if (!data) return null
@@ -56,7 +55,6 @@ export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: Fo
     Promise.all(bodyFontPromises),
   ])
 
-  // Filter out any failed fetches and combine header and body fonts
   const fonts: SatoriOptions["fonts"] = [
     ...headerFonts.filter((font): font is NonNullable<typeof font> => font !== null),
     ...bodyFonts.filter((font): font is NonNullable<typeof font> => font !== null),
@@ -80,39 +78,48 @@ export async function fetchTtf(
   const cacheDir = path.join(QUARTZ, ".quartz-cache", "fonts")
   const cachePath = path.join(cacheDir, cacheKey)
 
-  // Check if font exists in cache
   try {
-    // Get css file from google fonts
+    // Return cached file if it exists
+    const cached = await fs.readFile(cachePath).catch(() => undefined)
+    if (cached) return cached
+
+    // Fetch CSS from Google Fonts
     const cssResponse = await fetch(
       `https://fonts.googleapis.com/css2?family=${fontName}:wght@${weight}`,
     )
     const css = await cssResponse.text()
-    
-    // Extract .ttf url from css file
+
+    // Extract .ttf URL from CSS
     const urlRegex = /url\((https:\/\/fonts.gstatic.com\/s\/.*?.ttf)\)/g
     const match = urlRegex.exec(css)
 
-  // Extract .ttf url from css file
-  const urlRegex = /url\((https:\/\/fonts.gstatic.com\/s\/.*?.ttf)\)/g
-  const match = urlRegex.exec(css)
+    if (!match) {
+      console.log(
+        styleText(
+          "yellow",
+          `\nWarning: Failed to fetch font ${rawFontName} with weight ${weight}, got ${cssResponse.statusText}`,
+        ),
+      )
+      return
+    }
 
-  if (!match) {
+    // Download the .ttf file
+    const fontResponse = await fetch(match[1])
+    const fontData = Buffer.from(await fontResponse.arrayBuffer())
+
+    await fs.mkdir(cacheDir, { recursive: true })
+    await fs.writeFile(cachePath, fontData)
+
+    return fontData
+  } catch (err) {
     console.log(
       styleText(
         "yellow",
-        `\nWarning: Failed to fetch font ${rawFontName} with weight ${weight}, got ${cssResponse.statusText}`,
+        `\nWarning: Failed to fetch font ${rawFontName} with weight ${weight}`,
       ),
     )
     return
   }
-
-  // fontData is an ArrayBuffer containing the .ttf file data
-  const fontResponse = await fetch(match[1])
-  const fontData = Buffer.from(await fontResponse.arrayBuffer())
-  await fs.mkdir(cacheDir, { recursive: true })
-  await fs.writeFile(cachePath, fontData)
-
-  return fontData
 }
 
 export type SocialImageOptions = {
@@ -181,17 +188,14 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
   const fontBreakPoint = 32
   const useSmallerFont = title.length > fontBreakPoint
 
-  // Format date if available
   const rawDate = getDate(cfg, fileData)
   const date = rawDate ? formatDate(rawDate, cfg.locale) : null
 
-  // Calculate reading time
   const { minutes } = readingTime(fileData.text ?? "")
   const readingTimeText = i18n(cfg.locale).components.contentMeta.readingTime({
     minutes: Math.ceil(minutes),
   })
 
-  // Get tags if available
   const tags = fileData.frontmatter?.tags ?? []
   const bodyFont = getFontSpecificationName(cfg.theme.typography.body)
   const headerFont = getFontSpecificationName(cfg.theme.typography.header)
@@ -208,7 +212,6 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
         fontFamily: bodyFont,
       }}
     >
-      {/* Header Section */}
       <div
         style={{
           display: "flex",
@@ -239,7 +242,6 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
         </div>
       </div>
 
-      {/* Title Section */}
       <div
         style={{
           display: "flex",
@@ -266,7 +268,6 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
         </h1>
       </div>
 
-      {/* Description Section */}
       <div
         style={{
           display: "flex",
@@ -290,7 +291,6 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
         </p>
       </div>
 
-      {/* Footer with Metadata */}
       <div
         style={{
           display: "flex",
@@ -301,7 +301,6 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
           borderTop: `1px solid ${cfg.theme.colors[colorScheme].lightgray}`,
         }}
       >
-        {/* Left side - Date and Reading Time */}
         <div
           style={{
             display: "flex",
@@ -345,7 +344,6 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
           </div>
         </div>
 
-        {/* Right side - Tags */}
         <div
           style={{
             display: "flex",

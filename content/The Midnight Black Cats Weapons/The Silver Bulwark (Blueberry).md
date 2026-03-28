@@ -27,11 +27,11 @@ Dmg: 1d10(Slashing)+1d6(:FighterArts_dark_element: [Force](https://solteria.org/
 
 ### **Weapon Arts**
 
-{**Passive**} - **Call of the Faithful** - With Blueberry's unbreakable Faith, he calls forth the blessings of the Moon Maiden to lead his allies to combat & cause devastation upon his foes. Blueberry has a total of {**18 Charges**} to expend into your Weapon Arts. You can replenish 2d6+2 on a **Short Rest** or full upon completing a **Long Rest**.
+{**Passive**} - **Call of the Faithful** - With Blueberry's unbreakable Faith, he calls forth the blessings of the Moon Maiden to lead his allies to combat & cause devastation upon his foes. Blueberry has a total of {**18 AP**} to expend into your Weapon Arts. You can replenish 2d6+2 on a **Short Rest** or full upon completing a **Long Rest**.
 
 ### **Tidebreaker's Strike**
 
-- **Cost**: 3 Charges
+- **Cost**: 3 AP
 - **Type**: Bonus Action
 - **Effect**: As Blueberry reels in his Silver Yari, make an Melee weapon attack; **On-Hit**, Blueberry deals 2d8(:FighterArts_water_elemental: [Cold](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_water_elemental_-water-combos))+(Str) the target's Movement speed is reduced by 10ft until the start of Blueberry's next turn.
   > (**Hydraulic Might**) - If the target is suffering any Hard Crowd Control condition when struck, you may consume that condition. The Target must then succeed on a DC: 16 Strength Saving Throw and be afflicted with :Conditions_burst: Burst. After consuming the condition, Blueberry's next two melee weapon attacks gain **+2 to hit** and Critical Threshold is lowered by 1.
@@ -43,7 +43,7 @@ Dmg: 1d10(Slashing)+1d6(:FighterArts_dark_element: [Force](https://solteria.org/
 
 ### **Moonwind Lance**
 
-- **Cost**: 4 Charges
+- **Cost**: 4 AP
 - **Type**: Action
 - **Range**: Self (15ft. arc -> 30ft. line)
 - **Effect**: Blueberry swings his Silver Yari in an 15ft arc, each creature in the arc must make an DC: 16 Dexterity Saving Throw and take 2d10(Slashing)+2d6(:FighterArts_dark_element: [Force](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_dark_element_-dark-combos))+(Cha) damage (Half on Success). Immediately after, Blueberry's Silver Yari is then enveloped in the Silver moon light as he thrusts it in a 30ft line in the targeted direction, each foe in that line must make an DC: 16 Saving Throw and take an additional 4d6 (:FighterArts_dark_element: [Force](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_dark_element_-dark-combos)).
@@ -63,7 +63,7 @@ Dmg: 1d10(Slashing)+1d6(:FighterArts_dark_element: [Force](https://solteria.org/
 
 ### **Moonlit Charge**
 
-- **Cost**: 4 Charges
+- **Cost**: 4 AP
 - **Type**: Bonus Action
 - **Range**: 15ft Range -> 30ft Range against foes marked with **Crescent Light**
 - **Effect**: Blueberry Dashes to a foe's location, Make an Melee Weapon attack. **On-Hit**, the foe takes 1d10(*Slashing*)+1d8(:FighterArts_dark_element: [Force](https://solteria.org/Mechanics/Elemental-Combos#_fighterarts_dark_element_-dark-combos))+(Str) and must make a DC:16 Constitution Saving Throw and be afflicted with :FighterArts_break: [[Status Conditions (Crowd Control {CC})#**Break**|Break]]. Range is doubled against foes afflicted with **Crescent Light**. The foe will not be afflicted with Break on a Pass.

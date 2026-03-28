@@ -212,7 +212,7 @@ A Creature Afflicted with Ghosted gain the ability to phase through other Creatu
 
 ### **Grounded**
  
- A Creature that is affected by this cannot use any movement abilities/arts.
+ A Creature that is affected by this cannot use any movement spells/arts on themselves.
 > *Any creature that is in mid dashing upon being afflicted with this condition will immediately stop on the spot.*
 
 <details>
@@ -222,7 +222,7 @@ A Creature Afflicted with Ghosted gain the ability to phase through other Creatu
   <div class="popover-hint" data-popover-key="grounded">
     <div style="white-space: pre-line;">
       <strong>Grounded:</strong>
-      A Creature that is affected by this cannot use any movement abilities/arts.
+      A Creature that is affected by this cannot use any movement spells/arts on themselves.
       - *Any creature that is in mid dashing upon being afflicted with this condition will immediately stop on the spot.*
     </div>
   </div>
@@ -261,7 +261,7 @@ The Creature is subjected to unparalleled, animalistic Rage—unable to discern 
 
 ### **Dazed**
  
- Has **Disadvantage** on Wisdom Saving throws & Abilities that proc on :Conditions_daze2: [[#Stunned]] condition, can't take *Reactions*, and loses the Dexterity bonus to their Armor Class. Removed if an ally Helps this creature.
+ Has **Disadvantage** on Wisdom Saving throws & Abilities that proc on :Conditions_daze2: [[#Stunned]] condition, can't take *Reactions*, and loses the  Dexterity bonus to their Armor Class. Removed if an ally Helps this creature.
 
 <details>
   <summary style="cursor: pointer; color: var(--primary)">
