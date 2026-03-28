@@ -58,6 +58,7 @@ async function mouseEnterHandler(
 
   async function setPosition(popoverElement: HTMLElement) {
     const { x, y } = await computePosition(link, popoverElement, {
+      strategy: "fixed",
       middleware: [inline({ x: clientX, y: clientY }), shift(), flip()],
     });
     Object.assign(popoverElement.style, {
@@ -155,6 +156,14 @@ async function mouseEnterHandler(
       popoverInner.scroll({ top: heading.offsetTop - 12, behavior: "instant" });
     }
   }
+
+  showPopover(popoverElement)
+}
+
+function clearActivePopover() {
+  activeAnchor = null
+  const allPopoverElements = document.querySelectorAll(".popover")
+  allPopoverElements.forEach((popoverElement) => popoverElement.classList.remove("active-popover"))
 }
 
 document.addEventListener("nav", () => {

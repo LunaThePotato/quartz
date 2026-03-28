@@ -29,9 +29,20 @@ function toCodePoint(unicodeSurrogates: string) {
   return r.join("-")
 }
 
-const twemoji = (code: string) =>
-  `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/svg/${code.toLowerCase()}.svg`
-const emojiCache: Record<string, Promise<any>> = {}
+type EmojiMap = {
+  codePointToName: Record<string, string>
+  nameToBase64: Record<string, string>
+}
+
+let emojimap: EmojiMap | undefined = undefined
+export async function loadEmoji(code: string) {
+  if (!emojimap) {
+    const data = await import("./emojimap.json")
+    emojimap = data
+  }
+
+  const name = emojimap.codePointToName[`${code.toUpperCase()}`]
+  if (!name) throw new Error(`codepoint ${code} not found in map`)
 
 export function loadEmoji(code: string) {
   const customEmoji = customEmojis[code];
