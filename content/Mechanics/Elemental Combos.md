@@ -7,38 +7,45 @@ This Mechanic serves the party as an additional method of coordination to deal a
 -# `[Players can choose to either contribute to the chain or not in the moment to reach a desired combo aswell, instead they can choose to reset the timer]`
 
 ### **Elemental Chain**
+
 The following table shows all the possible Elemental Combos in the Passione Campaign, with the name of the element in bold followed by the name of the resulting combo in order of: 
 
-> *First Tier Element* >**Second Tier Element** >***Third Tier Element***
+*First Tier Element* >**Second Tier Element** >***Third Tier Element***
 
- The Completion of each tier will provide additional Ramping Burst Damage towards the Target.
+ Elements could contribute into the tiers at any order to provide additional ramping Burst Damage towards the target.
 
 With bonus damage in order: 
 
-| Tier       | Damage Dice                            | Elemental Dmg        |
-| ---------- | -------------------------------------- | -------------------- |
-| **Tier 1** | 2d4+(*Party's Highest Prof. Modifier*) | (Elemental Dmg Type) |
-| **Tier 2** | 4d4+(*Party's Highest Prof. Modifier*) | (Elemental Dmg Type) |
-| **Tier 3** | 6d4+(*Party's Highest Prof. Modifier*) | (Elemental Dmg Type) |
+| Tier       | Damage Dice | Elemental Dmg        |
+| ---------- | ----------- | -------------------- |
+| **Tier 1** | 4d4         | (Elemental Dmg Type) |
+| **Tier 2** | 6d4         | (Elemental Dmg Type) |
+| **Tier 3** | 8d4         | (Elemental Dmg Type) |
 
 -# `[Each Element Tier has a duration of 2 rounds. If its not chained into the next tier by then it will reset the whole rotation back to nothing]`
+
 `[Damage Dice will also scale will player level, Current: d4]`
 
 ---
 
 ### **Elemental Combos**
 
+If the Party wants to get more out of this System, they could coordinate with each other to perform a combo tree to cause an extra effect upon completion:
+
 #### :FighterArts_fire_elemental: Fire Combos
 
 - :FighterArts_fire_elemental: **Fire** - *Heat* <span class="arrow">→</span> 
   :FighterArts_fire_elemental: **Fire** - *Burnout* <span class="arrow">→</span> 
   :FighterArts_fire_elemental: **Fire** - ***Mega Explosion!*** or :FighterArts_light_element: **Light** - ***Radiant Blast!***
->text
+> (:FighterArts_fire_elemental: **Fire - Mega Explosion!**) - A [Fireball Spell](https://5e.tools/spells.html#fireball_xphb) is casted at the epicenter of the target, creating a 30ft radius explosion. Each creature in the area must make a DC 14 Dexterity Saving Throw, taking fireball damage as normal on a failure, half damage on a success.
+> Enemies caught in the blast is also 🔥 **Burned**, taking 1d6 Fire Damage at the start of each of it's turns for 4 Rounds, regardless of whether it succeeded on the saving throw. 
+> (:FighterArts_light_element: **Light - Radiant Blast!**) - 
 
 - :FighterArts_fire_elemental: **Fire** - *Heat* <span class="arrow">→</span> 
   :FighterArts_water_elemental: **Water** - *Steam Bomb!* <span class="arrow">→</span> 
   :FighterArts_fire_elemental: **Fire** - ***Steam Explosion!*** or :FighterArts_ice_elemental: **Ice** - ***Diamond Mist!***
->text
+> (:FighterArts_fire_elemental: Fire - Steam Explosion!) - A Misty [Fireball Spell](https://5e.tools/spells.html#fireball_xphb) is casted at the epicenter of the target, creating a 20ft radius explosion. Each creature in the area must make a DC 14 Dexterity Saving Throw, taking fireball damage as normal on a failure and are afflicted with [Heat Metal](https://5e.tools/spells.html#heat%20metal_xphb) Spell on their Manufactured metal objects for 4 rounds. Targets only take half damage on a pass.
+> (:FighterArts_ice_elemental: Ice - Diamond Mist!) - 
 
 ---
 
