@@ -12,7 +12,7 @@ The following table shows all the possible Elemental Combos in the Passione Camp
 
 *First Tier Element* >**Second Tier Element** >***Third Tier Element***
 
- Elements could contribute into the tiers at any order to provide additional ramping Burst Damage towards the target.
+ **Elements could contribute into the tiers at any order to provide additional ramping Burst Damage towards the target.**
 
 With bonus damage in order: 
 
@@ -39,13 +39,16 @@ If the Party wants to get more out of this System, they could coordinate with ea
   :FighterArts_fire_elemental: **Fire** - ***Mega Explosion!*** or :FighterArts_light_element: **Light** - ***Radiant Blast!***
 > (:FighterArts_fire_elemental: **Fire - Mega Explosion!**) - A [Fireball Spell](https://5e.tools/spells.html#fireball_xphb) is casted at the epicenter of the target, creating a 30ft radius explosion. Each creature in the area must make a DC 14 Dexterity Saving Throw, taking fireball damage as normal on a failure, half damage on a success.
 > Enemies caught in the blast is also 🔥 **Burned**, taking 1d6 Fire Damage at the start of each of it's turns for 4 Rounds, regardless of whether it succeeded on the saving throw. 
+
 > (:FighterArts_light_element: **Light - Radiant Blast!**) - 
 
 - :FighterArts_fire_elemental: **Fire** - *Heat* <span class="arrow">→</span> 
   :FighterArts_water_elemental: **Water** - *Steam Bomb!* <span class="arrow">→</span> 
   :FighterArts_fire_elemental: **Fire** - ***Steam Explosion!*** or :FighterArts_ice_elemental: **Ice** - ***Diamond Mist!***
-> (:FighterArts_fire_elemental: Fire - Steam Explosion!) - A Misty [Fireball Spell](https://5e.tools/spells.html#fireball_xphb) is casted at the epicenter of the target, creating a 20ft radius explosion. Each creature in the area must make a DC 14 Dexterity Saving Throw, taking fireball damage as normal on a failure and are afflicted with [Heat Metal](https://5e.tools/spells.html#heat%20metal_xphb) Spell on their Manufactured metal objects for 4 rounds. Targets only take half damage on a pass.
-> (:FighterArts_ice_elemental: Ice - Diamond Mist!) - 
+> (:FighterArts_fire_elemental: **Fire - Steam Explosion!**) - A Misty [Fireball Spell](https://5e.tools/spells.html#fireball_xphb) is casted at the epicenter of the target, creating a 20ft radius explosion. Each creature in the area must make a DC 14 Dexterity Saving Throw, taking fireball damage as normal on a failure and are afflicted with [Heat Metal](https://5e.tools/spells.html#heat%20metal_xphb) Spell on their Manufactured metal objects for 4 rounds. Targets only take half damage on a pass.
+
+> (:FighterArts_ice_elemental: **Ice - Diamond Mist!**) -  A [Fog Cloud Spell](https://5e.tools/spells.html#fog%20cloud_xphb) is casted at the epicenter of the target, creating a 30ft radius of Icy Mist. The [Sphere](https://5e.tools/variantrules.html#sphere%20%5barea%20of%20effect%5d_xphb) is [Heavily Obscured](https://5e.tools/variantrules.html#heavily%20obscured_xphb) for enemies. Lasting for 8 Rounds or until a strong wind (Such as one created by [Gust of Wind](https://5e.tools/spells.html#gust%20of%20wind_xphb)) disperses it.
+> :FighterArts_ice_elemental: **Ice Elemental Empowerment**: While within the mist, ice-based spells & arts gain +1 damage die step (up to d12), +2 to save DCs, and a -1 Critical Hit threshold.
 
 ---
 
@@ -54,10 +57,14 @@ If the Party wants to get more out of this System, they could coordinate with ea
 - :FighterArts_water_elemental: **Water** - *Aqua* <span class="arrow">→</span> 
   :FighterArts_water_elemental: **Water** - *Venom Water* <span class="arrow">→</span> 
   :FighterArts_water_elemental: **Water** - ***Acidic Typhoon!*** or :FighterArts_dark_element: **Dark** - ***Dark Tide!***
+> (:FighterArts_water_elemental: **Water - Acidic Typhoon!**) - 
+
+> (:FighterArts_dark_element: **Dark - Dark Tide!**) - 
 
 - :FighterArts_water_elemental: **Water** - *Aqua* <span class="arrow">→</span> 
   :FighterArts_earth_elemental: **Earth** - *Pandemic* <span class="arrow">→</span> 
   :FighterArts_wind_elemental: **Wind** - ***Final Disaster!***
+> (:FighterArts_wind_elemental: **Wind - Final Disaster!**) -
 
 ---
 
@@ -66,10 +73,16 @@ If the Party wants to get more out of this System, they could coordinate with ea
 - :FighterArts_ice_elemental: **Ice** - *Frost* <span class="arrow">→</span> 
   :FighterArts_ice_elemental: **Ice** - *Snow Storm* <span class="arrow">→</span> 
   :FighterArts_earth_elemental: **Earth** - ***Permafrost Crash!*** or :FighterArts_dark_element: **Dark** - ***Gravity Blizzard!***
+> (:FighterArts_earth_elemental: **Earth - Permafrost Crash!**) - 
+
+> (:FighterArts_dark_element: **Dark - Gravity Blizzard!**) - 
 
 - :FighterArts_ice_elemental: **Ice** - *Frost* <span class="arrow">→</span> 
   :FighterArts_water_elemental: **Water** - *Cold Snap* <span class="arrow">→</span> 
   :FighterArts_wind_elemental: **Wind** - ***Dread of Winter!*** or :FighterArts_light_element: **Light** - ***Polaris Aetherfrost!***
+> (:FighterArts_wind_elemental: **Wind - Dread of Winter!**) - 
+
+> (:FighterArts_light_element: **Light - Polaris Aetherfrost!**) - 
 
 ---
 
@@ -78,10 +91,14 @@ If the Party wants to get more out of this System, they could coordinate with ea
 - :FighterArts_wind_elemental: **Wind** - *Wind* <span class="arrow">→</span> 
   :FighterArts_wind_elemental: **Wind** - *Cyclone* <span class="arrow">→</span> 
   :FighterArts_earth_elemental: **Earth** - ***Sandstorm!*** or :FighterArts_electric_elemental: **Electric** - ***Thunder Gale!***
+> (:FighterArts_earth_elemental: **Earth - Sandstorm!**) - 
+
+> (:FighterArts_electric_elemental: **Electric - Thunder Gale!**) - 
 
 - :FighterArts_wind_elemental: **Wind** - *Wind* <span class="arrow">→</span> 
   :FighterArts_ice_elemental: **Ice** - *Krystalic Winds* <span class="arrow">→</span> 
   :FighterArts_ice_elemental: **Ice** - ***Artic Typhoon!***
+> (:FighterArts_ice_elemental: **Ice - Arctic Typhoon!**) - 
 
 ---
 
@@ -90,10 +107,14 @@ If the Party wants to get more out of this System, they could coordinate with ea
 - :FighterArts_earth_elemental: **Earth** - *Stone* <span class="arrow">→</span> 
   :FighterArts_earth_elemental: **Earth** - *Gaia Crash* <span class="arrow">→</span> 
   :FighterArts_electric_elemental: **Electric** - ***Electro Quake!***
+> (:FighterArts_electric_elemental: **Electric - Electro Quake!**) - 
 
 - :FighterArts_earth_elemental: **Earth** - *Stone* <span class="arrow">→</span> 
   :FighterArts_fire_elemental: **Fire** - *Volcanic Spire* <span class="arrow">→</span> 
   :FighterArts_wind_elemental: **Wind** - ***Pyroclastic Hurricane!*** or :FighterArts_fire_elemental: **Fire** - ***Vulcanaclysm!***
+> (:FighterArts_wind_elemental: **Wind - Pyroclastic Hurricane!**) - 
+
+> (:FighterArts_fire_elemental: **Fire - Vulcanaclysm!**) - 
 
 ---
 
@@ -102,10 +123,16 @@ If the Party wants to get more out of this System, they could coordinate with ea
 - :FighterArts_electric_elemental: **Electric** - *Volt* <span class="arrow">→</span> 
   :FighterArts_electric_elemental: **Electric** - *Galvanizing blast* <span class="arrow">→</span> 
   :FighterArts_electric_elemental: **Electric** - ***1,000,000 Voltic Surge!*** or :FighterArts_water_elemental: **Water** - ***Electrolysis!***
+> (:FighterArts_electric_elemental: **Electric - 1,000,000 Voltic Surge!**) - 
+
+> (:FighterArts_water_elemental: **Water - Electrolysis!**) -  
 
 - :FighterArts_electric_elemental: **Electric** - *Volt* <span class="arrow">→</span> 
   :FighterArts_fire_elemental: **Fire** - *Flame Bolt* <span class="arrow">→</span> 
   :FighterArts_wind_elemental: **Wind** - ***Electrofire Storm!*** or :FighterArts_ice_elemental: **Ice** - ***Ultimate Aurora!***
+> (:FighterArts_wind_elemental: **Wind - Electrofire Storm!**) - 
+
+> (:FighterArts_ice_elemental: **Ice - Ultimate Aurora!**) - 
 
 ___
 
@@ -114,10 +141,14 @@ ___
 - :FighterArts_light_element: **Light** - *Photon* <span class="arrow">→</span> 
   :FighterArts_light_element: **Light** - *Gama Ray* <span class="arrow">→</span> 
   :FighterArts_light_element: **Light** - ***Supernova!*** or :FighterArts_water_elemental: **Water** - ***Ruinous Weather!***
+> (:FighterArts_light_element: **Light - Supernova!**) - 
+
+> (:FighterArts_water_elemental: **Water - Ruinous Weather!**) - 
 
 - :FighterArts_light_element: **Light** - *Photon* <span class="arrow">→</span> 
   :FighterArts_electric_elemental: **Electric** - *Lightning Bolt* <span class="arrow">→</span> 
   :FighterArts_fire_elemental: **Fire** - ***Megastar Apotheosis!***
+> (:FighterArts_fire_elemental: **Fire - Megastar Apotheosis!**) - 
 
 ___
 
@@ -126,28 +157,32 @@ ___
 - :FighterArts_dark_element: **Dark** - *Gravity* <span class="arrow">→</span> 
   :FighterArts_fire_elemental: **Fire** - *Second Sun* <span class="arrow">→</span> 
   :FighterArts_dark_element: **Dark** - ***Omega Singularity!*** or :FighterArts_earth_elemental: **Earth** - ***Molten Comet!***
+> (:FighterArts_dark_element: **Dark - Omega Singularity!**) - 
+
+> (:FighterArts_earth_elemental: **Earth - Molten Comet!**) - 
 
 - :FighterArts_dark_element: **Dark** - *Gravity* <span class="arrow">→</span> 
   :FighterArts_light_element: **Light** - *Accretion Photon Rings* <span class="arrow">→</span> 
   :FighterArts_electric_elemental: **Electric** - ***Hyperphotonic Beam!***
+> (:FighterArts_electric_elemental: **Electric - Hyperphotonic Beam!**) - 
 
 ---
 
-### -={**Contributions for an Elemental Combo**}=-
+### **Contributions for an Elemental Combo**
 *To contribute to the combo, players can either roll a **Critical Hit** on the Target with an elemental enchanted weapon or landing an Elemental ability that inflicts any form of Heavy Crowd Control (I.E. :Conditions_daze2: [[Status Conditions (Crowd Control {CC})#Conditions_daze2 **Stunned**|Stunned]], :FighterArts_break: [[Status Conditions (Crowd Control {CC})#FighterArts_break **Break**|Break]], etc. Refer to [[Status Conditions (Crowd Control {CC})#^edd43c|Hard Crowd Control]] for more details⁠.) 
 
 > For Example: If an enemy suffers ":FighterArts_fire_elemental: Heat" (**Tier 1**), anyone who has an valid element in the combo tree can contribute to the Element chain (See Chart Below) in their respective turn:*
 
 (**Elemental-Related Spells**) That have successfully inflicted [[Status Conditions (Crowd Control {CC})#^edd43c|Hard Crowd Control]] onto the target.
-- (*Ex: Eldritch Blast :FighterArts_dark_element: (That has repelling Blast), Entangle :FighterArts_earth_elemental:, Hold person :FighterArts_light_element:, Grasping Vine :FighterArts_earth_elemental:...*) 
+- (*Ex: [Eldritch Blast](https://5e.tools/spells.html#eldritch%20blast_xphb) :FighterArts_dark_element: (That has [Repelling Blast](https://5e.tools/optionalfeatures.html#repelling%20blast_xphb)), [Entangle](https://5e.tools/spells.html#entangle_xphb) :FighterArts_earth_elemental:, [Hold Person](https://5e.tools/spells.html#hold%20person_xphb) :FighterArts_light_element:, [Grasping Vine](https://5e.tools/spells.html#grasping%20vine_xphb) :FighterArts_earth_elemental:...*) 
 
-(**Homebrew & Vanilla Spells!**) Any {Weapon Arts} that Inflict Elemental dmg & [[Status Conditions (Crowd Control {CC})#^edd43c|Hard Crowd Control]].
+(**Homebrew & Vanilla Spells!**) Any {**Weapon Arts**} that Inflict Elemental damage & [[Status Conditions (Crowd Control {CC})#^edd43c|Hard Crowd Control]].
 
 (**Critical Hits!**) from Ranged Spell Attacks, Magical Physical Attacks, Weapon Arts.
-- (Ex: Divine SMITE :FighterArts_light_element:/:FighterArts_dark_element:, Ice Knife :FighterArts_ice_elemental:, Scorching Ray :FighterArts_fire_elemental:, Shadow Blade :FighterArts_dark_element:, Eldritch Blast :FighterArts_dark_element:...)
+- (Ex: [Divine SMITE](https://5e.tools/spells.html#divine%20smite_xphb) :FighterArts_light_element:/:FighterArts_dark_element:, [Ice Knife](https://5e.tools/spells.html#ice%20knife_xphb) :FighterArts_ice_elemental:, [Scorching Ray](https://5e.tools/spells.html#scorching%20ray_xphb) :FighterArts_fire_elemental:, [Shadow Blade](https://5e.tools/spells.html#shadow%20blade_xge) :FighterArts_dark_element:, [Eldritch Blast](https://5e.tools/spells.html#eldritch%20blast_xphb) :FighterArts_dark_element:...)
 
 (**Critical Fails!**) on Spell Saving Throws.
-- (Ex: Cloud of Daggers :FighterArts_wind_elemental:, Thunder Wave :FighterArts_wind_elemental:, Heat Metal :FighterArts_fire_elemental:, Wall of Fire :FighterArts_fire_elemental:...)
+- (Ex: [Cloud of Daggers](https://5e.tools/spells.html#cloud%20of%20daggers_xphb) :FighterArts_wind_elemental:, [Thunderwave](https://5e.tools/spells.html#thunderwave_xphb) :FighterArts_wind_elemental:, [Heat Metal](https://5e.tools/spells.html#heat%20metal_xphb) :FighterArts_fire_elemental:, [Wall of Fire](https://5e.tools/spells.html#wall%20of%20fire_xphb) :FighterArts_fire_elemental:...)
 
 Spells, Weapon Arts, or any other items that do inflict some form of Crowd control but seem to have no tangible connections to an element can simply serve to reset the Elemental duration back to 3 rounds.
 
