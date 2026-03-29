@@ -1,7 +1,7 @@
 {**Adamantine Scythe**} Melee Weapon Attack: +7 to Hit, 10ft. Range, One Target.
 Dmg: 1d8(Slashing)+(Dex)+1d6(:FighterArts_light_element:[Radiant](https://solteria.org/Mechanics/Elemental-Combo-System#_fighterarts_light_element_-light-combos))
 
-(*Copy & Paste for Damage!)
+(*Copy & Paste for Damage!*)
 
 !roll 1d8+4+1d6
 
