@@ -114,7 +114,7 @@
     "@types/ws": "^8.18.0",
     "@types/yargs": "^17.0.33",
     "cross-env": "^7.0.3",
-    "esbuild": "^0.25.1",
+    "esbuild": "^0.27.2",
     "prettier": "^3.5.3",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
